@@ -1,0 +1,16 @@
+{
+  "title": "Konfigurimi i Fazave Ortodontike",
+  "addStage": "+ Shto Fazë",
+  "description": "Përcaktoni listën e fazave që shfaqen si opsione kur regjistrohet ecuria e një pacienti ortodontik.",
+  "loading": "Duke u ngarkuar...",
+  "empty": "Nuk ka ende asnjë fazë të konfiguruar.",
+  "edit": "Ndrysho",
+  "delete": "Fshi",
+  "editStageTitle": "Ndrysho Fazën",
+  "addStageTitle": "Shto Fazë të Re",
+  "stageName": "Emri i Fazës",
+  "stageNamePlaceholder": "p.sh. Rregullim mujor",
+  "cancel": "Anulo",
+  "saving": "Duke ruajtur...",
+  "save": "Ruaj"
+}

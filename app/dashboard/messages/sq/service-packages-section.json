@@ -1,0 +1,38 @@
+{
+  "title": "Paketat e Shërbimeve",
+  "description": "Krijoni pako seancash që pacientët paguajnë paraprakisht dhe përdorin me kalimin e kohës (p.sh. \"6 Seanca Lazer\").",
+  "add": "Shto Paketë",
+  "loading": "Duke ngarkuar...",
+  "loadError": "Gabim gjatë ngarkimit të paketave",
+  "empty": "Asnjë paketë ende",
+  "inactive": "Joaktive",
+  "summary": "{count} seanca · {service} · {price}",
+  "validFor": "vlefshme për {days} ditë",
+  "editTitle": "Ndrysho Paketën",
+  "addTitle": "Shto Paketë të Re",
+  "fields": {
+    "name": "Emri",
+    "description": "Përshkrimi",
+    "service": "Shërbimi",
+    "servicePlaceholder": "Zgjidh shërbimin",
+    "sessionCount": "Nr. Seancave",
+    "price": "Çmimi Total",
+    "validityDays": "Vlefshmëria (ditë)",
+    "validityDaysPlaceholder": "Lëreni bosh nëse nuk skadon kurrë",
+    "isActive": "Aktive"
+  },
+  "cancel": "Anulo",
+  "save": "Ruaj",
+  "saving": "Duke ruajtur...",
+  "validation": "Emri, shërbimi, numri i seancave dhe çmimi janë të detyrueshme",
+  "created": "Paketa u krijua",
+  "updated": "Paketa u përditësua",
+  "saveError": "Gabim gjatë ruajtjes",
+  "deleted": "Paketa u fshi",
+  "deleteError": "Gabim gjatë fshirjes",
+  "deleteDialog": {
+    "title": "Fshi Paketën",
+    "description": "A jeni i sigurt që doni të fshini \"{name}\"? Blerjet ekzistuese nuk preken — ato ruajnë kopjen e tyre të detajeve.",
+    "confirm": "Fshi"
+  }
+}

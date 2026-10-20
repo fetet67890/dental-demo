@@ -1,0 +1,33 @@
+{
+  "searchPlaceholder": "Search services...",
+  "addButton": "Add Service",
+  "emptyState": "No services found",
+  "table": {
+    "service": "Service",
+    "category": "Category",
+    "duration": "Duration",
+    "price": "Price",
+    "actions": "Actions"
+  },
+  "dialog": {
+    "addTitle": "Add New Service",
+    "editTitle": "Edit Service",
+    "addDescription": "Fill in the details of the new service",
+    "editDescription": "Edit the service details",
+    "nameLabel": "Service Name",
+    "namePlaceholder": "e.g. Teeth Cleaning",
+    "categoryLabel": "Category",
+    "categoryPlaceholder": "e.g. Hygiene, Cosmetic",
+    "priceLabel": "Price",
+    "durationLabel": "Duration (min)",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Service description...",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes"
+  },
+  "deleteDialog": {
+    "title": "Delete Service",
+    "description": "Are you sure you want to delete \"{name}\"? This action cannot be undone.",
+    "confirm": "Delete"
+  }
+}

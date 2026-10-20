@@ -1,0 +1,19 @@
+{
+  "title": "Mirë se vini",
+  "subtitle": "Hyni në llogarinë tuaj për të vazhduar",
+  "mfaTitle": "Verifikimi Dyfaktorësh",
+  "mfaSubtitle": "Vendosni kodin 6-shifror që ju dërguam me email",
+  "email": "Email",
+  "password": "Fjalëkalimi",
+  "verificationCode": "Kodi i Verifikimit",
+  "signIn": "Hyr",
+  "signingIn": "Duke hyrë...",
+  "verify": "Verifiko",
+  "verifying": "Duke verifikuar...",
+  "backToLogin": "Kthehu te hyrja",
+  "fillAllFields": "Ju lutem plotësoni të gjitha fushat",
+  "genericError": "Ndodhi një gabim",
+  "invalidCode": "Vendosni kodin 6-shifror",
+  "wrongCode": "Kodi i gabuar",
+  "demoQuickLogin": "Hyrje e Shpejtë (Demo — vetëm lokalisht)"
+}

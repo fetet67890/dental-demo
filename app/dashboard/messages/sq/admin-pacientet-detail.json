@@ -1,0 +1,21 @@
+{
+  "notFound": {
+    "topbarTitle": "Pacienti",
+    "title": "Pacienti nuk u gjet",
+    "description": "Pacienti që kërkoni nuk ekziston ose është fshirë.",
+    "back": "Kthehu mbrapa"
+  },
+  "subtitle": "Profili i Pacientit",
+  "back": "Kthehu",
+  "exportPdf": "Shkarko PDF",
+  "exporting": "Duke gjeneruar...",
+  "archive": "Arkivo",
+  "archiving": "Duke arkivuar...",
+  "archiveDialog": {
+    "title": "Arkivo Pacientin",
+    "confirmPrefix": "Po arkivoni",
+    "confirmSuffix": "Pacienti do të zhduket nga lista aktive dhe do të ruhet në seksionin Arkivë.",
+    "cancel": "Anulo",
+    "confirm": "Arkivo"
+  }
+}

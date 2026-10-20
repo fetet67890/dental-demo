@@ -1,0 +1,49 @@
+{
+  "cancel": "Cancel",
+  "published": "Published",
+  "draft": "Draft",
+  "emptyState": "No articles found",
+  "searchPlaceholder": "Search articles...",
+  "validation": {
+    "titleRequired": "Title is required"
+  },
+  "table": {
+    "article": "Article",
+    "category": "Category",
+    "published": "Published",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "dialog": {
+    "addTitle": "Add New Article",
+    "editTitle": "Edit Article",
+    "addDescription": "Write a new article for the public website's blog",
+    "editDescription": "Edit the article content",
+    "coverImageLabel": "Cover Image",
+    "coverImageHint": "Horizontal, min 800×450 px",
+    "titleLabel": "Title",
+    "titlePlaceholder": "e.g. 5 Tips for Oral Hygiene",
+    "categoryLabel": "Category",
+    "categoryPlaceholder": "e.g. Hygiene",
+    "readTimeLabel": "Read Time",
+    "readTimePlaceholder": "e.g. 5 min",
+    "excerptLabel": "Excerpt",
+    "excerptPlaceholder": "Short summary shown in the article list...",
+    "contentLabel": "Content",
+    "sectionHeadingPlaceholder": "Subheading (optional)",
+    "sectionParagraphPlaceholder": "Paragraph...",
+    "addParagraph": "Add Paragraph",
+    "authorLabel": "Author",
+    "authorNamePlaceholder": "Author name",
+    "authorRolePlaceholder": "Role (e.g. Dentist)",
+    "authorBioPlaceholder": "Short bio (optional)",
+    "authorPhotoLabel": "Author photo (optional)",
+    "publishedLabel": "Published (visible on the public website)",
+    "saveChanges": "Save Changes"
+  },
+  "deleteDialog": {
+    "title": "Delete Article",
+    "description": "Are you sure you want to delete \"{title}\"? This action cannot be undone.",
+    "confirm": "Delete"
+  }
+}

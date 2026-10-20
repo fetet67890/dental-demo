@@ -1,0 +1,16 @@
+{
+  "title": "Installment Plan",
+  "deletePlan": "Delete Plan",
+  "installmentCount": "No. of Installments",
+  "firstInstallment": "First Installment",
+  "createPlan": "Create Plan",
+  "noOutstandingAmount": "No outstanding amount",
+  "paymentMethod": "Payment method:",
+  "methodCash": "Cash",
+  "methodCard": "Card",
+  "methodTransfer": "Transfer",
+  "due": "Due",
+  "paid": "Paid",
+  "overduePay": "Overdue — Pay",
+  "markPaid": "Mark as Paid"
+}

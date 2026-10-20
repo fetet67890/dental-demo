@@ -1,0 +1,36 @@
+{
+  "title": "Commissions",
+  "subtitle": "Commission earned by staff for the selected period",
+  "period": "Period",
+  "basisLabel": "Calculation Basis",
+  "basisCost": "By Cost",
+  "basisPayment": "By Payment",
+  "basisCostHint": "Commission is calculated the moment a service is billed, regardless of whether the patient has paid yet.",
+  "basisPaymentHint": "Commission is only calculated once the related invoice has been paid in full.",
+  "basisSaved": "Commission basis saved",
+  "loading": "Loading...",
+  "loadError": "Error loading commissions",
+  "empty": "No staff with active commission for this period",
+  "cancel": "Cancel",
+  "paying": "Recording...",
+  "paySuccess": "Commission payout recorded",
+  "payError": "Error recording the payout",
+  "table": {
+    "staff": "Staff",
+    "rateType": "Rate Type",
+    "serviceCount": "Service Count",
+    "revenue": "Revenue",
+    "commission": "Commission",
+    "total": "Total",
+    "flatWithRate": "Flat — {rate}%",
+    "perService": "Per Service",
+    "payout": "Payout",
+    "markPaid": "Mark as Paid",
+    "paidOn": "Paid on {date}"
+  },
+  "payDialog": {
+    "title": "Record Commission Payout",
+    "description": "This will record a payout of {amount} for {name} for the selected period as paid. This action cannot be undone.",
+    "confirm": "Confirm Payout"
+  }
+}

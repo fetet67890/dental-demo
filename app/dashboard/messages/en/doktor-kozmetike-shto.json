@@ -1,0 +1,27 @@
+{
+  "title": "New Cosmetic Plan",
+  "subtitle": "Select teeth and the cosmetic procedure for each",
+  "back": "Back",
+  "cancel": "Cancel",
+  "saving": "Saving...",
+  "savePlan": "Save Plan",
+  "planDetails": "Plan Details",
+  "planDetailsDescription": "Assign the procedure for each tooth",
+  "patientLabel": "Patient",
+  "patientPlaceholder": "Select a patient",
+  "procedurePerTooth": "Procedure per Tooth",
+  "costLabel": "Cost (LEK)",
+  "notesLabel": "Notes",
+  "notesPlaceholder": "Additional notes about the plan...",
+  "beforeAfterHint": "Before/after photos are saved in the patient's \"Documents\" tab (existing Before/After tool), not here.",
+  "procedures": {
+    "faceta": "Veneer",
+    "zbardhim": "Teeth Whitening",
+    "bonding": "Bonding / Composite",
+    "tjeter": "Other"
+  },
+  "validation": {
+    "selectPatient": "Select a patient",
+    "selectTooth": "Select at least one tooth"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "status": {
+    "aktiv": "Waiting",
+    "njoftuar": "Notified",
+    "plotesuar": "Fulfilled",
+    "anuluar": "Cancelled"
+  },
+  "topbar": {
+    "title": "Waitlist",
+    "subtitle": "Patients are notified automatically when a slot opens up"
+  },
+  "count": "{count} patients on the list",
+  "addToList": "Add to List",
+  "empty": "The waitlist is empty",
+  "anyDoctor": "Any doctor",
+  "autoNotified": "Notified automatically",
+  "addDialog": {
+    "title": "Add to Waitlist",
+    "patient": "Patient",
+    "patientPlaceholder": "Select patient",
+    "doctor": "Doctor (optional)",
+    "preferredDate": "Preferred Date (optional)",
+    "notes": "Notes",
+    "cancel": "Cancel",
+    "submit": "Add",
+    "submitting": "Adding..."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Add New Appointment",
+  "patient": "Patient",
+  "selectPatient": "Select a patient",
+  "doctor": "Doctor",
+  "selectDoctor": "Select a doctor",
+  "recommendedNoAppointments": "{name} has no appointments yet that day — click to select",
+  "recommendedFewerAppointments": "{name} has fewer appointments that day ({count}) — click to select",
+  "date": "Date",
+  "time": "Time",
+  "catalogService": "Service from Catalog",
+  "selectService": "Select a service (optional, auto-fills the duration)",
+  "noCatalogService": "— No catalog service —",
+  "room": "Room / Chair",
+  "selectRoom": "Select a room (optional)",
+  "noRoom": "— No room —",
+  "visitType": "Visit Type",
+  "visitTypePlaceholder": "Choose or type the visit type",
+  "duration": "Duration (min)",
+  "cancel": "Cancel",
+  "saving": "Saving...",
+  "createAppointment": "Create Appointment"
+}

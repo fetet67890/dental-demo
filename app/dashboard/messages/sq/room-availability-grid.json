@@ -1,0 +1,20 @@
+{
+  "title": "Disponueshmëria e Dhomave",
+  "today": "Sot",
+  "prevDay": "Dita e kaluar",
+  "nextDay": "Dita tjetër",
+  "unassigned": "Pa Dhomë",
+  "emptyState": "Nuk ka dhoma aktive për të shfaqur disponueshmërinë",
+  "freeAllDay": "E lirë gjithë ditën",
+  "leastBusy": "Më e Lirë",
+  "appointmentsCount": "{count, plural, one {# takim} other {# takime}}",
+  "legend": "Legjenda",
+  "dragHint": "Tërhiqni një takim në një dhomë për ta caktuar",
+  "status": {
+    "planifikuar": "Planifikuar",
+    "ne_pritje": "Në Pritje",
+    "ne_trajtim": "Në Trajtim",
+    "perfunduar": "Përfunduar",
+    "anuluar": "Anuluar"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "categoryLabels": {
+    "general": "I Përgjithshëm",
+    "id_card": "ID",
+    "insurance_card": "Sigurim",
+    "xray": "Radiografi"
+  },
+  "imageSubtypeLabels": {
+    "panoramike": "Radiografi Panoramike",
+    "periapikale": "Radiografi Periapikale",
+    "cbct": "CBCT",
+    "tjeter": "Radiografi"
+  },
+  "empty": "Nuk ka dokumente te ngarkuara",
+  "uploadDocument": "Ngarko Dokument",
+  "documentCountOne": "{count} dokument",
+  "documentCountOther": "{count} dokumente",
+  "add": "Shto",
+  "imageCountOne": "{count} imazh",
+  "imageCountOther": "{count} imazhe",
+  "fileType": {
+    "dicom": "DICOM",
+    "image": "Imazh",
+    "pdf": "PDF"
+  },
+  "actions": {
+    "view": "Shiko",
+    "download": "Shkarko",
+    "delete": "Fshi",
+    "close": "Mbyll",
+    "deleteImage": "Fshi Imazhin",
+    "openPdf": "Hap PDF-në"
+  },
+  "gallery": {
+    "reconstruction3d": "Rindërtim 3D · {count} rrëshqitje",
+    "previousImage": "Imazhi i mëparshëm",
+    "nextImage": "Imazhi tjetër"
+  }
+}

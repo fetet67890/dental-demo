@@ -1,0 +1,46 @@
+{
+  "welcome": "Welcome, Dr. {name}",
+  "doctorFallback": "Doctor",
+  "subtitle": "Your day at a glance",
+  "stats": {
+    "todayAppointments": "Today's Appointments",
+    "myPatients": "My Patients",
+    "totalTreatments": "Total Treatments",
+    "pendingToday": "Waiting Today"
+  },
+  "todaySection": {
+    "title": "Today's Patients",
+    "count": "{count} patients today",
+    "calendarButton": "Calendar",
+    "emptyTitle": "No patients today",
+    "emptySubtitle": "Your schedule is clear",
+    "visitFallback": "Visit"
+  },
+  "status": {
+    "planifikuar": "Scheduled",
+    "ne_pritje": "Waiting",
+    "ne_trajtim": "In Treatment",
+    "perfunduar": "Completed",
+    "anuluar": "Cancelled",
+    "mungoi": "No-show"
+  },
+  "upcomingSection": {
+    "title": "Upcoming Appointments",
+    "viewAll": "View all",
+    "emptyTitle": "No active appointments",
+    "emptySubtitle": "Your schedule is clear"
+  },
+  "quickNav": {
+    "title": "Quick Navigation",
+    "calendar": { "title": "My Calendar", "subtitle": "View schedule & appointments" },
+    "patients": { "title": "Patients", "subtitle": "Manage records" },
+    "treatments": { "title": "Treatments", "subtitle": "Treatment history" },
+    "prescriptions": { "title": "Prescriptions", "subtitle": "Create & print prescriptions" }
+  },
+  "weeklyStats": {
+    "completed": "Completed Appointments",
+    "treatmentsDone": "Treatments Performed",
+    "activePatients": "Active Patients",
+    "cancelled": "Cancelled Appointments"
+  }
+}

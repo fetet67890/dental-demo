@@ -1,0 +1,33 @@
+{
+  "searchPlaceholder": "Kërko shërbime...",
+  "addButton": "Shto Shërbim",
+  "emptyState": "Nuk u gjetën shërbime",
+  "table": {
+    "service": "Shërbimi",
+    "category": "Kategoria",
+    "duration": "Kohëzgjatja",
+    "price": "Çmimi",
+    "actions": "Veprime"
+  },
+  "dialog": {
+    "addTitle": "Shto Shërbim të Ri",
+    "editTitle": "Ndrysho Shërbimin",
+    "addDescription": "Plotësoni të dhënat e shërbimit të ri",
+    "editDescription": "Ndryshoni detajet e shërbimit",
+    "nameLabel": "Emri i Shërbimit",
+    "namePlaceholder": "p.sh. Pastrim Dhëmbësh",
+    "categoryLabel": "Kategoria",
+    "categoryPlaceholder": "p.sh. Higjenë, Estetikë",
+    "priceLabel": "Çmimi",
+    "durationLabel": "Kohëzgjatja (min)",
+    "descriptionLabel": "Përshkrimi",
+    "descriptionPlaceholder": "Përshkrimi i shërbimit...",
+    "cancel": "Anulo",
+    "saveChanges": "Ruaj Ndryshimet"
+  },
+  "deleteDialog": {
+    "title": "Fshi Shërbimin",
+    "description": "Jeni të sigurt që dëshironi të fshini \"{name}\"? Ky veprim nuk mund të kthehet mbrapsht.",
+    "confirm": "Fshi"
+  }
+}

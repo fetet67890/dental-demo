@@ -1,0 +1,37 @@
+{
+  "title": "Recetat",
+  "subtitle": "Krijo dhe menaxho recetat",
+  "cancel": "Anulo",
+  "createPrescription": "Krijo Recetë",
+  "searchPlaceholder": "Kërko receta...",
+  "print": "Printo",
+  "dialog": {
+    "title": "Krijo Recetë të Re",
+    "description": "Plotësoni të dhënat e recetës",
+    "patientLabel": "Pacienti",
+    "patientPlaceholder": "Zgjidhni pacientin",
+    "medicationLabel": "Bari",
+    "medicationPlaceholder": "Emri i barit",
+    "dosageLabel": "Doza",
+    "dosagePlaceholder": "p.sh. 500mg",
+    "frequencyLabel": "Frekuenca",
+    "frequencyPlaceholder": "3 herë në ditë",
+    "durationLabel": "Kohëzgjatja",
+    "durationPlaceholder": "p.sh. 7 ditë",
+    "instructionsLabel": "Udhëzime",
+    "instructionsPlaceholder": "Udhëzime shtesë..."
+  },
+  "emptyState": {
+    "title": "Nuk ka receta",
+    "tryAnotherSearch": "Provoni kërkesë tjetër",
+    "noPrescriptions": "Nuk keni receta të regjistruara"
+  },
+  "table": {
+    "date": "Data",
+    "patient": "Pacienti",
+    "medication": "Bari",
+    "dosage": "Doza",
+    "frequency": "Frekuenca",
+    "duration": "Kohëzgjatja"
+  }
+}

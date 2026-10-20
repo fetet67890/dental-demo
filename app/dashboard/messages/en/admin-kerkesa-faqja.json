@@ -1,0 +1,27 @@
+{
+  "tabs": {
+    "new": "New",
+    "contacted": "Contacted",
+    "closed": "Closed",
+    "all": "All"
+  },
+  "status": {
+    "new": "New",
+    "contacted": "Contacted",
+    "closed": "Closed"
+  },
+  "loading": "Loading...",
+  "empty": "No inquiries.",
+  "noSpecificDate": "No specific date",
+  "note": "Note",
+  "markContacted": "Contacted",
+  "close": "Close",
+  "dialog": {
+    "markContactedTitle": "Mark as Contacted",
+    "closeTitle": "Close Inquiry",
+    "noteLabel": "Note (optional)",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "saving": "Saving..."
+  }
+}

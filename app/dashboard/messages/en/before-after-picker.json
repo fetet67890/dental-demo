@@ -1,0 +1,7 @@
+{
+  "compareButton": "Compare Photos (Before/After)",
+  "dialogTitle": "Before/After Comparison",
+  "beforePlaceholder": "Select the 'Before' photo",
+  "afterPlaceholder": "Select the 'After' photo",
+  "selectTwoPhotos": "Select two photos to compare"
+}

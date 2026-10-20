@@ -1,0 +1,27 @@
+{
+  "tabs": {
+    "new": "Të Reja",
+    "contacted": "Kontaktuar",
+    "closed": "Mbyllur",
+    "all": "Të Gjitha"
+  },
+  "status": {
+    "new": "E Re",
+    "contacted": "Kontaktuar",
+    "closed": "Mbyllur"
+  },
+  "loading": "Duke u ngarkuar...",
+  "empty": "Nuk ka kërkesa.",
+  "noSpecificDate": "Pa datë specifike",
+  "note": "Shënim",
+  "markContacted": "Kontaktuar",
+  "close": "Mbyll",
+  "dialog": {
+    "markContactedTitle": "Shëno si Kontaktuar",
+    "closeTitle": "Mbyll Kërkesën",
+    "noteLabel": "Shënim (opsionale)",
+    "cancel": "Anulo",
+    "confirm": "Konfirmo",
+    "saving": "Duke ruajtur..."
+  }
+}

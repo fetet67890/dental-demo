@@ -1,0 +1,39 @@
+{
+  "tags": {
+    "hero": "Hero (Ballina)",
+    "team": "Ekipi",
+    "clinic": "Klinika",
+    "arc_gallery": "Galeria (Rreth Nesh)",
+    "smile_ticker": "Rrjedha e Buzëqeshjeve",
+    "before": "Para (Trajtimi)",
+    "after": "Pas (Trajtimi)"
+  },
+  "validation": {
+    "imageRequired": "Ngarko një imazh"
+  },
+  "dialog": {
+    "editTitle": "Ndrysho Foton",
+    "addTitle": "Shto Foto të Re",
+    "editDescription": "Ndryshoni detajet e fotos",
+    "addDescription": "Shtoni një foto në galerinë e faqes publike",
+    "photoLabel": "Fotoja",
+    "categoryLabel": "Kategoria",
+    "captionLabel": "Përshkrimi (opsional)",
+    "captionPlaceholder": "p.sh. Salla e pritjes",
+    "sortOrderLabel": "Renditja",
+    "activeLabel": "Aktive (shfaqet në faqen publike)",
+    "cancel": "Anulo",
+    "saveChanges": "Ruaj Ndryshimet",
+    "addSubmit": "Shto Foto"
+  },
+  "allCategories": "Të gjitha kategoritë",
+  "addButton": "Shto Foto",
+  "empty": "Nuk u gjetën foto",
+  "inactiveBadge": "Joaktive",
+  "deleteDialog": {
+    "title": "Fshi Foton",
+    "description": "Jeni të sigurt që dëshironi të fshini këtë foto? Ky veprim nuk mund të kthehet mbrapsht.",
+    "cancel": "Anulo",
+    "confirm": "Fshi"
+  }
+}

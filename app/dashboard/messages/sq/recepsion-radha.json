@@ -1,0 +1,38 @@
+{
+  "status": {
+    "duke_pritur": "Duke Pritur",
+    "thirrur": "U Thirr",
+    "ne_sherbim": "Në Shërbim",
+    "perfunduar": "Përfunduar",
+    "anuluar": "Anuluar"
+  },
+  "topbar": {
+    "title": "Radha e Pritjes",
+    "subtitle": "Menaxhoni pacientët në pritje dhe vizitat pa takim"
+  },
+  "summary": "{waiting} në pritje · {active} në proces",
+  "addToQueue": "Shto në Radhë",
+  "empty": "Radha është bosh sot",
+  "urgent": "Urgjente",
+  "call": "Thirr",
+  "startService": "Nis Shërbimin",
+  "finish": "Përfundo",
+  "addDialog": {
+    "title": "Shto Pacient në Radhë",
+    "patient": "Pacienti",
+    "patientPlaceholder": "Zgjidhni pacientin",
+    "priority": "Urgjente",
+    "notes": "Shënime",
+    "cancel": "Anulo",
+    "submit": "Shto",
+    "submitting": "Duke shtuar..."
+  },
+  "callDialog": {
+    "title": "Thirr Pacientin",
+    "doctor": "Mjeku",
+    "doctorPlaceholder": "Zgjidhni mjekun",
+    "cancel": "Anulo",
+    "submit": "Thirr",
+    "submitting": "Duke thirrur..."
+  }
+}

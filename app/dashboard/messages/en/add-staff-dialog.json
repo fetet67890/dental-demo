@@ -1,0 +1,25 @@
+{
+  "title": "Add Staff Member",
+  "fullName": "Full Name *",
+  "email": "Email",
+  "phone": "Phone *",
+  "role": "Role",
+  "selectRole": "Select a role",
+  "roleAdmin": "Administrator",
+  "roleDoctor": "Doctor",
+  "roleReception": "Receptionist",
+  "specialization": "Specialization",
+  "specializationPlaceholder": "Optional",
+  "password": "Password",
+  "passwordPlaceholder": "Minimum 6 characters",
+  "confirmPassword": "Confirm Password",
+  "cancel": "Cancel",
+  "adding": "Adding...",
+  "addMember": "Add Member",
+  "errors": {
+    "nameRequired": "Name is required",
+    "phoneRequired": "Phone number is required",
+    "passwordMinLength": "Minimum 6 characters",
+    "passwordMismatch": "Passwords do not match"
+  }
+}

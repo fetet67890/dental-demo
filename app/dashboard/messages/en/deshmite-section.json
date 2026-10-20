@@ -1,0 +1,50 @@
+{
+  "validation": {
+    "nameRequired": "Name is required",
+    "quoteRequired": "Quote is required"
+  },
+  "dialog": {
+    "editTitle": "Edit Testimonial",
+    "addTitle": "Add New Testimonial",
+    "editDescription": "Edit the testimonial's details",
+    "addDescription": "Add a new testimonial/review for the public site",
+    "photoLabel": "Photo (optional)",
+    "photoHint": "Square, min 200×200 px",
+    "nameLabel": "Name",
+    "namePlaceholder": "e.g. Arben Krasniqi",
+    "quoteLabel": "Quote",
+    "quotePlaceholder": "The patient's experience...",
+    "titleLabel": "Title/Role",
+    "titlePlaceholder": "e.g. Patient",
+    "locationLabel": "Location",
+    "locationPlaceholder": "e.g. Tirana",
+    "ratingLabel": "Rating",
+    "ratingPlaceholder": "No rating",
+    "sortOrderLabel": "Sort Order",
+    "activeLabel": "Active (shown on the public site)",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes",
+    "addSubmit": "Add Testimonial"
+  },
+  "searchPlaceholder": "Search testimonials...",
+  "addButton": "Add Testimonial",
+  "table": {
+    "testimonial": "Testimonial",
+    "roleLocation": "Role/Location",
+    "rating": "Rating",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "empty": "No testimonials found",
+  "deleteDialog": {
+    "title": "Delete Testimonial",
+    "prefix": "Are you sure you want to delete the testimonial from",
+    "suffix": "? This action cannot be undone.",
+    "cancel": "Cancel",
+    "confirm": "Delete"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Post-Op Follow-up Configuration",
+  "addSequenceFollowup": "+ Add Sequence Follow-up",
+  "description": "Define which treatment types automatically generate post-op follow-ups, and after how many days. If a treatment type has no follow-up configured here, nothing is generated automatically for it.",
+  "loading": "Loading...",
+  "empty": "No sequence configured yet.",
+  "dayLabel": "Day +{days}: {label}",
+  "edit": "Edit",
+  "delete": "Delete",
+  "editFollowupTitle": "Edit Follow-up",
+  "addSequenceFollowupTitle": "Add Sequence Follow-up",
+  "treatmentType": "Treatment Type",
+  "selectTreatmentType": "Select a treatment type",
+  "followupLabel": "Follow-up Label",
+  "followupLabelPlaceholder": "e.g. Suture removal",
+  "daysAfterTreatment": "Days after treatment",
+  "cancel": "Cancel",
+  "saving": "Saving...",
+  "save": "Save"
+}

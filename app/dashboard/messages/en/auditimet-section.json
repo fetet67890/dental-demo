@@ -1,0 +1,13 @@
+{
+  "roles": {
+    "admin": "Administrator",
+    "mjek": "Doctor",
+    "recepsion": "Receptionist",
+    "all": "All"
+  },
+  "searchPlaceholder": "Search audit log...",
+  "filterByRole": "Filter by role",
+  "loading": "Loading...",
+  "empty": "No audit events found",
+  "pagination": "Page {page} of {totalPages} · {total} audit events total"
+}

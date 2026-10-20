@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "inbox": "Inbox",
+    "patients": "Patients",
+    "appointments": "Appointments",
+    "calendar": "Calendar",
+    "calendarMine": "My Calendar",
+    "inquiries": "Inquiries",
+    "website": "Website",
+    "import": "Import",
+    "invoices": "Invoices",
+    "finance": "Finance",
+    "documents": "Documents",
+    "staff": "Staff",
+    "reminders": "Reminders",
+    "inventory": "Inventory",
+    "followups": "Post-op Checkups",
+    "progress": "Orthodontics",
+    "system": "System",
+    "configuration": "Configuration",
+    "queue": "Queue",
+    "waitlist": "Waitlist",
+    "cashRegister": "Cash Register",
+    "archive": "Archive",
+    "treatments": "Treatments",
+    "prescriptions": "Prescriptions",
+    "implantology": "Implantology",
+    "cosmetics": "Cosmetics",
+    "addMember": "Add Member"
+  },
+  "roles": {
+    "admin": "Administrator",
+    "mjek": "Doctor",
+    "recepsion": "Receptionist"
+  }
+}

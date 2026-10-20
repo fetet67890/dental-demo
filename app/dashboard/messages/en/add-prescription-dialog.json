@@ -1,0 +1,19 @@
+{
+  "title": "Add New Prescription",
+  "patient": "Patient",
+  "selectPatient": "Select a patient",
+  "medication": "Medication",
+  "dosage": "Dosage",
+  "dosagePlaceholder": "e.g. 500mg",
+  "frequency": "Frequency",
+  "frequencyPlaceholder": "e.g. 3x/day",
+  "duration": "Duration",
+  "durationPlaceholder": "e.g. 7 days",
+  "instructions": "Instructions",
+  "instructionsPlaceholder": "Additional instructions...",
+  "cancel": "Cancel",
+  "adding": "Adding...",
+  "addPrescription": "Add Prescription",
+  "allergyWarningTitle": "Warning — Recorded Allergy",
+  "continueAnyway": "Continue Anyway"
+}

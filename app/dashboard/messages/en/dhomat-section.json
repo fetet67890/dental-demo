@@ -1,0 +1,36 @@
+{
+  "validation": {
+    "nameRequired": "Name is required"
+  },
+  "dialog": {
+    "editTitle": "Edit Room",
+    "addTitle": "Add New Room",
+    "editDescription": "Edit the room's details",
+    "addDescription": "Names can be e.g. \"Room 1\" or \"Chair A\"",
+    "nameLabel": "Name",
+    "namePlaceholder": "e.g. Room 1",
+    "activeLabel": "Active",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes",
+    "addSubmit": "Add Room"
+  },
+  "searchPlaceholder": "Search rooms...",
+  "addButton": "Add Room",
+  "table": {
+    "room": "Room",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "empty": "No rooms found",
+  "deleteDialog": {
+    "title": "Delete Room",
+    "prefix": "Are you sure you want to delete",
+    "suffix": "? Existing appointments will remain, they will simply lose their link to this room.",
+    "cancel": "Cancel",
+    "confirm": "Delete"
+  }
+}

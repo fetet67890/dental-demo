@@ -1,0 +1,8 @@
+{
+  "title": "Estimate based on history",
+  "typicalDuration": "Typical duration:",
+  "durationFromCatalog": "{duration} min (from catalog)",
+  "chooseServiceHint": "choose a service from the catalog for the typical duration",
+  "averageCost": "Historical average cost: {cost} ({eur}) — based on {count} completed cases",
+  "notEnoughData": "Not enough completed cases yet for a historical cost estimate"
+}

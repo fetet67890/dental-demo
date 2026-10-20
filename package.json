@@ -1,0 +1,16 @@
+{
+  "name": "hypocrates-dental-demo",
+  "private": true,
+  "description": "Hypocrates dental - prebuilt front-end demo (mock data, no backend).",
+  "main": "server.js",
+  "scripts": {
+    "postinstall": "npm install --prefix ./app --no-save --no-package-lock --no-audit --no-fund next@16.2.4 react@19.2.8 react-dom@19.2.8",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

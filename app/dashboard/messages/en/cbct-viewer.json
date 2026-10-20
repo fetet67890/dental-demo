@@ -1,0 +1,15 @@
+{
+  "orientation": {
+    "axial": "Axial",
+    "coronal": "Coronal",
+    "sagittal": "Sagittal"
+  },
+  "errors": {
+    "noSlices": "No slices available for this CBCT study",
+    "toolGroupFailed": "Failed to create the tool group",
+    "volumeLoadFailed": "Failed to load the CBCT volume"
+  },
+  "loadingVolume": "Reconstructing 3D volume from {count} slices...",
+  "resetView": "Reset View",
+  "helpText": "Scroll: move between slices · Left-click: brightness/contrast · Right-click: zoom"
+}

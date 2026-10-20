@@ -1,0 +1,93 @@
+{
+  "entity": {
+    "patients": "Pacientë",
+    "appointments": "Termine",
+    "staff": "Stafi",
+    "services": "Shërbimet",
+    "inventory": "Inventari"
+  },
+  "patients": {
+    "uploadTitle": "Ngarko Skedar CSV ose Excel",
+    "uploadDescription": "Kolonat e njohura: Emri, Mbiemri, Telefoni (të detyrueshme), Email, Datelindja, Gjinia, Adresa, Gjaku. Sistemi njeh edhe emrat në anglisht (First Name, Last Name, Phone, etj.) dhe pranon skedarë .csv, .xlsx ose .xls."
+  },
+  "appointments": {
+    "uploadTitle": "Ngarko Termine nga CSV ose Excel",
+    "uploadDescription": "Kolonat e njohura: Telefoni (ose Emri+Mbiemri) i pacientit, Data, Ora, Mjeku, Lloji/Shërbimi (të detyrueshme), Kohëzgjatja, Statusi, Shënime. Pacienti duhet të ekzistojë tashmë në sistem — importoni pacientët fillimisht nëse mungojnë. Mjeku përputhet me emrin ose emailin e stafit; nëse nuk gjendet, termini importohet pa mjek të caktuar."
+  },
+  "staff": {
+    "uploadTitle": "Ngarko Stafin nga CSV ose Excel",
+    "uploadDescription": "Kolonat e njohura: Emri (e detyrueshme), Email, Telefoni, Roli, Specializimi, Data e Punësimit. Anëtarët e importuar marrin një fjalëkalim të përkohshëm — nuk dërgohet email mirëseardhjeje gjatë një importi masiv."
+  },
+  "services": {
+    "uploadTitle": "Ngarko Shërbimet nga CSV ose Excel",
+    "uploadDescription": "Kolonat e njohura: Emri, Çmimi (të detyrueshme), Kohëzgjatja, Kategoria, Përshkrimi, Aktiv."
+  },
+  "inventory": {
+    "uploadTitle": "Ngarko Inventarin nga CSV ose Excel",
+    "uploadDescription": "Kolonat e njohura: Emri (e detyrueshme), Sasia, Njësia, Kategoria, Pragu i Rimbushjes, Data e Skadencës, Numri i Lotit."
+  },
+  "guide": {
+    "title": "Si të Importoni",
+    "toggleShow": "Shfaq udhëzuesin",
+    "toggleHide": "Fshih udhëzuesin",
+    "columnsTitle": "Kolonat e Pranuara",
+    "column": "Kolona",
+    "requirement": "A Kërkohet",
+    "required": "E detyrueshme",
+    "optional": "Opsionale",
+    "acceptedNames": "Emra të Pranuar / Shënime",
+    "example": "Shembull",
+    "previewTitle": "Pamja e Skedarit Shembull",
+    "previewNote": "Kështu duhet të duket skedari juaj CSV/Excel — rreshti i parë është titujt e kolonave."
+  },
+  "confirm": {
+    "title": "Jeni i Sigurt?",
+    "description": "Do të importohen {count} rreshta. Ky veprim nuk mund të zhbëhet.",
+    "cancel": "Anulo",
+    "action": "Po, Importo"
+  },
+  "reading": "Duke lexuar...",
+  "readError": "Gabim gjatë leximit të skedarit",
+  "chooseFile": "Zgjidh Skedarin",
+  "downloadSample": "Shkarko Shembull",
+  "importComplete": "Importi Përfundoi",
+  "importedCount": "{count} rreshta u importuan me sukses.",
+  "failedCount": "{count} dështuan.",
+  "rowError": "Rreshti {row}: {reason}",
+  "commitError": "Gabim gjatë importimit",
+  "selectAtLeastOne": "Zgjidhni të paktën një rresht",
+  "totalRows": "{count} rreshta gjithsej",
+  "validRows": "{count} të vlefshëm",
+  "invalidRows": "{count} me gabime",
+  "importSelected": "Importo {count} të Zgjedhur",
+  "readyToImport": "Gati për import",
+  "noValidRows": "Nuk ka rreshta të vlefshëm për të importuar",
+  "importHistory": "Historiku i Importeve",
+  "loading": "Duke ngarkuar...",
+  "noImportsYet": "Asnjë import i regjistruar ende.",
+  "table": {
+    "row": "Rreshti",
+    "name": "Emri",
+    "phone": "Telefoni",
+    "email": "Email",
+    "patient": "Pacienti",
+    "doctor": "Mjeku",
+    "dateTime": "Data/Ora",
+    "type": "Lloji",
+    "unassigned": "I papërcaktuar",
+    "status": "Statusi",
+    "date": "Data",
+    "entity": "Lloji",
+    "by": "Nga",
+    "rows": "Rreshta",
+    "imported": "Importuar",
+    "failed": "Dështuar",
+    "role": "Roli",
+    "specialization": "Specializimi",
+    "price": "Çmimi",
+    "duration": "Kohëzgjatja",
+    "category": "Kategoria",
+    "quantity": "Sasia",
+    "expiry": "Skadenca"
+  }
+}

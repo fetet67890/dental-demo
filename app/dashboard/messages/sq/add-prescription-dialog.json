@@ -1,0 +1,19 @@
+{
+  "title": "Shto Recetë të Re",
+  "patient": "Pacienti",
+  "selectPatient": "Zgjidhni pacientin",
+  "medication": "Bari / Ilaçi",
+  "dosage": "Doza",
+  "dosagePlaceholder": "p.sh. 500mg",
+  "frequency": "Frekuenca",
+  "frequencyPlaceholder": "p.sh. 3x/ditë",
+  "duration": "Kohëzgjatja",
+  "durationPlaceholder": "p.sh. 7 ditë",
+  "instructions": "Udhëzime",
+  "instructionsPlaceholder": "Udhëzime shtesë...",
+  "cancel": "Anulo",
+  "adding": "Duke shtuar...",
+  "addPrescription": "Shto Recetën",
+  "allergyWarningTitle": "Kujdes — Alergji e Regjistruar",
+  "continueAnyway": "Vazhdo Gjithsesi"
+}

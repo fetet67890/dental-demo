@@ -1,0 +1,62 @@
+{
+  "welcome": {
+    "title": "Mirë se erdhët në Hypocrates!",
+    "body": "Le ta konfigurojmë shpejt panelin tuaj — gjuha, ngjyrat, shkronjat dhe logoja e klinikës. Çdo hap mund të kalohet dhe gjithçka ndryshohet më vonë nga Konfigurimi → Aparenca."
+  },
+  "language": {
+    "title": "Gjuha",
+    "body": "Në cilën gjuhë duhet të shfaqet paneli?"
+  },
+  "color": {
+    "title": "Ngjyrat e Panelit",
+    "body": "Zgjidhni një paletë ngjyrash për klinikën tuaj.",
+    "moreHint": "Mund të zgjidhni edhe një ngjyrë krejt tuajën më vonë, nga Aparenca."
+  },
+  "font": {
+    "title": "Shkronjat",
+    "body": "Zgjidhni shkronjat e përdorura në të gjithë panelin.",
+    "moreHint": "Mund të ngarkoni edhe shkronjën tuaj më vonë, nga Aparenca."
+  },
+  "surface": {
+    "title": "Stili i Ndërfaqes",
+    "body": "Sipërfaqe të plota ngjyrash apo një pamje xhami e përndritur?"
+  },
+  "logo": {
+    "title": "Logoja e Klinikës",
+    "body": "Shfaqet në krye të menysë anësore.",
+    "dropzone": "Kliko ose tërhiq këtu logon (PNG, JPG, SVG, WEBP)",
+    "submit": "Ngarko Logon",
+    "uploaded": "Logo u ngarkua me sukses"
+  },
+  "favicon": {
+    "title": "Ikona e Browser-it",
+    "body": "Shfaqet në skedën e browser-it, pranë titullit të faqes.",
+    "dropzone": "Kliko ose tërhiq këtu ikonën (PNG, ICO, SVG, JPG)",
+    "previewCaption": "Ikona aktuale",
+    "submit": "Ngarko Ikonën",
+    "uploaded": "Ikona u ngarkua me sukses"
+  },
+  "import": {
+    "title": "Importoni të Dhënat Ekzistuese",
+    "body": "Keni tashmë një listë pacientësh, stafi apo çmimesh diku tjetër? Ngarkojeni tani nga një skedar CSV ose Excel — ose kaloni këtë hap dhe bëjeni më vonë.",
+    "dropzone": "Kliko ose tërhiq këtu skedarin (CSV, XLSX, XLS)",
+    "chooseAnother": "Zgjidh një skedar tjetër",
+    "totalRows": "{count} rreshta gjithsej",
+    "validRows": "{count} të vlefshëm",
+    "invalidRows": "{count} me gabime",
+    "importButton": "Importo {count} Rreshta",
+    "noValidRows": "Nuk ka rreshta të vlefshëm në këtë skedar",
+    "importedCount": "{count} rreshta u importuan me sukses.",
+    "failedCount": "{count} dështuan.",
+    "laterHint": "Kontroll më i imët (rresht pas rreshti) dhe historiku i importeve gjenden te Konfigurimi → Importo."
+  },
+  "finish": {
+    "title": "Gati për fillim!",
+    "body": "Paneli juaj është konfiguruar. Gjithçka mund të ndryshohet sërish në çdo moment nga Konfigurimi → Aparenca."
+  },
+  "back": "Prapa",
+  "skip": "Kalo Konfigurimin",
+  "next": "Tjetër",
+  "finishButton": "Përfundo",
+  "genericError": "Diçka shkoi keq, provoni sërish"
+}

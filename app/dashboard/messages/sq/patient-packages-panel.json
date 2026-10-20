@@ -1,0 +1,36 @@
+{
+  "loading": "Duke ngarkuar...",
+  "loadError": "Gabim gjatë ngarkimit të paketave",
+  "heading": "Paketat e Blera",
+  "sellPackage": "Shit Paketë",
+  "noPurchases": "Asnjë paketë e blerë ende",
+  "status": {
+    "active": "Aktive",
+    "completed": "E Përfunduar",
+    "expired": "E Skaduar"
+  },
+  "sessionsLine": "{used}/{total} seanca përdorur · {service}",
+  "purchasedLine": "Blerë më {date} · {price}",
+  "expiresLine": "skadon më {date}",
+  "redeemSession": "Përdor Seancë",
+  "sessionsShort": "{count} seanca",
+  "cancel": "Anulo",
+  "selling": "Duke shitur...",
+  "redeeming": "Duke përdorur...",
+  "sellSuccess": "Paketa u shit me sukses",
+  "sellError": "Gabim gjatë shitjes së paketës",
+  "redeemSuccess": "Seanca u regjistrua",
+  "redeemError": "Gabim gjatë regjistrimit të seancës",
+  "sellDialog": {
+    "title": "Shit Paketë Shërbimi",
+    "packageLabel": "Paketa",
+    "packagePlaceholder": "Zgjidh paketën",
+    "confirm": "Shit Paketën"
+  },
+  "redeemDialog": {
+    "title": "Përdor një Seancë",
+    "doctorLabel": "Mjeku që Kryen Seancën",
+    "doctorPlaceholder": "Zgjidh mjekun",
+    "confirm": "Konfirmo"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "loading": "Loading...",
+  "testing": "Testing...",
+  "testConnection": "Test Connection",
+  "fromEnvVar": "(from environment variable)",
+  "defaultValue": "(default value)",
+  "change": "Change",
+  "remove": "Remove",
+  "saving": "Saving...",
+  "save": "Save",
+  "cancel": "Cancel",
+  "inbox": {
+    "title": "Inbox",
+    "description": "Read and reply to the clinic's email directly from Hypocrates — the same account configured for SMTP above.",
+    "needsImapHost": "Set \"IMAP Host\" above before enabling this.",
+    "webmailUrl": "\"Open in Webmail\" link (optional)",
+    "sendTest": "Send Test Email",
+    "lastSynced": "Last synced",
+    "loadError": "Error loading",
+    "toggleError": "Error saving",
+    "testError": "Sending failed"
+  }
+}

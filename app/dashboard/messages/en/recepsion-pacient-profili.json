@@ -1,0 +1,17 @@
+{
+  "notFound": {
+    "topbarTitle": "Patient Profile",
+    "topbarSubtitle": "Patient not found",
+    "message": "Patient not found",
+    "back": "Back to list"
+  },
+  "topbarSubtitle": "Patient Profile",
+  "back": "Back",
+  "exportPdf": "Download PDF",
+  "exporting": "Generating...",
+  "addAppointment": "Add Appointment",
+  "quickActions": {
+    "createAppointment": { "title": "Create Appointment", "subtitle": "Schedule a new appointment" },
+    "viewInvoices": { "title": "View Invoices", "subtitle": "Manage payments" }
+  }
+}

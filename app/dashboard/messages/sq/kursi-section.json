@@ -1,0 +1,9 @@
+{
+  "currentRate": "Kursi aktual",
+  "updated": "Përditësuar: {time}",
+  "cache": "cache",
+  "fallback": "rezervë",
+  "refresh": "Rifresko",
+  "sourceInfo": "Kursi merret automatikisht nga <bold>Banka Qendrore Europiane (ECB)</bold> nëpërmjet API-t falas <mono>currency-api</mono>. Përditësohet çdo 24 orë. Nëse lidhja dështon, sistemi përdor kursin e fundit të njohur.",
+  "conversionTable": "Tabela e Konvertimit"
+}

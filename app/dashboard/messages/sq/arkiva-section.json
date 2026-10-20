@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "archivedPatients": "Pacientë të arkivuar",
+    "archivedThisMonth": "Arkivuar këtë muaj"
+  },
+  "searchPlaceholder": "Kërko në arkivë...",
+  "loading": "Duke ngarkuar arkivën...",
+  "empty": {
+    "title": "Arkiva është bosh",
+    "subtitle": "Pacientët e arkivuar do të shfaqen këtu"
+  },
+  "archivedBadge": "Arkivuar",
+  "archivedOn": "Arkivuar:",
+  "generatingPdf": "Duke gjeneruar...",
+  "downloadPdf": "Shkarko PDF",
+  "restore": "Rikthe",
+  "cancel": "Anulo",
+  "restoreDialog": {
+    "title": "Rikthe Pacientin",
+    "prefix": "Jeni të sigurt që dëshironi të riktheni",
+    "suffix": "në listën aktive të pacientëve?"
+  }
+}

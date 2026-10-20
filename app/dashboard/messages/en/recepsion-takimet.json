@@ -1,0 +1,60 @@
+{
+  "topbar": {
+    "title": "Appointments",
+    "subtitle": "Manage patient appointments"
+  },
+  "stats": {
+    "today": "Today",
+    "thisWeek": "This Week",
+    "thisMonth": "This Month",
+    "activeAppointments": "active appointments"
+  },
+  "todayCard": {
+    "title": "Today's Appointments",
+    "empty": "No appointments today"
+  },
+  "createButton": "New Appointment",
+  "createDialog": {
+    "title": "Create New Appointment",
+    "description": "Schedule a new appointment for the patient",
+    "patient": "Patient",
+    "patientPlaceholder": "Select patient",
+    "doctor": "Doctor",
+    "doctorPlaceholder": "Select doctor",
+    "date": "Date",
+    "time": "Time",
+    "visitType": "Visit Type",
+    "duration": "Duration (min)",
+    "notes": "Notes",
+    "notesPlaceholder": "Additional notes...",
+    "cancel": "Cancel",
+    "submit": "Create Appointment"
+  },
+  "visitTypes": {
+    "kontroll": "Check-up",
+    "trajtim": "Treatment",
+    "emergjence": "Emergency",
+    "konsulte": "Consultation"
+  },
+  "status": {
+    "all": "All",
+    "planifikuar": "Scheduled",
+    "ne_pritje": "Waiting",
+    "ne_trajtim": "In Treatment",
+    "perfunduar": "Completed",
+    "anuluar": "Cancelled",
+    "mungoi": "No-show"
+  },
+  "search": {
+    "placeholder": "Search appointments...",
+    "statusFilterPlaceholder": "Filter by status"
+  },
+  "table": {
+    "patient": "Patient",
+    "doctor": "Doctor",
+    "dateTime": "Date & Time",
+    "type": "Type",
+    "status": "Status"
+  },
+  "empty": "No appointments found"
+}

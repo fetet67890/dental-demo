@@ -1,0 +1,14 @@
+{
+  "title": "Automatizimi",
+  "subtitle": "Ekzekutimi më i fundit i çdo pune të planifikuar, dhe historiku i saj.",
+  "refresh": "Rifresko",
+  "loading": "Duke ngarkuar…",
+  "empty": "Asnjë punë e planifikuar nuk ka ekzekutuar ende.",
+  "success": "Sukses",
+  "failure": "Dështoi",
+  "lastRun": "Ekzekutimi i fundit",
+  "duration": "Kohëzgjatja",
+  "viewHistory": "Shiko historikun",
+  "hideHistory": "Fshih historikun",
+  "noHistory": "Nuk ka ekzekutime të regjistruara ende."
+}

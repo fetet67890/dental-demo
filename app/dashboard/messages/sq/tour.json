@@ -1,0 +1,209 @@
+{
+  "common": {
+    "next": "Tjetër",
+    "back": "Prapa",
+    "skip": "Anulo",
+    "finish": "Përfundo",
+    "stepOf": "Hapi {current} nga {total}",
+    "restartTour": "Rifillo Turin e Prezantimit",
+    "tryItHint": "Këshillë: mund ta klikoni direkt pjesën e theksuar."
+  },
+  "admin": {
+    "welcome": {
+      "title": "Mirë se erdhët në Hypocrates!",
+      "body": "Ky është një tur i plotë me çdo faqe kryesore të panelit. Mund ta ndërprisni në çdo moment dhe ta rinisni më vonë nga ikona e ndihmës në krye."
+    },
+    "dashboard": {
+      "title": "Paneli Kryesor",
+      "body": "Këtu shihni përmbledhjen ditore: pacientë, takime, të ardhura dhe njoftimet e stafit, të gjitha në një vështrim."
+    },
+    "patients": {
+      "title": "Pacientët",
+      "body": "Menaxhoni çdo pacient: të dhënat personale, historiku mjekësor, trajtimet, dokumentet dhe qasja në portalin e pacientit. Përdorni këtë buton për të regjistruar një pacient të ri."
+    },
+    "appointments": {
+      "title": "Takimet",
+      "body": "Lista e plotë e takimeve dhe kalendari, në dy skeda të kësaj faqeje — planifikoni, riprogramoni me zvarritje (drag & drop), dhe shikoni sipas mjekut ose dhomës."
+    },
+    "followups": {
+      "title": "Kontrollet Pas-Operative",
+      "body": "Kontrollet e planifikuara pas trajtimeve — sistemi i krijon vetë sipas protokolleve që keni caktuar për çdo lloj trajtimi."
+    },
+    "orthodontics": {
+      "title": "Ortodoncia",
+      "body": "Ndiqni progresin hap pas hapi të pacientëve në trajtim ortodontik, me etapa dhe data të personalizueshme."
+    },
+    "finance": {
+      "title": "Financa",
+      "body": "Përmbledhja financiare, faturat dhe borxhet e pacientëve — tre skeda, në një faqe të vetme."
+    },
+    "inventory": {
+      "title": "Inventari",
+      "body": "Gjurmoni stokun e klinikës dhe kërkesat për rimbushje kur diçka bie nën nivelin minimal."
+    },
+    "staff": {
+      "title": "Stafi",
+      "body": "Shtoni e menaxhoni stafin, ndiqni prezencën ditore dhe komisionet e tyre. Përdorni këtë buton për të shtuar një anëtar të ri."
+    },
+    "documents": {
+      "title": "Dokumentet",
+      "body": "Të gjitha dokumentet e ngarkuara nga pacientët dhe stafi, në një vend të vetëm."
+    },
+    "reminders": {
+      "title": "Rikujtesat",
+      "body": "Rikujtesa automatike për pacientët dhe njoftime manuale — dy skeda, në të njëjtën faqe."
+    },
+    "website": {
+      "title": "Faqja e Uebit",
+      "body": "Kontrolloni përmbajtjen e faqes publike: postime, dëshmi, galeri, kontakte dhe SEO — pesë skeda, një faqe."
+    },
+    "sistemi": {
+      "title": "Sistemi",
+      "body": "Cilësimet e sistemit: auditimet, kursi i këmbimit dhe pamja (temat, ngjyrat, gjuha)."
+    },
+    "konfigurimi": {
+      "title": "Konfigurimi",
+      "body": "Integrimet (AI, email, SMS), shërbimet, dhomat, klinikat dhe importimi i të dhënave — gjithçka konfiguruese, në një vend."
+    },
+    "quickActions": {
+      "title": "Veprime të Shpejta",
+      "body": "Kjo ikonë ju lejon të shtoni shpejt një pacient, takim, staf apo shërbim — nga kudo në aplikacion."
+    },
+    "assistant": {
+      "title": "Asistenti AI",
+      "body": "Butoni i bisedës në çdo faqe — pyeteni për pacientë, takime apo statistika të klinikës, ose kërkojini të krijojë diçka për ju direkt nga biseda."
+    },
+    "profile": {
+      "title": "Profili",
+      "body": "Të dhënat tuaja personale dhe cilësimet e llogarisë."
+    },
+    "goodbye": {
+      "title": "Kjo ishte gjithçka!",
+      "body": "Shpresojmë t'ju pëlqejë Hypocrates. Mund ta rinisni këtë tur në çdo kohë nga ikona e ndihmës në krye ose nga Profili. Ju drejtojmë tani te Paneli Kryesor."
+    }
+  },
+  "mjek": {
+    "welcome": {
+      "title": "Mirë se erdhët në Hypocrates!",
+      "body": "Ky është një tur i plotë me çdo faqe kryesore. Mund ta ndërprisni në çdo moment dhe ta rinisni më vonë nga ikona e ndihmës në krye."
+    },
+    "dashboard": {
+      "title": "Paneli Juaj",
+      "body": "Shikoni pacientët dhe takimet e ditës suaj që në hyrje."
+    },
+    "calendarMine": {
+      "title": "Kalendari Im",
+      "body": "Kalendari juaj personal i takimeve — filtrohet automatikisht vetëm për pacientët tuaj."
+    },
+    "appointments": {
+      "title": "Takimet",
+      "body": "Lista e plotë e takimeve tuaja, përtej pamjes së kalendarit."
+    },
+    "patients": {
+      "title": "Pacientët",
+      "body": "Historiku mjekësor, trajtimet, odontogrami 3D dhe imazhet DICOM të çdo pacienti tuaj, në një faqe të vetme. Përdorni këtë buton për të regjistruar një pacient të ri."
+    },
+    "treatments": {
+      "title": "Trajtimet",
+      "body": "Regjistroni trajtime të reja me këtë buton — sistemi kontrollon automatikisht alergjitë e pacientit përpara se ta konfirmoni."
+    },
+    "prescriptions": {
+      "title": "Recetat",
+      "body": "Krijoni receta të reja me këtë buton dhe printojini për pacientët tuaj."
+    },
+    "followups": {
+      "title": "Kontrollet Pas-Operative",
+      "body": "Kontrollet e planifikuara pas trajtimeve për pacientët tuaj."
+    },
+    "orthodontics": {
+      "title": "Ortodoncia",
+      "body": "Ndiqni progresin hap pas hapi të pacientëve tuaj në trajtim ortodontik."
+    },
+    "implantology": {
+      "title": "Implantologjia",
+      "body": "Planifikoni implantet dhe etapat kirurgjike, me caktim direkt në kalendar."
+    },
+    "cosmetics": {
+      "title": "Kozmetika",
+      "body": "Ndiqni planet e trajtimeve kozmetike të pacientëve tuaj."
+    },
+    "quickActions": {
+      "title": "Veprime të Shpejta",
+      "body": "Shtoni shpejt një trajtim, recetë apo pacient — nga kudo në aplikacion."
+    },
+    "profile": {
+      "title": "Profili",
+      "body": "Të dhënat tuaja personale dhe cilësimet e llogarisë."
+    },
+    "goodbye": {
+      "title": "Kjo ishte gjithçka!",
+      "body": "Shpresojmë t'ju pëlqejë Hypocrates. Mund ta rinisni këtë tur në çdo kohë nga ikona e ndihmës në krye ose nga Profili. Ju drejtojmë tani te Paneli Juaj."
+    }
+  },
+  "recepsion": {
+    "welcome": {
+      "title": "Mirë se erdhët në Hypocrates!",
+      "body": "Ky është një tur i plotë me çdo faqe kryesore. Mund ta ndërprisni në çdo moment dhe ta rinisni më vonë nga ikona e ndihmës në krye."
+    },
+    "dashboard": {
+      "title": "Paneli Juaj",
+      "body": "Përmbledhje e ditës: takime, radha e pritjes dhe njoftimet e fundit."
+    },
+    "queue": {
+      "title": "Radha e Pritjes",
+      "body": "Menaxhoni në kohë reale pacientët që presin në klinikë."
+    },
+    "waitlist": {
+      "title": "Lista e Pritjes",
+      "body": "Pacientët që presin një vend të lirë në kalendar — njoftojini automatikisht kur çelet një takim."
+    },
+    "patients": {
+      "title": "Pacientët",
+      "body": "Regjistroni pacientë të rinj me këtë buton dhe përditësoni të dhënat e tyre."
+    },
+    "appointments": {
+      "title": "Takimet",
+      "body": "Lista e plotë e takimeve, planifikimi dhe anulimet."
+    },
+    "calendar": {
+      "title": "Kalendari",
+      "body": "Pamja e kalendarit të klinikës, sipas mjekut ose dhomës."
+    },
+    "followups": {
+      "title": "Kontrollet Pas-Operative",
+      "body": "Kontrollet e planifikuara pas trajtimeve, për të gjithë pacientët."
+    },
+    "cashRegister": {
+      "title": "Arka",
+      "body": "Hapni dhe mbyllni arkën ditore, me rakordim automatik të parave të pritura dhe të numëruara."
+    },
+    "invoices": {
+      "title": "Faturat",
+      "body": "Krijoni fatura, regjistroni pagesa dhe printoni faturat për pacientët."
+    },
+    "inquiries": {
+      "title": "Kërkesat nga Faqja",
+      "body": "Kërkesat për takime të dërguara nga faqja publike e klinikës."
+    },
+    "documents": {
+      "title": "Dokumentet",
+      "body": "Dokumentet e ngarkuara nga pacientët dhe stafi."
+    },
+    "archive": {
+      "title": "Arkiva",
+      "body": "Të dhënat e pacientëve joaktivë ose të arkivuar."
+    },
+    "quickActions": {
+      "title": "Veprime të Shpejta",
+      "body": "Shtoni shpejt një pacient, takim apo dokument — nga kudo në aplikacion."
+    },
+    "profile": {
+      "title": "Profili",
+      "body": "Të dhënat tuaja personale dhe cilësimet e llogarisë."
+    },
+    "goodbye": {
+      "title": "Kjo ishte gjithçka!",
+      "body": "Shpresojmë t'ju pëlqejë Hypocrates. Mund ta rinisni këtë tur në çdo kohë nga ikona e ndihmës në krye ose nga Profili. Ju drejtojmë tani te Paneli Juaj."
+    }
+  }
+}

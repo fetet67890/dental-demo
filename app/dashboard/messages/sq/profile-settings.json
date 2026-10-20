@@ -1,0 +1,74 @@
+{
+  "roles": {
+    "admin": "Administrator",
+    "mjek": "Mjek",
+    "recepsion": "Recepsionist"
+  },
+  "cancel": "Anulo",
+  "systemRole": {
+    "title": "Roli në Sistem"
+  },
+  "avatar": {
+    "changePhoto": "Ndrysho Foton",
+    "uploading": "Duke ngarkuar...",
+    "removePhoto": "Hiq Foton",
+    "removing": "Duke hequr...",
+    "removeDialogTitle": "Hiq foton e profilit?",
+    "removeDialogDescription": "Foto e profilit do të hiqet dhe do të zëvendësohet me inicialin e emrit tuaj."
+  },
+  "personalInfo": {
+    "title": "Të Dhënat Personale",
+    "fullName": "Emri i Plotë *",
+    "fullNamePlaceholder": "Emri dhe mbiemri",
+    "email": "Email *",
+    "saving": "Duke ruajtur...",
+    "saveChanges": "Ruaj Ndryshimet"
+  },
+  "password": {
+    "title": "Ndrysho Fjalëkalimin",
+    "current": "Fjalëkalimi Aktual *",
+    "new": "Fjalëkalimi i Ri *",
+    "newPlaceholder": "Minimum 6 karaktere",
+    "confirm": "Konfirmo Fjalëkalimin e Ri *",
+    "changing": "Duke ndryshuar...",
+    "submit": "Ndrysho Fjalëkalimin"
+  },
+  "mfa": {
+    "title": "Verifikimi Dyfaktorësh (MFA)",
+    "intro": "Shtoni një shtresë shtesë sigurie — pas fjalëkalimit, do t'ju dërgohet me email edhe një kod 6-shifror. Nuk kërkohet asnjë aplikacion shtesë.",
+    "enable": "Aktivizo MFA",
+    "codeSentIntro": "Dërguam një kod verifikimi te {email}. Vendoseni më poshtë.",
+    "confirmCode": "Kodi i Konfirmimit",
+    "confirming": "Duke konfirmuar...",
+    "confirmAndEnable": "Konfirmo dhe Aktivizo",
+    "resend": "Dërgo Përsëri",
+    "activeNotice": "MFA është aktive për këtë llogari",
+    "disable": "Çaktivizo MFA",
+    "disableCodePrompt": "Kliko për të marrë një kod verifikimi me email",
+    "disabling": "Duke çaktivizuar...",
+    "disableShort": "Çaktivizo"
+  },
+  "guidedTour": {
+    "title": "Turi i Prezantimit",
+    "description": "Rishikoni turin që shpjegon çdo faqe kryesore të panelit, hap pas hapi.",
+    "button": "Rifillo Turin"
+  },
+  "setupWizard": {
+    "title": "Konfigurimi Fillestar",
+    "description": "Rikonfiguro gjuhën, ngjyrat, shkronjat dhe logon e klinikës, hap pas hapi.",
+    "button": "Rifillo Konfigurimin"
+  },
+  "logout": {
+    "title": "Dil nga Llogaria",
+    "button": "Dil"
+  },
+  "validation": {
+    "nameRequired": "Emri është i detyrueshëm",
+    "emailRequired": "Emaili është i detyrueshëm",
+    "currentPasswordRequired": "Fjalëkalimi aktual është i detyrueshëm",
+    "newPasswordRequired": "Fjalëkalimi i ri është i detyrueshëm",
+    "passwordMinLength": "Minimum 6 karaktere",
+    "confirmRequired": "Konfirmimi është i detyrueshëm",
+    "passwordMismatch": "Fjalëkalimet nuk përputhen"
+  }
+}

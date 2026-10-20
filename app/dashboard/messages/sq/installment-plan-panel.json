@@ -1,0 +1,16 @@
+{
+  "title": "Plan Këstesh",
+  "deletePlan": "Fshi Planin",
+  "installmentCount": "Nr. Këstesh",
+  "firstInstallment": "Kësti i Parë",
+  "createPlan": "Krijo Planin",
+  "noOutstandingAmount": "Nuk ka shumë të papaguar",
+  "paymentMethod": "Metoda e pagesës:",
+  "methodCash": "Cash",
+  "methodCard": "Kartë",
+  "methodTransfer": "Transfer",
+  "due": "Afati",
+  "paid": "Paguar",
+  "overduePay": "Vonuar — Paguaj",
+  "markPaid": "Shëno të Paguar"
+}

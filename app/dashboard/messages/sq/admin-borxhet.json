@@ -1,0 +1,18 @@
+{
+  "title": "Borxhet",
+  "subtitle": "Kujtesa automatike për fatura të papaguara",
+  "alertCard": {
+    "heading": "Kujtesat e Borxhit",
+    "description": "Dërgohen çdo ditë në orën 08:30 për fatura të papaguara pas afatit",
+    "intervalLabel": "Rikujto çdo (ditë)"
+  },
+  "overdue": {
+    "heading": "Fatura të Papaguara pas Afatit",
+    "summary": "{count} fatura · {lek} ({eur})",
+    "sendNow": "Dërgo Tani",
+    "smtpNotConfigured": "SMTP nuk është konfiguruar —",
+    "configureHere": "konfiguro këtu",
+    "idDue": "#{id} · Afati: {date}",
+    "empty": "Asnjë faturë e papaguar pas afatit aktualisht"
+  }
+}

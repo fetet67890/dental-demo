@@ -1,0 +1,31 @@
+{
+  "loading": "Loading...",
+  "disabled": {
+    "title": "Demo feature is disabled",
+    "body": "These actions require the server to have ENABLE_DEMO_RESET=true. In a real deployment this should stay disabled."
+  },
+  "bannerWarning": "These actions affect ALL clinic data and are meant for demos or local testing — not everyday use.",
+  "genericError": "Something went wrong, please try again",
+  "cancel": "Cancel",
+  "wipe": {
+    "title": "Reset Clinic to First-Login State",
+    "description": "Permanently deletes every patient, appointment, treatment, invoice, document, and inventory item, and resets the dashboard's appearance (colors, fonts, logo) back to defaults — exactly as it would look the very first time the dashboard is opened after logging in. You'll be logged out automatically afterward, so your next login actually shows the first-time setup.",
+    "preserves": "Your account is PRESERVED — you'll be logged out, but can log straight back in with the same password.",
+    "button": "Wipe Everything & Start Over",
+    "confirmTitle": "Are you absolutely sure?",
+    "confirmBody": "This cannot be undone. Every patient, appointment, treatment, and invoice will be permanently deleted, and you'll be logged out automatically.",
+    "confirmInputLabel": "Type \"{phrase}\" to confirm",
+    "confirmButton": "Yes, Wipe Everything",
+    "done": "Clinic reset to first-login state"
+  },
+  "restore": {
+    "title": "Generate Sample Data",
+    "description": "Immediately generates sample patients, appointments, treatments, invoices, and inventory items — linked to your current doctors — for demos or testing.",
+    "button": "Generate Sample Data",
+    "confirmTitle": "Generate sample data?",
+    "confirmBody": "This adds sample patients, appointments, treatments, invoices, and inventory items on top of existing data. It doesn't delete anything.",
+    "confirmButton": "Yes, Generate",
+    "done": "Sample data generated successfully",
+    "summary": "Last run: {patients} patients, {appointments} appointments, {treatments} treatments, {invoices} invoices, {items} inventory items"
+  }
+}

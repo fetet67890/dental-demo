@@ -1,0 +1,43 @@
+{
+  "title": "Plan i Ri Implanti",
+  "subtitle": "Planifikoni rastin e implantit dhe fazat kirurgjikale",
+  "back": "Kthehu",
+  "cancel": "Anulo",
+  "saving": "Duke ruajtur...",
+  "savePlan": "Ruaj Planin",
+  "planDetails": "Detajet e Planit",
+  "planDetailsDescription": "Plotësoni specifikat e implantit",
+  "patientLabel": "Pacienti",
+  "patientPlaceholder": "Zgjidhni pacientin",
+  "teethLabel": "Dhëmbi/ët e Përzgjedhur",
+  "steps": {
+    "patientTeeth": "Pacienti & Dhëmbët",
+    "patientTeethDescription": "Zgjidhni pacientin dhe dhëmbin/ët për implant",
+    "implantSpecs": "Specifikat",
+    "surgicalStages": "Fazat Kirurgjikale",
+    "surgicalStagesDescription": "Planifikoni fazat e trajtimit — datat mund të caktohen më vonë si takime të vërteta",
+    "noStagesYet": "Ende nuk keni shtuar asnjë fazë.",
+    "previous": "Mbrapa",
+    "next": "Vazhdo"
+  },
+  "brandLabel": "Marka e Implantit",
+  "brandPlaceholder": "p.sh. Straumann",
+  "diameterLabel": "Diametri (mm)",
+  "lengthLabel": "Gjatësia (mm)",
+  "costLabel": "Çmimi (LEK)",
+  "surgicalStages": "Fazat Kirurgjikale",
+  "addStage": "Shto Fazë",
+  "stageNamePlaceholder": "Emri i fazës",
+  "notesLabel": "Shënime",
+  "notesPlaceholder": "Shënime shtesë mbi planin...",
+  "defaultStages": {
+    "consultation": "Konsultim",
+    "surgery": "Kirurgji",
+    "healing": "Shërim",
+    "crownPlacement": "Vendosje Kurorë"
+  },
+  "validation": {
+    "selectPatient": "Zgjidhni pacientin",
+    "selectTooth": "Zgjidhni të paktën një dhëmb"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "topbar": {
+    "title": "Kalendari Im",
+    "subtitle": "Oraret dhe takimet tuaja"
+  },
+  "stats": {
+    "today": "Sot",
+    "thisWeek": "Kjo Javë",
+    "thisMonth": "Ky Muaj",
+    "myAppointmentsNote": "takimet e mia"
+  },
+  "todayCard": {
+    "title": "Takimet e Sotme",
+    "empty": "Nuk ka takime për sot"
+  },
+  "quickActions": {
+    "viewAll": "Shiko të Gjitha Takimet",
+    "addPatient": "Shto Pacient të Ri",
+    "addTreatment": "Shto Trajtim"
+  },
+  "dialog": {
+    "title": "Detajet e Takimit",
+    "description": "Menaxho takimin dhe shto trajtim",
+    "patient": "Pacienti",
+    "phone": "Telefoni",
+    "date": "Data",
+    "time": "Ora",
+    "type": "Lloji",
+    "duration": "Kohëzgjatja",
+    "currentStatus": "Statusi Aktual",
+    "changeStatus": "Ndrysho Statusin",
+    "notes": "Shënime",
+    "addTreatment": "Shto Trajtim",
+    "viewChart": "Shiko Kartelën",
+    "close": "Mbyll"
+  },
+  "status": {
+    "planifikuar": "Planifikuar",
+    "ne_pritje": "Në Pritje",
+    "ne_trajtim": "Në Trajtim",
+    "perfunduar": "Përfunduar",
+    "anuluar": "Anuluar",
+    "mungoi": "Mungoi"
+  }
+}

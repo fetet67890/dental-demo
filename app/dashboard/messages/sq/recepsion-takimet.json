@@ -1,0 +1,60 @@
+{
+  "topbar": {
+    "title": "Takimet",
+    "subtitle": "Menaxhoni takimet e pacientëve"
+  },
+  "stats": {
+    "today": "Sot",
+    "thisWeek": "Kjo Javë",
+    "thisMonth": "Ky Muaj",
+    "activeAppointments": "takime aktive"
+  },
+  "todayCard": {
+    "title": "Takimet e Sotme",
+    "empty": "Nuk ka takime për sot"
+  },
+  "createButton": "Krijo Takim",
+  "createDialog": {
+    "title": "Krijo Takim të Ri",
+    "description": "Cakto një takim të ri për pacientin",
+    "patient": "Pacienti",
+    "patientPlaceholder": "Zgjidhni pacientin",
+    "doctor": "Doktori",
+    "doctorPlaceholder": "Zgjidhni doktorin",
+    "date": "Data",
+    "time": "Ora",
+    "visitType": "Lloji i Vizitës",
+    "duration": "Kohëzgjatja (min)",
+    "notes": "Shënime",
+    "notesPlaceholder": "Shënime shtesë...",
+    "cancel": "Anulo",
+    "submit": "Krijo Takim"
+  },
+  "visitTypes": {
+    "kontroll": "Kontroll",
+    "trajtim": "Trajtim",
+    "emergjence": "Emergjencë",
+    "konsulte": "Konsultë"
+  },
+  "status": {
+    "all": "Të gjitha",
+    "planifikuar": "Planifikuar",
+    "ne_pritje": "Në Pritje",
+    "ne_trajtim": "Në Trajtim",
+    "perfunduar": "Përfunduar",
+    "anuluar": "Anuluar",
+    "mungoi": "Mungoi"
+  },
+  "search": {
+    "placeholder": "Kërko takimet...",
+    "statusFilterPlaceholder": "Filtro sipas statusit"
+  },
+  "table": {
+    "patient": "Pacienti",
+    "doctor": "Doktori",
+    "dateTime": "Data & Ora",
+    "type": "Lloji",
+    "status": "Statusi"
+  },
+  "empty": "Nuk u gjetën takime"
+}

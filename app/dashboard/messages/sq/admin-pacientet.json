@@ -1,0 +1,96 @@
+{
+  "title": "Pacientët",
+  "subtitle": "Menaxhoni të gjithë pacientët e klinikës",
+  "searchPlaceholder": "Kërko pacientët...",
+  "addButton": "Shto Pacient",
+  "dialog": {
+    "editTitle": "Modifiko Pacientin",
+    "addTitle": "Shto Pacient të Ri",
+    "description": "Plotësoni të dhënat e pacientit më poshtë",
+    "firstName": "Emri *",
+    "firstNamePlaceholder": "Emri",
+    "lastName": "Mbiemri *",
+    "lastNamePlaceholder": "Mbiemri",
+    "email": "Email",
+    "emailPlaceholder": "email@shembull.com",
+    "phone": "Telefoni *",
+    "phonePlaceholder": "+383 44 123 456",
+    "dateOfBirth": "Data e Lindjes",
+    "gender": "Gjinia",
+    "genderPlaceholder": "Zgjidhni gjininë",
+    "genderMale": "Mashkull",
+    "genderFemale": "Femër",
+    "address": "Adresa",
+    "addressPlaceholder": "Adresa e plotë",
+    "medicalHistory": "Historiku Mjekësor",
+    "medicalHistoryPlaceholder": "Ndani me presje (p.sh. Diabet, Tension i lartë)",
+    "allergies": "Alergjitë",
+    "allergiesPlaceholder": "Ndani me presje (p.sh. Penicilinë, Ibuprofen)",
+    "assignedDoctor": "Doktori i Caktuar",
+    "assignedDoctorPlaceholder": "Zgjidhni doktorin",
+    "noDoctor": "— Asnjë doktor —",
+    "status": "Statusi",
+    "statusPlaceholder": "Zgjidhni statusin",
+    "statusActive": "Aktiv",
+    "statusInactive": "Joaktiv (Arkivo)",
+    "inactiveWarning": "Pacienti do të arkivohet dhe do të zhduket nga lista aktive.",
+    "cancel": "Anulo",
+    "saveChanges": "Ruaj Ndryshimet",
+    "addPatient": "Shto Pacientin"
+  },
+  "validation": {
+    "firstNameRequired": "Emri është i detyrueshëm",
+    "lastNameRequired": "Mbiemri është i detyrueshëm",
+    "phoneRequired": "Telefoni është i detyrueshëm"
+  },
+  "table": {
+    "patient": "Pacienti",
+    "contact": "Kontakti",
+    "doctor": "Mjeku",
+    "lastVisit": "Vizita e Fundit",
+    "status": "Statusi",
+    "actions": "Veprimet",
+    "empty": "Nuk u gjetën pacientë"
+  },
+  "menu": {
+    "viewProfile": "Shiko Profilin",
+    "edit": "Modifiko",
+    "memory": "Memorie",
+    "archive": "Arkivo",
+    "archiving": "Duke arkivuar...",
+    "delete": "Fshi",
+    "exportData": "Eksporto të Dhënat",
+    "exporting": "Duke eksportuar...",
+    "anonymize": "Anonimizo",
+    "anonymized": "I Anonimizuar"
+  },
+  "mobile": {
+    "doctorVisit": "Mjeku: {doctor} · Vizita: {date}"
+  },
+  "exportData": {
+    "error": "Gabim gjatë eksportimit të të dhënave"
+  },
+  "deleteDialog": {
+    "title": "Fshi Pacientin",
+    "confirmPrefix": "Jeni të sigurt që dëshironi të fshini",
+    "confirmSuffix": "Ky veprim është i pakthyeshëm.",
+    "confirm": "Fshi"
+  },
+  "archiveDialog": {
+    "title": "Arkivo Pacientin",
+    "confirmPrefix": "Po arkivoni",
+    "confirmSuffix": "Pacienti do të zhduket nga lista aktive dhe do të ruhet në seksionin Arkivë.",
+    "confirm": "Arkivo"
+  },
+  "anonymizeDialog": {
+    "title": "Anonimizo Pacientin",
+    "confirmPrefix": "Po anonimizoni të dhënat personale të",
+    "confirmSuffix": "Emri, email-i, telefoni dhe adresa do të fshihen përgjithmonë, dhe dokumentat e ngarkuara do të hiqen. Takimet, trajtimet dhe faturat ruhen për arsye ligjore. Ky veprim është i pakthyeshëm.",
+    "reasonLabel": "Arsyeja e kërkesës *",
+    "reasonPlaceholder": "P.sh. Kërkesë e pacientit sipas së drejtës për t'u harruar",
+    "anonymizing": "Duke anonimizuar...",
+    "confirm": "Anonimizo Përgjithmonë",
+    "success": "Pacienti u anonimizua me sukses",
+    "error": "Gabim gjatë anonimizimit të pacientit"
+  }
+}

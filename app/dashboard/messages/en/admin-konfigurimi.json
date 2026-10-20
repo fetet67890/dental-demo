@@ -1,0 +1,11 @@
+{
+  "title": "Configuration",
+  "sections": {
+    "integrimet": { "label": "Integrations", "subtitle": "API keys and credentials for external services" },
+    "sherbimet": { "label": "Services", "subtitle": "Manage the clinic's services and prices" },
+    "paketat": { "label": "Packages", "subtitle": "Service packages and membership plans" },
+    "dhomat": { "label": "Rooms", "subtitle": "Manage treatment rooms or chairs" },
+    "klinikat": { "label": "Clinics", "subtitle": "Manage the clinics available to patients" },
+    "arkiva": { "label": "Archive", "subtitle": "Archived patients and completed files" }
+  }
+}

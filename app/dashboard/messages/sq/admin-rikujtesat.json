@@ -1,0 +1,28 @@
+{
+  "title": "Kujtesat",
+  "subtitle": "Rikujtesa automatike për kontrolle rutinë",
+  "tabs": {
+    "recalls": "Rikujtesat",
+    "appointments": "Takimet",
+    "notifications": "Njoftimet"
+  },
+  "automaticRecalls": "Kujtesat Automatike",
+  "automaticRecallsHint": "Dërgohen çdo ditë në orën 08:00 për pacientët që s'kanë ardhur prej kohësh",
+  "intervalMonths": "Intervali i rikujtesës (muaj)",
+  "patientsAwaiting": "Pacientë që Presin Kujtesë",
+  "patientCount": "{count} pacientë",
+  "sendNow": "Dërgo Tani",
+  "lastVisit": "Vizita e fundit: {date}",
+  "noVisitRecorded": "Asnjë vizitë e regjistruar",
+  "emptyState": "Asnjë pacient nuk pret kujtesë aktualisht",
+  "appointmentReminders": {
+    "title": "Kujtesat e Takimeve",
+    "subtitle": "Kujtesa automatike për takimet e ardhshme",
+    "automatic": "Kujtesat e Takimeve Automatike",
+    "automaticHint": "Dërgohen çdo orë për takimet që fillojnë brenda periudhës së caktuar",
+    "leadHours": "Sa orë përpara (orë)",
+    "due": "Takime që Presin Kujtesë",
+    "dueCount": "{count} takime",
+    "emptyState": "Asnjë takim nuk pret kujtesë aktualisht"
+  }
+}

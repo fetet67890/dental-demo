@@ -1,0 +1,59 @@
+{
+  "topbar": {
+    "title": "Arka Ditore",
+    "subtitle": "Menaxhoni transaksionet ditore"
+  },
+  "drawer": {
+    "openToday": "Arka është e hapur sot",
+    "closedToday": "Arka është mbyllur sot",
+    "notOpenedYet": "Arka nuk është hapur ende sot",
+    "openingSummary": "Fondi fillestar: {opening} · Pritet tani: {expected}",
+    "discrepancy": "Diferenca: {amount}",
+    "closeButton": "Mbyll Arkën",
+    "openButton": "Hap Arkën",
+    "closingCountedLabel": "Fondi i Numëruar (LEK)",
+    "expectedAmount": "Shuma e pritur: {amount}",
+    "notesLabel": "Shënime (opsionale)",
+    "notesPlaceholder": "p.sh. arsyeja e diferencës...",
+    "openingFloatLabel": "Fondi Fillestar (LEK)",
+    "cancel": "Anulo",
+    "saving": "Duke ruajtur..."
+  },
+  "stats": {
+    "income": "Të Ardhurat",
+    "expenses": "Shpenzimet",
+    "balance": "Bilanci"
+  },
+  "transactions": {
+    "title": "Transaksionet e Sotme",
+    "addButton": "Shto Transaksion",
+    "addDialogTitle": "Shto Transaksion te Ri",
+    "typeLabel": "Lloji",
+    "typePlaceholder": "Zgjidhni llojin",
+    "typeIncome": "Hyrese (Te ardhura)",
+    "typeExpense": "Dalje (Shpenzim)",
+    "amountLabel": "Shuma",
+    "methodLabel": "Metoda e Pageses",
+    "methodPlaceholder": "Zgjidhni metoden",
+    "descriptionLabel": "Përshkrimi *",
+    "descriptionPlaceholder": "Pershkruani transaksionin...",
+    "cancel": "Anulo",
+    "submit": "Shto",
+    "empty": "Nuk ka transaksione per sot",
+    "table": {
+      "time": "Koha",
+      "type": "Lloji",
+      "description": "Pershkrimi",
+      "method": "Metoda",
+      "amount": "Shuma"
+    },
+    "typeChipIncome": "Hyrese",
+    "typeChipExpense": "Dalje"
+  },
+  "method": {
+    "cash": "Para ne dore",
+    "karte": "Karte",
+    "transfer": "Transfer",
+    "transferBank": "Transfer Bankar"
+  }
+}

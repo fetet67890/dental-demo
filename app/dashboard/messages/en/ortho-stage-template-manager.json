@@ -1,0 +1,16 @@
+{
+  "title": "Orthodontic Stage Configuration",
+  "addStage": "+ Add Stage",
+  "description": "Define the list of stages that appear as options when recording an orthodontic patient's progress.",
+  "loading": "Loading...",
+  "empty": "No stages configured yet.",
+  "edit": "Edit",
+  "delete": "Delete",
+  "editStageTitle": "Edit Stage",
+  "addStageTitle": "Add New Stage",
+  "stageName": "Stage Name",
+  "stageNamePlaceholder": "e.g. Monthly adjustment",
+  "cancel": "Cancel",
+  "saving": "Saving...",
+  "save": "Save"
+}

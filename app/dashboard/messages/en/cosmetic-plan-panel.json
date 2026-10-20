@@ -1,0 +1,13 @@
+{
+  "title": "Cosmetic Plans",
+  "addPlan": "+ Cosmetic Plan",
+  "loading": "Loading...",
+  "empty": "No cosmetic plans recorded yet.",
+  "delete": "Delete",
+  "procedures": {
+    "faceta": "Veneer",
+    "zbardhim": "Whitening",
+    "bonding": "Bonding",
+    "tjeter": "Other"
+  }
+}

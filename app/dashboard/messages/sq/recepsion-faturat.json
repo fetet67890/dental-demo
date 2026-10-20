@@ -1,0 +1,81 @@
+{
+  "topbar": {
+    "title": "Faturat",
+    "subtitle": "Shikoni dhe menaxhoni faturat e pacientëve"
+  },
+  "stats": {
+    "totalRevenue": "Të Ardhura Totale",
+    "pendingPayments": "Pagesa në Pritje",
+    "paidInvoices": "Fatura të Paguara",
+    "unpaidInvoices": "Fatura të Papaguara"
+  },
+  "searchPlaceholder": "Kërko faturat...",
+  "generateButton": "Gjenero Faturë",
+  "table": {
+    "invoice": "Fatura",
+    "patient": "Pacienti",
+    "amount": "Shuma",
+    "paid": "Paguar",
+    "debt": "Borxhi",
+    "status": "Statusi",
+    "actions": "Veprimet"
+  },
+  "print": "Printo",
+  "viewDetails": "Shiko Detajet",
+  "registerPayment": "Regjistro Pagesë",
+  "empty": "Nuk u gjetën fatura",
+  "mobile": {
+    "total": "Total",
+    "paid": "Paguar",
+    "debt": "Borxh"
+  },
+  "generateDialog": {
+    "title": "Gjenero Faturë të Re",
+    "description": "Zgjidhni pacientin dhe shërbimet për të gjeneruar faturën",
+    "patient": "Pacienti",
+    "patientPlaceholder": "Zgjidhni pacientin",
+    "autoLoaded": "✓ {count} shërbim i doktorit u ngarkua automatikisht",
+    "services": "Shërbimet",
+    "addRow": "Shto rresht",
+    "serviceTable": {
+      "service": "Shërbimi",
+      "qty": "Sasia",
+      "price": "Çmimi ({currency})",
+      "subtotal": "Nëntotali"
+    },
+    "servicePlaceholder": "Emri i shërbimit",
+    "withTvsh": "Me TVSH (20%)",
+    "cancel": "Anulo",
+    "submit": "Gjenero Faturën"
+  },
+  "paymentDialog": {
+    "title": "Regjistro Pagesë",
+    "description": "Fatura: {id} — Borxhi: {amount}",
+    "amount": "Shuma",
+    "method": "Metoda e Pagesës",
+    "notes": "Shënime",
+    "notesPlaceholder": "Shënime shtesë...",
+    "cancel": "Anulo",
+    "submit": "Regjistro Pagesën"
+  },
+  "paymentMethod": {
+    "cash": "Kesh",
+    "karte": "Kartë Bankare",
+    "transfer": "Transfer Bankar",
+    "cashShort": "Kesh",
+    "karteShort": "Kartë",
+    "transferShort": "Transfer"
+  },
+  "detailDialog": {
+    "title": "Detajet e Faturës {id}",
+    "patient": "Pacienti",
+    "date": "Data",
+    "treatments": "Trajtimet:",
+    "total": "Total",
+    "paid": "Paguar",
+    "debt": "Borxh",
+    "paymentHistory": "Historiku i Pagesave:",
+    "close": "Mbyll",
+    "print": "Printo"
+  }
+}

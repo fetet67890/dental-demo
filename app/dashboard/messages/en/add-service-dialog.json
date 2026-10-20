@@ -1,0 +1,16 @@
+{
+  "title": "Add New Service",
+  "serviceName": "Service Name *",
+  "price": "Price",
+  "duration": "Duration (min)",
+  "category": "Category",
+  "categoryPlaceholder": "e.g. Orthodontics",
+  "description": "Description",
+  "descriptionPlaceholder": "Optional",
+  "cancel": "Cancel",
+  "adding": "Adding...",
+  "addService": "Add Service",
+  "errors": {
+    "nameRequired": "Service name is required"
+  }
+}

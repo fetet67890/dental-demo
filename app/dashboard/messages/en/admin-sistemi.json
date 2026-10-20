@@ -1,0 +1,10 @@
+{
+  "title": "System",
+  "sections": {
+    "auditimet": { "label": "Audit Log", "subtitle": "History of all actions in the system" },
+    "kursi": { "label": "EUR/LEK Rate", "subtitle": "EUR / LEK — data from the European Central Bank" },
+    "aparenca": { "label": "Appearance", "subtitle": "Customize the clinic's logo and icon" },
+    "automation": { "label": "Automation", "subtitle": "Health and history of scheduled jobs" },
+    "demo": { "label": "Demo", "subtitle": "Reset the clinic or generate sample data" }
+  }
+}

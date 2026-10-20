@@ -1,0 +1,30 @@
+{
+  "topbar": {
+    "title": "Paneli i Recepsionit",
+    "subtitle": "Mirë se vini! Këtu mund të menaxhoni takimet dhe pacientët."
+  },
+  "stats": {
+    "totalPatients": "Pacientë Gjithsej",
+    "todayAppointments": "Takime Sot",
+    "waiting": "Në Pritje",
+    "todayCash": "Arka Sot"
+  },
+  "waitingCard": {
+    "title": "Pacientët në Pritje",
+    "count": "{count} pacientë",
+    "start": "Fillo",
+    "empty": "Nuk ka pacientë në pritje"
+  },
+  "upcomingCard": {
+    "title": "Takimet e Planifikuara",
+    "viewAll": "Shiko të gjitha",
+    "checkIn": "Check-in",
+    "empty": "Nuk ka takime të planifikuara për sot"
+  },
+  "quickActions": {
+    "patients": { "title": "Pacientët", "subtitle": "Menaxho pacientët" },
+    "appointments": { "title": "Takimet", "subtitle": "Shto / Modifiko" },
+    "calendar": { "title": "Kalendari", "subtitle": "Pamja e plotë" },
+    "cashRegister": { "title": "Arka", "subtitle": "Transaksionet" }
+  }
+}

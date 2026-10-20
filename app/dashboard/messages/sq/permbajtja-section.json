@@ -1,0 +1,58 @@
+{
+  "intro": "Redakto çdo tekst statik të faqes publike (Dental Web) — menyja, footer-i dhe faqet e tjera ndërsa migrohen. Çdo gjuhë shfaqet si një kolonë e veçantë; \"Përkthe me AI\" krijon një sugjerim që mund ta redaktoni para ruajtjes.",
+  "loading": "Duke ngarkuar...",
+  "loadError": "Gabim gjatë ngarkimit të përmbajtjes",
+  "saveError": "Gabim gjatë ruajtjes",
+  "translateError": "Gabim gjatë përkthimit me AI",
+  "translateButton": "Përkthe me AI",
+  "cancel": "Anulo",
+  "languages": {
+    "title": "Gjuhët e Faqes",
+    "default": "Parazgjedhur",
+    "codeLabel": "Kodi (p.sh. it)",
+    "nameLabel": "Emri i gjuhës",
+    "addButton": "Shto Gjuhë",
+    "added": "Gjuha u shtua me sukses",
+    "addError": "Gabim gjatë shtimit të gjuhës",
+    "removeButton": "Hiq",
+    "removed": "Gjuha u hoq",
+    "removeError": "Gabim gjatë heqjes së gjuhës",
+    "removeConfirmTitle": "Hiq këtë gjuhë?",
+    "removeConfirmBody": "Të gjitha përkthimet në \"{label}\" do të fshihen përgjithmonë. Faqja publike do të vazhdojë të funksionojë normalisht në gjuhët e tjera.",
+    "removeConfirmButton": "Po, Hiqe",
+    "setDefaultButton": "Vendose si parazgjedhur",
+    "defaultSet": "Gjuha e parazgjedhur u përditësua",
+    "defaultSetError": "Gabim gjatë përditësimit të gjuhës së parazgjedhur",
+    "setDefaultConfirmTitle": "Ta vendos si gjuhën e parazgjedhur?",
+    "setDefaultConfirmBody": "\"{label}\" do të bëhet gjuha e parazgjedhur e faqes — ajo që shohin së pari vizitorët e rinj dhe gjuha burim nga e cila \"Përkthe me AI\" përkthen. Teksti ekzistues nuk ndryshon.",
+    "setDefaultConfirmButton": "Po, Vendose si Parazgjedhur"
+  },
+  "search": {
+    "placeholder": "Kërko përmbajtje...",
+    "noResults": "Asnjë përmbajtje nuk përputhet me \"{query}\"",
+    "matchCount": "{count} nga {total}"
+  },
+  "translateAll": {
+    "button": "Përkthe Gjithçka",
+    "confirmTitle": "Të përkthej këtë seksion me AI?",
+    "confirmBody": "Përkthen çdo fushë bosh në \"{group}\" nga gjuha e parazgjedhur në gjuhët e tjera dhe e ruan menjëherë. Përkthimet ekzistuese nuk mbishkruhen kurrë.",
+    "confirmButton": "Po, Përkthe Gjithçka",
+    "success": "U përkthyen {count} tekste",
+    "none": "Asgjë për të përkthyer — çdo fushë ka tashmë një përkthim",
+    "partial": "U përkthyen {translated}, dështuan {failed}"
+  },
+  "groups": {
+    "nav": "Menyja (e përbashkët)",
+    "header": "Header-i",
+    "footer": "Footer-i",
+    "home": "Kryefaqja",
+    "about": "Rreth Nesh",
+    "services": "Shërbimet",
+    "team": "Ekipi",
+    "blog": "Blogu",
+    "booking": "Rezervimi"
+  },
+  "expandAll": "Hapi të Gjitha",
+  "collapseAll": "Mbylli të Gjitha",
+  "completion": "{filled}/{total}"
+}

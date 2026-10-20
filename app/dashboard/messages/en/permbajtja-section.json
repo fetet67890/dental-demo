@@ -1,0 +1,58 @@
+{
+  "intro": "Edit every piece of static text on the public site (Dental Web) — the nav, footer, and other pages as they get migrated. Each language shows as its own column; \"Translate with AI\" drafts a suggestion you can edit before saving.",
+  "loading": "Loading...",
+  "loadError": "Error loading content",
+  "saveError": "Error saving",
+  "translateError": "Error translating with AI",
+  "translateButton": "Translate with AI",
+  "cancel": "Cancel",
+  "languages": {
+    "title": "Site Languages",
+    "default": "Default",
+    "codeLabel": "Code (e.g. it)",
+    "nameLabel": "Language name",
+    "addButton": "Add Language",
+    "added": "Language added successfully",
+    "addError": "Error adding language",
+    "removeButton": "Remove",
+    "removed": "Language removed",
+    "removeError": "Error removing language",
+    "removeConfirmTitle": "Remove this language?",
+    "removeConfirmBody": "Every translation in \"{label}\" will be permanently deleted. The public site will keep working normally in the other languages.",
+    "removeConfirmButton": "Yes, Remove",
+    "setDefaultButton": "Set as default",
+    "defaultSet": "Default language updated",
+    "defaultSetError": "Error updating default language",
+    "setDefaultConfirmTitle": "Set as the default language?",
+    "setDefaultConfirmBody": "\"{label}\" will become the site's default language — what new visitors see first and the source language \"Translate with AI\" translates from. Existing text isn't changed.",
+    "setDefaultConfirmButton": "Yes, Set as Default"
+  },
+  "search": {
+    "placeholder": "Search content...",
+    "noResults": "No content matches \"{query}\"",
+    "matchCount": "{count} of {total}"
+  },
+  "translateAll": {
+    "button": "Translate All",
+    "confirmTitle": "Translate this section with AI?",
+    "confirmBody": "Translates every empty field in \"{group}\" from the default language into the other languages and saves it immediately. Existing translations are never overwritten.",
+    "confirmButton": "Yes, Translate All",
+    "success": "Translated {count} strings",
+    "none": "Nothing to translate — every field already has a translation",
+    "partial": "Translated {translated}, {failed} failed"
+  },
+  "groups": {
+    "nav": "Navigation (shared)",
+    "header": "Header",
+    "footer": "Footer",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "team": "Team",
+    "blog": "Blog",
+    "booking": "Booking"
+  },
+  "expandAll": "Expand All",
+  "collapseAll": "Collapse All",
+  "completion": "{filled}/{total}"
+}

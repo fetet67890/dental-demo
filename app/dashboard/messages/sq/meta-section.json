@@ -1,0 +1,32 @@
+{
+  "cancel": "Anulo",
+  "save": "Ruaj",
+  "emptyState": "Nuk u gjetën meta të konfiguruara",
+  "configuredCount": "{count} faqe të konfiguruara",
+  "validation": {
+    "pageKeyRequired": "Identifikuesi i faqes është i detyrueshëm"
+  },
+  "table": {
+    "page": "Faqja",
+    "title": "Titulli",
+    "description": "Përshkrimi",
+    "actions": "Veprime"
+  },
+  "dialog": {
+    "addTitle": "Shto Meta",
+    "editTitle": "Ndrysho Meta-në",
+    "description": "Titulli dhe përshkrimi që shfaqen te rezultatet e kërkimit (Google) dhe kur ndahet një link i faqes.",
+    "pageKeyLabel": "Identifikuesi i Faqes",
+    "pageKeyPlaceholder": "p.sh. home, about, services",
+    "defaultHint": "\"default\" përdoret si rezervë për faqet pa meta të veçantë.",
+    "titleLabel": "Titulli",
+    "titlePlaceholder": "p.sh. Klinika Dentare X — Kujdes Dentar Profesional",
+    "descriptionLabel": "Përshkrimi",
+    "descriptionPlaceholder": "Përshkrim i shkurtër (150-160 karaktere rekomandohet)"
+  },
+  "deleteDialog": {
+    "title": "Fshi Meta-në",
+    "description": "Jeni të sigurt që dëshironi të fshini meta-në për \"{pageKey}\"? Kjo faqe do të përdorë meta-në \"default\" si rezervë.",
+    "confirm": "Fshi"
+  }
+}

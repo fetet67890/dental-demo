@@ -1,0 +1,30 @@
+{
+  "title": "Inbox",
+  "refresh": "Rifresko",
+  "unread": "{count} të palexuara",
+  "sendTest": "Dërgo Email Testues",
+  "testError": "Dërgimi dështoi",
+  "loadError": "Gabim gjatë ngarkimit të email-eve",
+  "openError": "Gabim gjatë hapjes së email-it",
+  "replyPlaceholder": "Shkruani përgjigjen tuaj...",
+  "reply": "Përgjigju",
+  "replySent": "Përgjigja u dërgua",
+  "replyError": "Dërgimi i përgjigjes dështoi",
+  "openInWebmail": "Hap në Webmail",
+  "noSubject": "(pa subjekt)",
+  "emptyBody": "(pa përmbajtje)",
+  "period": {
+    "24h": "24 orët e fundit",
+    "3d": "3 ditët e fundit",
+    "7d": "7 ditët e fundit",
+    "30d": "30 ditët e fundit"
+  },
+  "noMailbox": {
+    "title": "Inbox-i nuk është aktivizuar ende",
+    "description": "Shkoni te Konfigurimi → Integrimet → Email (SMTP) për të vendosur IMAP Host-in dhe për ta aktivizuar Inbox-in."
+  },
+  "empty": {
+    "title": "Asnjë email",
+    "description": "Nuk ka email të reja në periudhën e zgjedhur."
+  }
+}

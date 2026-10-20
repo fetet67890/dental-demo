@@ -1,0 +1,48 @@
+{
+  "title": "Preventive / Documents",
+  "subtitle": "View and upload preventive clinic documents",
+  "cancel": "Cancel",
+  "upload": "Upload",
+  "uploading": "Uploading...",
+  "loading": "Loading...",
+  "emptyState": "No documents found",
+  "searchPlaceholder": "Search document...",
+  "view": "View",
+  "download": "Download",
+  "stats": {
+    "total": "Total",
+    "preventive": "Preventive",
+    "personal": "Personal"
+  },
+  "tabs": {
+    "all": "All",
+    "preventive": "Preventive",
+    "personal": "Personal"
+  },
+  "badges": {
+    "preventive": "Preventive",
+    "personal": "Personal"
+  },
+  "uploadDialog": {
+    "title": "Upload Preventive Document",
+    "description": "Upload routine and preventive clinic documents",
+    "clickToChoose": "Click to choose a file",
+    "fileTypes": "PDF, JPEG, PNG, WEBP — max. 50 MB",
+    "nameLabel": "Document Name",
+    "namePlaceholder": "e.g. Routine Checkup March 2026",
+    "descriptionLabel": "Description (optional)",
+    "descriptionPlaceholder": "Document description...",
+    "preventiveNotice": "This document will be uploaded as <strong>Preventive</strong> — accessible to everyone without a password."
+  },
+  "passwordDialog": {
+    "title": "Protected Document",
+    "description": "The document \"{name}\" is password-protected. Contact the administrator if you don't know it.",
+    "placeholder": "Password...",
+    "verifying": "Verifying...",
+    "openDocument": "Open Document"
+  },
+  "errors": {
+    "fileRequired": "Choose a file to upload",
+    "nameRequired": "Document name is required"
+  }
+}

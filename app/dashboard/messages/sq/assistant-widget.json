@@ -1,0 +1,66 @@
+{
+  "suggestions": {
+    "activePatients": "Sa pacientë aktivë kemi?",
+    "searchPatient": "Kërko pacientin Ana",
+    "appointmentsToday": "Sa termine ka sot?",
+    "addPatient": "Shto një pacient të ri"
+  },
+  "entityLabel": {
+    "patient": "pacientin",
+    "appointment": "terminin",
+    "treatment": "trajtimin",
+    "prescription": "recetën",
+    "invoice": "faturën",
+    "service": "shërbimin",
+    "room": "dhomën/karrigen",
+    "clinic": "klinikën",
+    "inventoryItem": "artikullin e inventarit",
+    "installmentPlan": "planin e këstesh",
+    "patientService": "shërbimin e pacientit",
+    "treatmentFollowup": "vizitën e kontrollit",
+    "followupTemplate": "shabllonin e kontrollit",
+    "orthoStageTemplate": "shabllonin e fazës ortodontike",
+    "faqEntry": "pyetjen nga FAQ",
+    "clinicDocument": "dokumentin e klinikës",
+    "patientDocument": "dokumentin e pacientit",
+    "implantPlan": "planin e implantit",
+    "cosmeticPlan": "planin kozmetik",
+    "orthoProgression": "fazën e progresit ortodontik",
+    "periodontalRecord": "matjen periodontale",
+    "testimonial": "dëshminë e klientit",
+    "blogPost": "artikullin e blogut",
+    "galleryImage": "foton nga galeria"
+  },
+  "closeAssistant": "Mbyll Asistentin AI",
+  "openAssistant": "Hap Asistentin AI",
+  "header": {
+    "title": "Asistenti AI",
+    "freeUsage": "Falas — {requestsToday}{hasLimit, select, yes {/{dailyLimit}} other {}} kërkesa sot",
+    "premiumUsage": "Premium — ${spent}{hasCap, select, yes {/${cap}} other {}} këtë muaj",
+    "internalAssistant": "Ndihmës i brendshëm"
+  },
+  "close": "Mbyll",
+  "notConfigured": "Nuk është konfiguruar ende.",
+  "integrations": "Integrimet",
+  "tryOneOfThese": "Provoni një nga këto, ose shkruani më poshtë:",
+  "deletePrefix": "Fshi",
+  "deleted": "U fshi",
+  "thinking": "Duke menduar...",
+  "placeholder": "Shkruani mesazhin...",
+  "placeholderUnavailable": "Asistenti nuk është konfiguruar...",
+  "send": "Dërgo",
+  "confirmDelete": {
+    "title": "Fshi {entity}?",
+    "prefix": "Jeni të sigurt që dëshironi të fshini",
+    "suffix": "Ky veprim është i pakthyeshëm."
+  },
+  "cancel": "Anulo",
+  "continue": "Vazhdo",
+  "finalConfirm": {
+    "title": "Konfirmimi Final",
+    "intro": "Kjo është mundësia e fundit për të anuluar.",
+    "outro": "do të fshihet përgjithmonë dhe nuk mund të rikthehet."
+  },
+  "deleting": "Duke fshirë...",
+  "deletePermanently": "Fshi Përgjithmonë"
+}

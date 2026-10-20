@@ -1,0 +1,61 @@
+{
+  "idLabel": "ID",
+  "actions": {
+    "edit": "Edit",
+    "print": "Print",
+    "uploadDocument": "Upload Document"
+  },
+  "stats": {
+    "appointments": "Appointments",
+    "treatments": "Treatments",
+    "paid": "Paid"
+  },
+  "tabs": {
+    "info": "Info",
+    "chart": "Dental Chart",
+    "history": "History",
+    "treatments": "Treatments",
+    "payments": "Payments",
+    "documents": "Documents",
+    "packages": "Packages"
+  },
+  "info": {
+    "contactInfo": "Contact Information",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "personalDetails": "Personal Details",
+    "dateOfBirth": "Date of Birth",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "bloodType": "Blood Type",
+    "referralSource": "How They Found Us",
+    "notAvailable": "N/A",
+    "allergies": "Allergies"
+  },
+  "history": {
+    "medicalHistory": "Medical History",
+    "noMedicalHistory": "No medical history recorded",
+    "upcomingAppointments": "Upcoming Appointments",
+    "noUpcomingAppointments": "No upcoming appointments"
+  },
+  "treatmentsTab": {
+    "heading": "Treatments Performed",
+    "areaLabel": "Area: {area}",
+    "noTreatments": "No treatments recorded",
+    "soapS": "S:",
+    "soapO": "O:",
+    "soapA": "A:",
+    "soapP": "P:"
+  },
+  "paymentsTab": {
+    "totalPaid": "Total Paid",
+    "pending": "Pending",
+    "invoices": "Invoices",
+    "noInvoices": "No invoices recorded"
+  },
+  "documentsTab": {
+    "heading": "Patient Documents"
+  }
+}

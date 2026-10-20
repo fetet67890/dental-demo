@@ -1,0 +1,48 @@
+{
+  "title": "Preventive / Dokumenta",
+  "subtitle": "Shikoni dhe ngarkoni dokumentat e klinikës",
+  "cancel": "Anulo",
+  "upload": "Ngarko",
+  "uploading": "Duke ngarkuar...",
+  "loading": "Duke ngarkuar...",
+  "emptyState": "Nuk u gjetën dokumente",
+  "searchPlaceholder": "Kërko dokument...",
+  "view": "Shiko",
+  "download": "Shkarko",
+  "stats": {
+    "total": "Gjithsej",
+    "preventive": "Preventive",
+    "personal": "Personale"
+  },
+  "tabs": {
+    "all": "Të gjitha",
+    "preventive": "Preventive",
+    "personal": "Personale"
+  },
+  "badges": {
+    "preventive": "Preventiv",
+    "personal": "Personal"
+  },
+  "uploadDialog": {
+    "title": "Ngarko Dokument të Ri",
+    "description": "Ngarkoni dokumente rutinë dhe preventive të klinikës",
+    "clickToChoose": "Klikoni për të zgjedhur skedarin",
+    "fileTypes": "PDF, JPEG, PNG, WEBP — maks. 50 MB",
+    "nameLabel": "Emri i Dokumentit",
+    "namePlaceholder": "p.sh. Kontroll Rutinë Mars 2026",
+    "descriptionLabel": "Përshkrimi (opsional)",
+    "descriptionPlaceholder": "Përshkrimi i dokumentit...",
+    "preventiveNotice": "Ky dokument do të ngarkohet si <strong>Preventiv</strong> — i aksesueshëm nga të gjithë pa fjalëkalim."
+  },
+  "passwordDialog": {
+    "title": "Dokument i Mbrojtur",
+    "description": "Dokumenti \"{name}\" është i mbrojtur me fjalëkalim.",
+    "placeholder": "Fjalëkalimi...",
+    "verifying": "Duke verifikuar...",
+    "openDocument": "Hap Dokumentin"
+  },
+  "errors": {
+    "fileRequired": "Zgjidhni një skedar për të ngarkuar",
+    "nameRequired": "Emri i dokumentit është i detyrueshëm"
+  }
+}

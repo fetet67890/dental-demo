@@ -1,0 +1,24 @@
+{
+  "topbar": {
+    "title": "Patients",
+    "subtitle": "Manage and register new patients"
+  },
+  "searchPlaceholder": "Search patients...",
+  "count": "{count} patients",
+  "register": "Register Patient",
+  "table": {
+    "patient": "Patient",
+    "contact": "Contact",
+    "doctor": "Doctor",
+    "registered": "Registered",
+    "actions": "Actions"
+  },
+  "gender": {
+    "male": "Male",
+    "female": "Female"
+  },
+  "view": "View",
+  "memory": "Memory",
+  "empty": "No patients found",
+  "mobileSummary": "Doctor: {doctor} · Registered: {date}"
+}

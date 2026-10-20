@@ -1,0 +1,25 @@
+{
+  "dentalChart": "Dental Chart",
+  "clickToothHint": "Click a tooth to set its condition",
+  "selectTeethHint": "Select teeth for treatment (you can select multiple)",
+  "upperJaw": "UPPER JAW",
+  "lowerJaw": "LOWER JAW",
+  "right": "RIGHT",
+  "left": "LEFT",
+  "normal": "Normal",
+  "selected": "Selected",
+  "planned": "Planned",
+  "treated": "Treated",
+  "toothNumber": "Tooth #{tooth}",
+  "selectedToothSingle": "Selected Tooth: {tooth}",
+  "selectedTeethMultiple": "Selected Teeth: {teeth}",
+  "conditions": {
+    "shendoshe": "Healthy",
+    "mungon": "Missing",
+    "mbushje": "Filling",
+    "kurore": "Crown",
+    "ure": "Bridge",
+    "implant": "Implant",
+    "kanal_rrenjor": "Root Canal"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "demo": {
+    "badge": "Demo",
+    "tooltip": "Të dhëna shembull/fiktive, vetëm për testim — ruhen në këtë shfletues, jo në një server real."
+  },
+  "searchPlaceholder": "Kërko pacientë, takime...",
+  "search": "Kërko",
+  "openMenu": "Hap menunë",
+  "toggleSidebar": "Ndrysho menunë",
+  "changeTheme": "Ndrysho temën",
+  "language": "Gjuha",
+  "quickActions": {
+    "label": "Veprime të shpejta",
+    "addPatient": "Shto Pacient",
+    "addAppointment": "Shto Takim",
+    "addStaff": "Shto Staf",
+    "addService": "Shto Shërbim",
+    "uploadDocument": "Ngarko Dokument",
+    "addTreatment": "Shto Trajtim",
+    "addPrescription": "Shto Recetë"
+  },
+  "resultKind": {
+    "page": "Faqe",
+    "patient": "Pacient",
+    "appointment": "Takim",
+    "treatment": "Trajtim",
+    "prescription": "Recetë",
+    "invoice": "Faturë",
+    "staffMember": "Staf"
+  },
+  "exchangeRate": {
+    "title": "Kursi EUR / LEK",
+    "loading": "Duke ngarkuar...",
+    "viewFull": "Shiko faqen e plotë",
+    "cache": "cache",
+    "fallback": "rezervë"
+  },
+  "attendance": {
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "done": "U regjistrua",
+    "checkInTitle": "Bëj check-in",
+    "checkOutTitle": "Bëj check-out",
+    "doneTitle": "Prezenca e sotme u përfundua"
+  },
+  "notifications": {
+    "label": "Njoftimet",
+    "empty": "Nuk ka njoftime"
+  }
+}

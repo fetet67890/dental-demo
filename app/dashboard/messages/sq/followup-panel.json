@@ -1,0 +1,24 @@
+{
+  "title": "Kontrollet Pas-operative",
+  "tabs": {
+    "pending": "Në Pritje ({count})",
+    "overdue": "Vonuar ({count})",
+    "completed": "Kryer ({count})",
+    "all": "Të Gjitha ({count})"
+  },
+  "loading": "Duke u ngarkuar...",
+  "empty": "Nuk ka kontrolle në këtë kategori.",
+  "due": "Afati",
+  "actions": "Veprime",
+  "markCompleted": "Shëno si Kryer",
+  "editDateNotes": "Ndrysho Datën / Shënime",
+  "markMissed": "Shëno si Humbur",
+  "cancelFollowup": "Anulo",
+  "delete": "Fshi",
+  "editDialogTitle": "Ndrysho Kontrollin",
+  "followupDate": "Data e Kontrollit",
+  "notes": "Shënime",
+  "cancel": "Anulo",
+  "saving": "Duke ruajtur...",
+  "save": "Ruaj"
+}

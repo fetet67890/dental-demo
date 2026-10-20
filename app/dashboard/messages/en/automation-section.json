@@ -1,0 +1,14 @@
+{
+  "title": "Automation",
+  "subtitle": "Every scheduled job's most recent run, and its history.",
+  "refresh": "Refresh",
+  "loading": "Loading…",
+  "empty": "No scheduled jobs have run yet.",
+  "success": "Success",
+  "failure": "Failed",
+  "lastRun": "Last run",
+  "duration": "Duration",
+  "viewHistory": "View history",
+  "hideHistory": "Hide history",
+  "noHistory": "No runs recorded yet."
+}

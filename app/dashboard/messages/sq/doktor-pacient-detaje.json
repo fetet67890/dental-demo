@@ -1,0 +1,62 @@
+{
+  "notFound": {
+    "title": "Pacienti nuk u gjet",
+    "subtitle": "ID-ja e kërkuar nuk ekziston",
+    "backToList": "Kthehu te lista"
+  },
+  "header": {
+    "back": "Kthehu",
+    "print": "Printo",
+    "prescription": "Recetë",
+    "addTreatment": "Shto Trajtim"
+  },
+  "status": { "active": "Aktiv", "inactive": "Joaktiv" },
+  "gender": { "male": "Mashkull", "female": "Femër" },
+  "allergiesLabel": "Alergji:",
+  "statChips": { "appointments": "Takime", "treatments": "Trajtime", "invoices": "Fatura" },
+  "tabs": {
+    "overview": "Përmbledhje",
+    "chart": "Harta Dentare",
+    "treatments": "Trajtimet",
+    "payments": "Pagesat",
+    "documents": "Dokumentet"
+  },
+  "chartIntro": {
+    "title": "Harta Dentare",
+    "description": "Shënoni gjendjen e çdo dhëmbi. Ndryshoni mes pamjes 2D dhe modelit 3D interaktiv më poshtë."
+  },
+  "info": {
+    "contactHeading": "Kontakti",
+    "phone": "Telefoni",
+    "email": "Email",
+    "address": "Adresa",
+    "personalHeading": "Personale",
+    "dateOfBirth": "Datëlindja",
+    "gender": "Gjinia",
+    "bloodType": "Grupi i Gjakut",
+    "clinicalNotesHeading": "Shënime Klinike",
+    "clinicalNotesPlaceholder": "Shkruani shënimet tuaja klinike për këtë pacient...",
+    "saveNote": "Ruaj Shënimin"
+  },
+  "history": {
+    "medicalHistoryHeading": "Historiku Mjekësor",
+    "noMedicalHistory": "Nuk ka histori mjekësore",
+    "upcomingHeading": "Takimet e Ardhshme",
+    "visitFallback": "Vizitë",
+    "noUpcoming": "Nuk ka takime të ardhshme"
+  },
+  "treatmentsTab": {
+    "heading": "Trajtimet e Kryera",
+    "empty": "Nuk ka trajtime të regjistruara"
+  },
+  "payments": {
+    "paid": "Paguar",
+    "pending": "Në Pritje",
+    "invoicesHeading": "Faturat",
+    "empty": "Nuk ka fatura të regjistruara"
+  },
+  "documents": {
+    "heading": "Dokumentet",
+    "upload": "Ngarko"
+  }
+}

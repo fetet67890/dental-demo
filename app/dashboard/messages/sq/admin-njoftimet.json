@@ -1,0 +1,26 @@
+{
+  "topbar": {
+    "title": "Njoftimet",
+    "subtitle": "Dërgoni njoftime manuale me email"
+  },
+  "newNotification": {
+    "heading": "Njoftim i Ri",
+    "description": "Dërgoni një email ad-hoc te një pacient ose kontakt",
+    "recipientLabel": "Email-i i Marrësit",
+    "recipientPlaceholder": "pacient@shembull.com",
+    "messageLabel": "Mesazhi",
+    "messagePlaceholder": "Shkruani mesazhin këtu...",
+    "send": "Dërgo Njoftimin"
+  },
+  "history": {
+    "heading": "Historiku i Njoftimeve",
+    "empty": "Asnjë njoftim i dërguar ende.",
+    "table": {
+      "date": "Data",
+      "type": "Lloji",
+      "recipient": "Marrësi",
+      "message": "Mesazhi",
+      "status": "Statusi"
+    }
+  }
+}

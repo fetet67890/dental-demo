@@ -1,0 +1,76 @@
+{
+  "topbar": {
+    "title": "Inventari",
+    "subtitle": "Menaxhoni stokun dhe pajisjet e klinikës"
+  },
+  "lowStockBanner": {
+    "singular": "artikull ka",
+    "plural": "artikuj kanë",
+    "suffix": "stok të ulët"
+  },
+  "expiringBanner": {
+    "singular": "artikull po skadon ose ka skaduar",
+    "plural": "artikuj po skadojnë ose kanë skaduar",
+    "suffix": "— kontrolloni datat e skadencës"
+  },
+  "reorders": {
+    "title": "Kërkesat për Rimbushje",
+    "requestedQuantity": "Sasia e kërkuar",
+    "statusPending": "Në pritje",
+    "statusOrdered": "Porositur",
+    "markOrdered": "Shëno si Porositur",
+    "accepted": "U Pranua",
+    "cancel": "Anulo"
+  },
+  "dialog": {
+    "editTitle": "Ndrysho Artikullin",
+    "addTitle": "Shto Artikull të Ri",
+    "editDescription": "Ndryshoni detajet e artikullit",
+    "addDescription": "Plotësoni të dhënat e artikullit të ri",
+    "nameLabel": "Emri i Artikullit",
+    "namePlaceholder": "p.sh. Doreza Latex",
+    "categoryLabel": "Kategoria",
+    "categoryPlaceholder": "p.sh. Materiale, Pajisje",
+    "quantityLabel": "Sasia",
+    "unitLabel": "Njësia",
+    "unitPlaceholder": "copë",
+    "thresholdLabel": "Kufiri i Stokut",
+    "expiryDateLabel": "Data e Skadencës",
+    "lotNumberLabel": "Numri i Lotit",
+    "lotNumberPlaceholder": "p.sh. LOT-2026-04",
+    "cancel": "Anulo",
+    "saveChanges": "Ruaj Ndryshimet",
+    "addItem": "Shto Artikull"
+  },
+  "search": {
+    "placeholder": "Kërko artikuj..."
+  },
+  "addButton": "Shto Artikull",
+  "table": {
+    "item": "Artikulli",
+    "category": "Kategoria",
+    "quantity": "Sasia",
+    "status": "Statusi",
+    "actions": "Veprime",
+    "expiresOn": "Skadon më {date}",
+    "lot": "Loti #{number}"
+  },
+  "status": {
+    "lowStock": "Stok i Ulët",
+    "lowStockShort": "Stok i Ulët",
+    "ok": "Në Rregull",
+    "okShort": "OK",
+    "expired": "I Skaduar",
+    "expiringSoon": "Skadon Së Shpejti"
+  },
+  "empty": "Nuk u gjetën artikuj",
+  "deleteDialog": {
+    "title": "Fshi Artikullin",
+    "description": "Jeni të sigurt që dëshironi të fshini \"{name}\"? Ky veprim nuk mund të kthehet mbrapsht.",
+    "cancel": "Anulo",
+    "confirm": "Fshi"
+  },
+  "errors": {
+    "nameRequired": "Emri është i detyrueshëm"
+  }
+}

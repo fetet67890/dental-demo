@@ -1,0 +1,13 @@
+{
+  "visitWebsite": "Vizito Faqen",
+  "tabs": {
+    "postimet": { "label": "Postimet", "title": "Postimet", "subtitle": "Menaxhoni artikujt e blogut të faqes publike" },
+    "deshmite": { "label": "Dëshmitë", "title": "Dëshmitë", "subtitle": "Menaxhoni recensat/dëshmitë e pacientëve" },
+    "galeria": { "label": "Galeria", "title": "Galeria", "subtitle": "Menaxhoni fotot e galerisë së faqes publike" },
+    "sajti": { "label": "Faqja & Kontakti", "title": "Faqja & Kontakti", "subtitle": "Të dhënat e kontaktit dhe banderola e njoftimit" },
+    "meta": { "label": "SEO", "title": "SEO", "subtitle": "Titujt dhe përshkrimet për motorët e kërkimit" },
+    "kerkesa": { "label": "Kërkesat", "title": "Kërkesa nga Faqja", "subtitle": "Kërkesa për rezervim/kontakt të dërguara nga faqja publike" },
+    "permbajtja": { "label": "Përmbajtja", "title": "Përmbajtja e Faqes", "subtitle": "Redakto tekstin e faqes publike dhe menaxho gjuhët/përkthimet" },
+    "pamja": { "label": "Pamja", "title": "Pamja e Faqes", "subtitle": "Paleta e ngjyrave e faqes publike" }
+  }
+}

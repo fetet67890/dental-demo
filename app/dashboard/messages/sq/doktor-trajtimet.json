@@ -1,0 +1,30 @@
+{
+  "header": {
+    "title": "Trajtimet",
+    "subtitle": "Shiko dhe menaxho trajtimet e kryera"
+  },
+  "addButton": "Shto Trajtim",
+  "stats": {
+    "totalTreatments": "Trajtime Totale",
+    "revenue": "Të Ardhurat",
+    "treatedPatients": "Pacientë të Trajtuar"
+  },
+  "filters": {
+    "searchPlaceholder": "Kërko trajtime...",
+    "typePlaceholder": "Lloji i trajtimit",
+    "allTypes": "Të gjitha llojet"
+  },
+  "empty": {
+    "title": "Nuk ka trajtime",
+    "filterHint": "Provoni filtra të tjerë",
+    "noTreatments": "Nuk keni trajtime të regjistruara"
+  },
+  "table": {
+    "date": "Data",
+    "patient": "Pacienti",
+    "type": "Lloji",
+    "treatmentArea": "Zona",
+    "description": "Përshkrimi",
+    "price": "Çmimi"
+  }
+}

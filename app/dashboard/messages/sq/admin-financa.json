@@ -1,0 +1,53 @@
+{
+  "title": "Financa",
+  "subtitle": "Përmbledhje financiare e klinikës",
+  "tabs": {
+    "overview": "Përmbledhje",
+    "invoices": "Faturat",
+    "debts": "Borxhet",
+    "commissions": "Komisionet"
+  },
+  "months": {
+    "jan": "Jan", "feb": "Shk", "mar": "Mar", "apr": "Pri",
+    "may": "Maj", "jun": "Qer", "jul": "Kor", "aug": "Gus",
+    "sep": "Sht", "oct": "Tet", "nov": "Nën", "dec": "Dhj"
+  },
+  "paymentMethods": {
+    "cash": "Cash",
+    "karte": "Kartë",
+    "transfer": "Transfer"
+  },
+  "trend": {
+    "up": "Në Rritje",
+    "down": "Në Rënie",
+    "flat": "Stabile"
+  },
+  "stats": {
+    "totalRevenue": "Të Ardhura Totale",
+    "pendingPayments": "Pagesa në Pritje",
+    "totalExpenses": "Shpenzime Totale",
+    "netBalance": "Bilanci Neto"
+  },
+  "charts": {
+    "incomeVsExpenses": "Të Ardhurat vs Shpenzimet (Mujore)",
+    "income": "Të ardhura",
+    "expenses": "Shpenzime",
+    "expenseDistribution": "Shpërndarja e Shpenzimeve",
+    "noExpenses": "Nuk ka shpenzime të regjistruara",
+    "forecastTitle": "Parashikimi i të Ardhurave",
+    "insufficientData": "Nuk ka të dhëna të mjaftueshme historike për një parashikim të besueshëm ende — nevojiten të paktën 3 muaj me fatura të paguara.",
+    "actual": "Aktuale",
+    "projected": "Parashikuar",
+    "projectedTrend": "Parashikuar (trend statistikor)"
+  },
+  "today": {
+    "title": "Transaksionet e Sotme",
+    "incoming": "Hyrje",
+    "outgoing": "Dalje",
+    "dailyBalance": "Bilanci Ditor"
+  },
+  "recent": {
+    "title": "Transaksionet e Fundit",
+    "empty": "Nuk ka transaksione të regjistruara"
+  }
+}

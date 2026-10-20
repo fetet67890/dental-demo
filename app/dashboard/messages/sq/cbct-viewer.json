@@ -1,0 +1,15 @@
+{
+  "orientation": {
+    "axial": "Aksiale",
+    "coronal": "Koronale",
+    "sagittal": "Sagitale"
+  },
+  "errors": {
+    "noSlices": "Nuk ka rrëshqitje (slices) për këtë studim CBCT",
+    "toolGroupFailed": "Nuk u krijua grupi i mjeteve",
+    "volumeLoadFailed": "Nuk u ngarkua vëllimi CBCT"
+  },
+  "loadingVolume": "Duke rindërtuar vëllimin 3D nga {count} rrëshqitje...",
+  "resetView": "Rivendos Pamjen",
+  "helpText": "Rrota: kalo mes rrëshqitjeve · Majtas: ndriçim/kontrast · Djathtas: zmadho"
+}

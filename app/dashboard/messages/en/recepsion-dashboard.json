@@ -1,0 +1,30 @@
+{
+  "topbar": {
+    "title": "Reception Dashboard",
+    "subtitle": "Welcome! Manage appointments and patients from here."
+  },
+  "stats": {
+    "totalPatients": "Total Patients",
+    "todayAppointments": "Today's Appointments",
+    "waiting": "Waiting",
+    "todayCash": "Today's Cash"
+  },
+  "waitingCard": {
+    "title": "Patients Waiting",
+    "count": "{count} patients",
+    "start": "Start",
+    "empty": "No patients waiting"
+  },
+  "upcomingCard": {
+    "title": "Scheduled Appointments",
+    "viewAll": "View all",
+    "checkIn": "Check-in",
+    "empty": "No appointments scheduled for today"
+  },
+  "quickActions": {
+    "patients": { "title": "Patients", "subtitle": "Manage patients" },
+    "appointments": { "title": "Appointments", "subtitle": "Add / Edit" },
+    "calendar": { "title": "Calendar", "subtitle": "Full view" },
+    "cashRegister": { "title": "Cash Register", "subtitle": "Transactions" }
+  }
+}

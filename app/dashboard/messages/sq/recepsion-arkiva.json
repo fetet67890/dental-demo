@@ -1,0 +1,12 @@
+{
+  "title": "Arkiva",
+  "subtitle": "Shikoni skedarët e pacientëve të kompletuar",
+  "archivedPatients": "Pacientë të arkivuar",
+  "searchPlaceholder": "Kërko në arkivë...",
+  "loadingArchive": "Duke ngarkuar arkivën...",
+  "archiveEmpty": "Arkiva është bosh",
+  "archived": "Arkivuar",
+  "archivedOn": "Arkivuar: {date}",
+  "generating": "Duke gjeneruar...",
+  "downloadPdf": "Shkarko PDF"
+}

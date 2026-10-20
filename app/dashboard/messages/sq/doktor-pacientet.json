@@ -1,0 +1,29 @@
+{
+  "header": {
+    "title": "Pacientët e Mi",
+    "subtitle": "Shiko dhe menaxho pacientët tuaj"
+  },
+  "addButton": "Regjistro Pacient",
+  "addButtonShort": "Regjistro",
+  "searchPlaceholder": "Kërko pacientë...",
+  "patientsCount": "pacientë",
+  "empty": {
+    "title": "Nuk u gjetën pacientë",
+    "searchHint": "Provoni kërkesë tjetër",
+    "noPatients": "Nuk keni pacientë të regjistruar"
+  },
+  "table": {
+    "patient": "Pacienti",
+    "contact": "Kontakti",
+    "address": "Adresa",
+    "visits": "Vizitat",
+    "actions": "Veprime"
+  },
+  "gender": {
+    "male": "Mashkull",
+    "female": "Femër"
+  },
+  "visitsCount": "{count} vizita",
+  "viewChart": "Kartelë",
+  "treatment": "Trajtim"
+}

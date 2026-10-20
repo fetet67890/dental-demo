@@ -1,0 +1,39 @@
+{
+  "categoryLabels": {
+    "general": "General",
+    "id_card": "ID",
+    "insurance_card": "Insurance",
+    "xray": "X-ray"
+  },
+  "imageSubtypeLabels": {
+    "panoramike": "Panoramic X-ray",
+    "periapikale": "Periapical X-ray",
+    "cbct": "CBCT",
+    "tjeter": "X-ray"
+  },
+  "empty": "No documents uploaded",
+  "uploadDocument": "Upload Document",
+  "documentCountOne": "{count} document",
+  "documentCountOther": "{count} documents",
+  "add": "Add",
+  "imageCountOne": "{count} image",
+  "imageCountOther": "{count} images",
+  "fileType": {
+    "dicom": "DICOM",
+    "image": "Image",
+    "pdf": "PDF"
+  },
+  "actions": {
+    "view": "View",
+    "download": "Download",
+    "delete": "Delete",
+    "close": "Close",
+    "deleteImage": "Delete Image",
+    "openPdf": "Open PDF"
+  },
+  "gallery": {
+    "reconstruction3d": "3D reconstruction · {count} slices",
+    "previousImage": "Previous image",
+    "nextImage": "Next image"
+  }
+}

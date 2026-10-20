@@ -1,0 +1,26 @@
+{
+  "title": "Kërkesa nga Faqja",
+  "subtitle": "Kërkesa për rezervim/kontakt të dërguara nga faqja publike",
+  "loading": "Duke u ngarkuar...",
+  "noInquiries": "Nuk ka kërkesa.",
+  "noSpecificDate": "Pa datë specifike",
+  "note": "Shënim: {note}",
+  "close": "Mbyll",
+  "markContacted": "Shëno si Kontaktuar",
+  "closeInquiry": "Mbyll Kërkesën",
+  "noteLabel": "Shënim (opsionale)",
+  "cancel": "Anulo",
+  "saving": "Duke ruajtur...",
+  "confirm": "Konfirmo",
+  "status": {
+    "new": "E Re",
+    "contacted": "Kontaktuar",
+    "closed": "Mbyllur"
+  },
+  "tabs": {
+    "new": "Të Reja",
+    "contacted": "Kontaktuar",
+    "closed": "Mbyllur",
+    "all": "Të Gjitha"
+  }
+}

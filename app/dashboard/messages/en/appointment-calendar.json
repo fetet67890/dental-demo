@@ -1,0 +1,33 @@
+{
+  "title": "Appointment Calendar",
+  "today": "Today",
+  "previousWeek": "Previous week",
+  "nextWeek": "Next week",
+  "legend": "Legend",
+  "dragHint": "Drag an appointment to reschedule it",
+  "newAppointment": "New Appointment",
+  "staffFilter": {
+    "all": "All Staff"
+  },
+  "filters": {
+    "all": "All",
+    "upcoming": "Upcoming",
+    "pending": "Pending",
+    "completed": "Completed",
+    "missed": "Missed"
+  },
+  "months": {
+    "jan": "January", "feb": "February", "mar": "March", "apr": "April", "may": "May", "jun": "June",
+    "jul": "July", "aug": "August", "sep": "September", "oct": "October", "nov": "November", "dec": "December"
+  },
+  "daysShort": {
+    "mon": "Mon", "tue": "Tue", "wed": "Wed", "thu": "Thu", "fri": "Fri", "sat": "Sat", "sun": "Sun"
+  },
+  "status": {
+    "planifikuar": "Scheduled",
+    "ne_pritje": "Pending",
+    "ne_trajtim": "In Treatment",
+    "perfunduar": "Completed",
+    "anuluar": "Cancelled"
+  }
+}

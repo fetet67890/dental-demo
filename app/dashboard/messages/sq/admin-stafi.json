@@ -1,0 +1,145 @@
+{
+  "title": "Stafi",
+  "subtitle": "Menaxhoni stafin dhe kredencialet e hyrjes",
+  "cancel": "Anulo",
+  "save": "Ruaj",
+  "saving": "Duke ruajtur...",
+  "uploading": "Duke ngarkuar...",
+  "loading": "Duke ngarkuar...",
+  "attendanceToday": "Prezenca Sot",
+  "noActiveStaff": "Nuk ka staf aktiv",
+  "clockedIn": "Hyri {time}",
+  "clockedOut": "Doli {time}",
+  "lowAttendanceFrequency": "Frekuencë e Ulët Prezence (30 ditët e fundit)",
+  "daysVsAverage": "{days} ditë (mesatarja: {average})",
+  "searchPlaceholder": "Kërko sipas emrit, email ose rolit...",
+  "addStaff": "Shto Staf",
+  "emptyState": "Nuk ka staf të regjistruar. Shtoni stafin e parë.",
+  "emptyStateShort": "Nuk ka staf të regjistruar.",
+  "emptyStateSearch": "Nuk u gjet staf për këtë kërkim",
+  "specAbbr": "Spec: {specialization}",
+  "roles": {
+    "admin": "Administrator",
+    "mjek": "Mjek",
+    "recepsion": "Recepsionist"
+  },
+  "stats": {
+    "total": "Staf Gjithsej",
+    "active": "Aktiv",
+    "doctors": "Mjekë",
+    "reception": "Recepsionistë"
+  },
+  "table": {
+    "member": "Anëtari",
+    "contact": "Kontakti",
+    "role": "Roli",
+    "specialization": "Specializimi",
+    "status": "Statusi",
+    "actions": "Veprimet"
+  },
+  "menu": {
+    "viewDetails": "Shiko Detajet",
+    "editDetails": "Modifiko të dhënat",
+    "changePhoto": "Ndrysho Foton",
+    "changePassword": "Ndrysho fjalëkalimin",
+    "revokeAddStaff": "Hiq leje: Shto Staf",
+    "grantAddStaff": "Jep leje: Shto Staf",
+    "deactivate": "Çaktivizo hyrjen",
+    "activate": "Aktivizo hyrjen",
+    "deleteForever": "Fshi Përgjithmonë"
+  },
+  "validation": {
+    "nameRequired": "Emri është i detyrueshëm",
+    "phoneRequired": "Telefoni është i detyrueshëm",
+    "passwordMinLength": "Fjalëkalimi duhet të ketë të paktën 6 karaktere",
+    "passwordsDontMatch": "Fjalëkalimet nuk përputhen"
+  },
+  "dialog": {
+    "addTitle": "Shto Staf të Ri",
+    "editTitle": "Modifiko: {name}",
+    "addDescription": "Plotësoni të dhënat. Stafi do të mund të hyjë menjëherë pas krijimit.",
+    "editDescription": "Përditësoni të dhënat e anëtarit të stafit.",
+    "nameLabel": "Emri i Plotë *",
+    "namePlaceholder": "Dr. Emri Mbiemri",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefoni *",
+    "roleLabel": "Roli",
+    "rolePlaceholder": "Zgjidhni rolin",
+    "roleAdmin": "Administrator (Super Admin)",
+    "specializationLabel": "Specializimi",
+    "specializationPlaceholder": "p.sh. Ortodonci, Kirurgji Orale",
+    "loginCredentials": "Kredencialet e Hyrjes",
+    "passwordLabel": "Fjalëkalimi",
+    "passwordPlaceholder": "Minimum 6 karaktere",
+    "confirmPasswordLabel": "Konfirmo Fjalëkalimin",
+    "confirmPasswordPlaceholder": "Rishkruani fjalëkalimin",
+    "accountStatusLabel": "Statusi i Llogarisë",
+    "statusActive": "Aktiv — mund të hyjë",
+    "statusInactive": "Joaktiv — hyrja e bllokuar",
+    "saveChanges": "Ruaj Ndryshimet",
+    "createAccount": "Krijo Llogarinë"
+  },
+  "deleteDialog": {
+    "title": "Fshi Llogarinë Përgjithmonë",
+    "description": "Po fshini përgjithmonë llogarinë e",
+    "warning": "Ky veprim është i pakthyeshëm. Të gjitha të dhënat e lidhura me këtë llogari do të fshihen.",
+    "alternativeHint": "Nëse dëshironi të bllokoni hyrjen pa fshirë të dhënat, përdorni opsionin",
+    "deleting": "Duke fshirë..."
+  },
+  "pwDialog": {
+    "description": "Po ndryshoni fjalëkalimin për",
+    "hint": "Pas ndryshimit, ata duhet të hyjnë me fjalëkalimin e ri.",
+    "newPasswordLabel": "Fjalëkalimi i Ri"
+  },
+  "workMode": {
+    "physical": "Fizikisht",
+    "remote": "Nga Largësia",
+    "unset": "Pa zgjedhur",
+    "updateError": "Gabim gjatë përditësimit"
+  },
+  "detailPage": {
+    "back": "Kthehu te Stafi",
+    "notFound": {
+      "title": "Anëtari nuk u gjet",
+      "subtitle": "ID-ja e kërkuar nuk ekziston"
+    },
+    "todayStatus": "Statusi Sot",
+    "sections": {
+      "details": "Të Dhënat",
+      "security": "Siguria",
+      "permissions": "Lejet",
+      "commission": "Komisioni",
+      "dangerZone": "Zona e Rrezikut"
+    },
+    "permissions": {
+      "addStaffLabel": "Leja: Shto Staf të Ri",
+      "addStaffHint": "Kur aktivizohet, ky anëtar mund të krijojë llogari të reja stafi.",
+      "accountStatusLabel": "Statusi i Llogarisë",
+      "accountStatusHint": "Kur çaktivizohet, ky anëtar nuk mund të hyjë më në sistem."
+    },
+    "dangerZoneHint": "Fshirja e llogarisë është e pakthyeshme dhe heq të gjitha të dhënat e lidhura.",
+    "saveDetails": "Ruaj të Dhënat"
+  },
+  "commission": {
+    "enableLabel": "Komisioni",
+    "enableHint": "Kur aktivizohet, ky anëtar do të përfshihet në raportin e Komisioneve (Financa).",
+    "rateTypeLabel": "Lloji i Normës",
+    "rateTypeFlat": "Normë Fikse",
+    "rateTypePerService": "Sipas Shërbimit",
+    "flatRateLabel": "Norma (%)",
+    "switchToPerService": "Kalo te Normat Sipas Shërbimit",
+    "noServices": "Nuk ka shërbime të regjistruara ende",
+    "saveRates": "Ruaj Normat"
+  },
+  "website": {
+    "sectionTitle": "Faqja Publike (Ekipi)",
+    "showLabel": "Shfaq në Faqen \"Ekipi\"",
+    "showHint": "Kur aktivizohet, ky anëtar shfaqet publikisht te faqja Ekipi e Dental Web.",
+    "bioLabel": "Përshkrimi Publik",
+    "bioPlaceholder": "Një përshkrim i shkurtër që shohin vizitorët e faqes...",
+    "saveBio": "Ruaj Përshkrimin",
+    "shown": "Anëtari tani shfaqet në faqen Ekipi",
+    "hidden": "Anëtari u hoq nga faqja Ekipi",
+    "bioSaved": "Përshkrimi u ruajt"
+  }
+}

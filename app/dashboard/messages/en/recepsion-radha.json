@@ -1,0 +1,38 @@
+{
+  "status": {
+    "duke_pritur": "Waiting",
+    "thirrur": "Called",
+    "ne_sherbim": "In Service",
+    "perfunduar": "Completed",
+    "anuluar": "Cancelled"
+  },
+  "topbar": {
+    "title": "Waiting Queue",
+    "subtitle": "Manage waiting patients and walk-in visits"
+  },
+  "summary": "{waiting} waiting · {active} in progress",
+  "addToQueue": "Add to Queue",
+  "empty": "The queue is empty today",
+  "urgent": "Urgent",
+  "call": "Call",
+  "startService": "Start Service",
+  "finish": "Finish",
+  "addDialog": {
+    "title": "Add Patient to Queue",
+    "patient": "Patient",
+    "patientPlaceholder": "Select patient",
+    "priority": "Urgent",
+    "notes": "Notes",
+    "cancel": "Cancel",
+    "submit": "Add",
+    "submitting": "Adding..."
+  },
+  "callDialog": {
+    "title": "Call Patient",
+    "doctor": "Doctor",
+    "doctorPlaceholder": "Select doctor",
+    "cancel": "Cancel",
+    "submit": "Call",
+    "submitting": "Calling..."
+  }
+}

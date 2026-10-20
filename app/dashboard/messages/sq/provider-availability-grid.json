@@ -1,0 +1,19 @@
+{
+  "title": "Disponueshmëria e Mjekëve",
+  "today": "Sot",
+  "prevDay": "Dita e kaluar",
+  "nextDay": "Dita tjetër",
+  "emptyState": "Nuk ka mjekë aktivë për të shfaqur disponueshmërinë",
+  "freeAllDay": "I lirë gjithë ditën",
+  "leastBusy": "Më i Lirë",
+  "appointmentsCount": "{count, plural, one {# takim} other {# takime}}",
+  "legend": "Legjenda",
+  "dragHint": "Tërhiqni një takim për ta zhvendosur ose ricaktuar",
+  "status": {
+    "planifikuar": "Planifikuar",
+    "ne_pritje": "Në Pritje",
+    "ne_trajtim": "Në Trajtim",
+    "perfunduar": "Përfunduar",
+    "anuluar": "Anuluar"
+  }
+}

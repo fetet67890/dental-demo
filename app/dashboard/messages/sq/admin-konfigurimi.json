@@ -1,0 +1,11 @@
+{
+  "title": "Konfigurimi",
+  "sections": {
+    "integrimet": { "label": "Integrimet", "subtitle": "Çelësat e API-së dhe kredencialet e shërbimeve të jashtme" },
+    "sherbimet": { "label": "Shërbimet", "subtitle": "Menaxhoni shërbimet dhe çmimet e klinikës" },
+    "paketat": { "label": "Paketat", "subtitle": "Paketat e shërbimeve dhe planet me abonim" },
+    "dhomat": { "label": "Dhomat", "subtitle": "Menaxhoni dhomat ose karriget e trajtimit" },
+    "klinikat": { "label": "Klinikat", "subtitle": "Menaxho klinikat e disponueshme për pacientët" },
+    "arkiva": { "label": "Arkiva", "subtitle": "Pacientët e arkivuar dhe skedarët e kompletuar" }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "loading": "Duke ngarkuar...",
+  "disabled": {
+    "title": "Veçoria Demo është e çaktivizuar",
+    "body": "Këto veprime kërkojnë që serveri të ketë ENABLE_DEMO_RESET=true. Në një vendosje reale kjo duhet të mbetet e çaktivizuar."
+  },
+  "bannerWarning": "Këto veprime prekin TË GJITHA të dhënat e klinikës dhe janë menduar për demonstrime ose testime lokale — jo për përdorim të përditshëm.",
+  "genericError": "Diçka shkoi keq, provoni sërish",
+  "cancel": "Anulo",
+  "wipe": {
+    "title": "Rivendos Klinikën në Gjendjen Fillestare",
+    "description": "Fshin përgjithmonë çdo pacient, termin, trajtim, faturë, dokument dhe artikull inventari, si dhe rikthen pamjen e panelit (ngjyrat, shkronjat, logon) te parazgjedhjet — saktësisht siç do të dukej paneli herën e parë që hapet pas kyçjes. Do të dilni automatikisht nga llogaria pas kësaj, në mënyrë që hera tjetër që hyni të shihni vërtet konfigurimin fillestar.",
+    "preserves": "Llogaria juaj RUHET — do të dilni nga sistemi, por mund të hyni sërish menjëherë me të njëjtën fjalëkalim.",
+    "button": "Fshi Gjithçka dhe Rifillo",
+    "confirmTitle": "Jeni plotësisht i sigurt?",
+    "confirmBody": "Ky veprim nuk mund të kthehet mbrapsht. Çdo pacient, termin, trajtim dhe faturë do të fshihet përgjithmonë, dhe do të dilni automatikisht nga llogaria.",
+    "confirmInputLabel": "Shkruani \"{phrase}\" për të konfirmuar",
+    "confirmButton": "Po, Fshi Gjithçka",
+    "done": "Klinika u rivendos në gjendjen fillestare"
+  },
+  "restore": {
+    "title": "Krijo të Dhëna Shembull",
+    "description": "Gjeneron menjëherë pacientë, termine, trajtime, fatura dhe artikuj inventari shembull — të lidhur me mjekët tuaj aktualë — për demonstrim ose testim.",
+    "button": "Krijo të Dhëna Shembull",
+    "confirmTitle": "Krijo të dhëna shembull?",
+    "confirmBody": "Kjo shton pacientë, termine, trajtime, fatura dhe artikuj inventari shembull mbi të dhënat ekzistuese. Nuk fshin asgjë.",
+    "confirmButton": "Po, Krijo",
+    "done": "Të dhënat shembull u krijuan me sukses",
+    "summary": "Herën e fundit: {patients} pacientë, {appointments} termine, {treatments} trajtime, {invoices} fatura, {items} artikuj inventari"
+  }
+}

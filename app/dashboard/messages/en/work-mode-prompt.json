@@ -1,0 +1,9 @@
+{
+  "title": "How are you working today?",
+  "description": "Choose your work mode for today. This can only be changed later by an administrator.",
+  "physical": "In-Person",
+  "remote": "Remote",
+  "skip": "Skip",
+  "skipping": "Skipping...",
+  "error": "Error while saving"
+}

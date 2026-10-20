@@ -1,0 +1,15 @@
+{
+  "title": "Set up your account",
+  "subtitle": "Choose a password to activate your admin account",
+  "invalidTitle": "Invite link invalid",
+  "invalidSubtitle": "This link is expired, already used, or doesn't exist. Ask whoever provisioned this clinic for a fresh one.",
+  "missingToken": "No invite token in this link",
+  "checking": "Checking your invite…",
+  "password": "Password",
+  "confirmPassword": "Confirm password",
+  "activate": "Activate account",
+  "activating": "Activating…",
+  "passwordTooShort": "Password must be at least 6 characters",
+  "passwordMismatch": "Passwords don't match",
+  "genericError": "Something went wrong"
+}

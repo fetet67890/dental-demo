@@ -1,0 +1,119 @@
+{
+  "errors": {
+    "chooseImage": "Zgjidh një imazh (PNG, JPG, SVG, WEBP)",
+    "chooseImageFavicon": "Zgjidh një imazh (PNG, ICO, SVG)",
+    "chooseImageSquare": "Zgjidh një imazh (PNG, SVG, WEBP)",
+    "chooseLogoFile": "Zgjidh një skedar logo",
+    "chooseFaviconFile": "Zgjidh një skedar favicon",
+    "chooseIconFile": "Zgjidh një skedar ikone"
+  },
+  "uploading": "Duke ngarkuar...",
+  "language": {
+    "cardTitle": "Gjuha & Monedha",
+    "title": "Gjuha",
+    "hint": "Zgjidh gjuhën e ndërfaqes për llogarinë tënde."
+  },
+  "currency": {
+    "title": "Monedha e Shfaqjes",
+    "hint": "Zgjidh monedhën në të cilën shfaqen shumat në panel. Të dhënat ruhen gjithmonë në LEK — kjo ndryshon vetëm mënyrën e shfaqjes, jo faturat apo pagesat.",
+    "options": {
+      "LEK": "Lek Shqiptar",
+      "EUR": "Euro",
+      "USD": "Dollar Amerikan",
+      "GBP": "Stërlinë Britanike"
+    }
+  },
+  "colors": {
+    "title": "Ngjyrat e Panelit",
+    "hint": "Zgjidh paletën e ngjyrave për të gjithë llogaritë e klinikës. Modaliteti i errët mbetet gjithmonë bardhë/gri/zi, pavarësisht paletës.",
+    "presets": {
+      "blue": "Blu",
+      "green": "Jeshile",
+      "purple": "Vjollcë",
+      "amber": "Qelibar",
+      "rose": "Trëndafili",
+      "slate": "Gri Neutrale"
+    },
+    "saving": "Duke ruajtur...",
+    "error": "Gabim gjatë ndryshimit të paletës",
+    "custom": {
+      "title": "Ngjyrë e Personalizuar",
+      "hint": "Zgjidh çdo ngjyrë — pjesa tjetër e paletës (nuancat e errëta, sfondet, grafikët) gjenerohet automatikisht prej saj.",
+      "use": "Përdore",
+      "update": "Përditëso",
+      "saved": "Ngjyra e personalizuar u ruajt dhe u aktivizua",
+      "errorFormat": "Ngjyra duhet të jetë në format hex (p.sh. #3B82F6)"
+    }
+  },
+  "surface": {
+    "title": "Stili i Ndërfaqes",
+    "hint": "Zgjidh mënyrën se si duken kartat, menyja anësore dhe menytë për të gjithë llogaritë e klinikës. Funksionon me çdo paletë ngjyrash më sipër.",
+    "options": {
+      "solid": "Standarde",
+      "glass": "Xham (Glass Morphism)"
+    },
+    "error": "Gabim gjatë ndryshimit të stilit"
+  },
+  "font": {
+    "title": "Shkronjat e Panelit",
+    "hint": "Zgjidh shkronjat e përdorura në të gjithë panelin për të gjithë llogaritë e klinikës. Të gjitha opsionet janë Google Fonts falas, me licencë të hapur.",
+    "presets": {
+      "default": "Poppins (Parazgjedhur)",
+      "outfit": "Outfit",
+      "inter": "Inter",
+      "jakarta": "Plus Jakarta Sans",
+      "manrope": "Manrope",
+      "grotesk": "Space Grotesk"
+    },
+    "error": "Gabim gjatë ndryshimit të shkronjave",
+    "custom": {
+      "title": "Shkronjë e Personalizuar",
+      "hint": "Ngarko shkronjën tënde (WOFF2, WOFF, TTF ose OTF) për ta përdorur në vend të presetave më sipër.",
+      "unnamed": "Shkronja e ngarkuar",
+      "remove": "Hiq shkronjën",
+      "dropzone": "Kliko ose tërhiq këtu skedarin e shkronjës (.woff2, .woff, .ttf, .otf)",
+      "submit": "Ngarko dhe Përdor",
+      "chooseFile": "Zgjidhni një skedar shkronje",
+      "errorType": "Lejohen vetëm skedarë: WOFF2, WOFF, TTF, OTF",
+      "uploaded": "Shkronja u ngarkua dhe u aktivizua me sukses",
+      "removed": "Shkronja e personalizuar u hoq",
+      "error": "Gabim gjatë ngarkimit të shkronjës"
+    }
+  },
+  "hours": {
+    "title": "Orari i Klinikës",
+    "hint": "Përcakton kur shfaqet kërkesa \"Si po punoni sot?\" te stafi — shfaqet vetëm pasi klinika të jetë hapur.",
+    "opens": "Hapet në",
+    "closes": "Mbyllet në",
+    "submit": "Ruaj Orarin",
+    "saving": "Duke ruajtur...",
+    "saved": "Orari u ruajt me sukses",
+    "error": "Gabim gjatë ruajtjes së orarit"
+  },
+  "logo": {
+    "title": "Logo e Sidebarit",
+    "hint": "Shfaqet në krye të menysë anësore. Rekomandohet PNG/SVG horizontal, minimum 320×96 px.",
+    "dropzone": "Kliko ose tërhiq një imazh PNG / SVG / WEBP",
+    "submit": "Ndrysho Logon"
+  },
+  "favicon": {
+    "title": "Ikona e Browser-it (Favicon)",
+    "hint": "Shfaqet si ikonë e vogël te tabi i browser-it. Rekomandohet PNG/ICO katrore, 32×32 ose 64×64 px.",
+    "previewCaption": "Shfaqet si ikona e tabi",
+    "dropzone": "Kliko ose tërhiq PNG / ICO / SVG (katrore)",
+    "submit": "Ndrysho Favicon-in"
+  },
+  "sidebarIcon": {
+    "title": "Ikona e Menysë së Mbyllur",
+    "hint": "Shfaqet në vend të logos kur menyja anësore është e mbyllur (e ngushtuar). Rekomandohet PNG/SVG katrore, minimum 64×64 px.",
+    "dropzone": "Kliko ose tërhiq një imazh PNG / SVG / WEBP (katrore)",
+    "submit": "Ndrysho Ikonën"
+  },
+  "chatbotIcon": {
+    "title": "Ikona e Asistentit AI",
+    "hint": "Shfaqet në butonin e lëvizshëm të chatbot-it (poshtë djathtas). Rekomandohet PNG/SVG katrore, minimum 64×64 px.",
+    "previewCaption": "Shfaqet në vend të ikonës së parazgjedhur",
+    "dropzone": "Kliko ose tërhiq një imazh PNG / SVG / WEBP (katrore)",
+    "submit": "Ndrysho Ikonën"
+  }
+}

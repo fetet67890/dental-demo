@@ -1,0 +1,30 @@
+{
+  "title": "Inbox",
+  "refresh": "Refresh",
+  "unread": "{count} unread",
+  "sendTest": "Send Test Email",
+  "testError": "Sending failed",
+  "loadError": "Error loading emails",
+  "openError": "Error opening email",
+  "replyPlaceholder": "Write your reply...",
+  "reply": "Reply",
+  "replySent": "Reply sent",
+  "replyError": "Failed to send reply",
+  "openInWebmail": "Open in Webmail",
+  "noSubject": "(no subject)",
+  "emptyBody": "(no content)",
+  "period": {
+    "24h": "Last 24 hours",
+    "3d": "Last 3 days",
+    "7d": "Last 7 days",
+    "30d": "Last 30 days"
+  },
+  "noMailbox": {
+    "title": "Inbox isn't enabled yet",
+    "description": "Go to Configuration → Integrations → Email (SMTP) to set the IMAP Host and enable the Inbox."
+  },
+  "empty": {
+    "title": "No emails",
+    "description": "No emails in the selected period."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "header": {
+    "title": "Treatments",
+    "subtitle": "View and manage treatments performed"
+  },
+  "addButton": "Add Treatment",
+  "stats": {
+    "totalTreatments": "Total Treatments",
+    "revenue": "Revenue",
+    "treatedPatients": "Patients Treated"
+  },
+  "filters": {
+    "searchPlaceholder": "Search treatments...",
+    "typePlaceholder": "Treatment type",
+    "allTypes": "All types"
+  },
+  "empty": {
+    "title": "No treatments",
+    "filterHint": "Try different filters",
+    "noTreatments": "You have no recorded treatments"
+  },
+  "table": {
+    "date": "Date",
+    "patient": "Patient",
+    "type": "Type",
+    "treatmentArea": "Area",
+    "description": "Description",
+    "price": "Price"
+  }
+}

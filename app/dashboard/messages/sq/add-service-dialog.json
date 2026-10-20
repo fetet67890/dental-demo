@@ -1,0 +1,16 @@
+{
+  "title": "Shto Shërbim të Ri",
+  "serviceName": "Emri i Shërbimit *",
+  "price": "Çmimi",
+  "duration": "Kohëzgjatja (min)",
+  "category": "Kategoria",
+  "categoryPlaceholder": "p.sh. Ortodonci",
+  "description": "Përshkrimi",
+  "descriptionPlaceholder": "Opsional",
+  "cancel": "Anulo",
+  "adding": "Duke shtuar...",
+  "addService": "Shto Shërbimin",
+  "errors": {
+    "nameRequired": "Emri i shërbimit është i detyrueshëm"
+  }
+}

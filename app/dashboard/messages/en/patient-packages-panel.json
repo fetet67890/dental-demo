@@ -1,0 +1,36 @@
+{
+  "loading": "Loading...",
+  "loadError": "Error loading packages",
+  "heading": "Purchased Packages",
+  "sellPackage": "Sell Package",
+  "noPurchases": "No packages purchased yet",
+  "status": {
+    "active": "Active",
+    "completed": "Completed",
+    "expired": "Expired"
+  },
+  "sessionsLine": "{used}/{total} sessions used · {service}",
+  "purchasedLine": "Purchased {date} · {price}",
+  "expiresLine": "expires {date}",
+  "redeemSession": "Redeem Session",
+  "sessionsShort": "{count} sessions",
+  "cancel": "Cancel",
+  "selling": "Selling...",
+  "redeeming": "Redeeming...",
+  "sellSuccess": "Package sold successfully",
+  "sellError": "Error selling the package",
+  "redeemSuccess": "Session recorded",
+  "redeemError": "Error recording the session",
+  "sellDialog": {
+    "title": "Sell a Service Package",
+    "packageLabel": "Package",
+    "packagePlaceholder": "Select a package",
+    "confirm": "Sell Package"
+  },
+  "redeemDialog": {
+    "title": "Redeem a Session",
+    "doctorLabel": "Doctor Performing the Session",
+    "doctorPlaceholder": "Select a doctor",
+    "confirm": "Confirm"
+  }
+}

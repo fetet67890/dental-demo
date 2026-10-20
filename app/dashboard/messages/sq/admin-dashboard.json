@@ -1,0 +1,65 @@
+{
+  "title": "Paneli i Administratorit",
+  "subtitle": "Mirë se vini! Këtu mund të shihni statistikat e klinikës.",
+  "months": {
+    "jan": "Jan", "feb": "Shk", "mar": "Mar", "apr": "Pri",
+    "may": "Maj", "jun": "Qer", "jul": "Kor", "aug": "Gus",
+    "sep": "Sht", "oct": "Tet", "nov": "Nën", "dec": "Dhj"
+  },
+  "days": {
+    "mon": "Hën", "tue": "Mar", "wed": "Mër", "thu": "Enj", "fri": "Pre", "sat": "Sht"
+  },
+  "stats": {
+    "totalPatients": "Pacientë Gjithsej",
+    "newThisMonth": "{count} të rinj këtë muaj",
+    "todayAppointments": "Takime Sot",
+    "todayBreakdown": "{done} kryer · {left} të mbetura",
+    "totalRevenue": "Të Ardhura Totale",
+    "pendingPayments": "Pagesa në Pritje",
+    "overdueCount": "{count} fatura me vonesë"
+  },
+  "attention": {
+    "title": "Kërkon Vëmendje",
+    "risk": {
+      "label": "Pacientë në Rrezik",
+      "allClear": "Asnjë i shënjuar"
+    },
+    "reorders": {
+      "label": "Kërkesa Rimbushjeje",
+      "allClear": "Stoku në rregull"
+    },
+    "inquiries": {
+      "label": "Kërkesa nga Faqja",
+      "allClear": "Asnjë e re"
+    },
+    "attendance": {
+      "label": "Prezenca Sot",
+      "value": "{present}/{total}"
+    }
+  },
+  "charts": {
+    "monthlyRevenue": "Të Ardhurat Mujore",
+    "weeklyAppointments": "Takimet Javore",
+    "treatmentTypes": "Llojet e Trajtimeve",
+    "noTreatments": "Nuk ka trajtimeve të regjistruara",
+    "other": "Të tjera",
+    "revenueTooltip": "Të ardhura",
+    "appointmentsTooltip": "Takime",
+    "treatmentsTooltip": "Trajtime"
+  },
+  "doctorPerformance": {
+    "title": "Performanca e Mjekëve",
+    "appointmentsCount": "{count} takime",
+    "noDoctors": "Nuk ka mjekë të regjistruar"
+  },
+  "recentActivity": {
+    "title": "Aktivitetet e Fundit",
+    "noActivity": "Nuk ka aktivitete të regjistruara"
+  },
+  "todaySchedule": {
+    "title": "Orari i Sotëm",
+    "viewAll": "Shiko të Gjitha",
+    "empty": "Nuk ka takime të planifikuara sot",
+    "visitFallback": "Vizitë"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "notFound": {
+    "title": "Patient not found",
+    "subtitle": "The requested ID does not exist",
+    "backToList": "Back to list"
+  },
+  "header": {
+    "back": "Back",
+    "print": "Print",
+    "prescription": "Prescription",
+    "addTreatment": "Add Treatment"
+  },
+  "status": { "active": "Active", "inactive": "Inactive" },
+  "gender": { "male": "Male", "female": "Female" },
+  "allergiesLabel": "Allergies:",
+  "statChips": { "appointments": "Appointments", "treatments": "Treatments", "invoices": "Invoices" },
+  "tabs": {
+    "overview": "Overview",
+    "chart": "Dental Chart",
+    "treatments": "Treatments",
+    "payments": "Payments",
+    "documents": "Documents"
+  },
+  "chartIntro": {
+    "title": "Dental Chart",
+    "description": "Mark the condition of each tooth. Switch between the 2D view and the interactive 3D model below."
+  },
+  "info": {
+    "contactHeading": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "personalHeading": "Personal",
+    "dateOfBirth": "Date of Birth",
+    "gender": "Gender",
+    "bloodType": "Blood Type",
+    "clinicalNotesHeading": "Clinical Notes",
+    "clinicalNotesPlaceholder": "Write your clinical notes for this patient...",
+    "saveNote": "Save Note"
+  },
+  "history": {
+    "medicalHistoryHeading": "Medical History",
+    "noMedicalHistory": "No medical history",
+    "upcomingHeading": "Upcoming Appointments",
+    "visitFallback": "Visit",
+    "noUpcoming": "No upcoming appointments"
+  },
+  "treatmentsTab": {
+    "heading": "Treatments Performed",
+    "empty": "No treatments recorded"
+  },
+  "payments": {
+    "paid": "Paid",
+    "pending": "Pending",
+    "invoicesHeading": "Invoices",
+    "empty": "No invoices recorded"
+  },
+  "documents": {
+    "heading": "Documents",
+    "upload": "Upload"
+  }
+}

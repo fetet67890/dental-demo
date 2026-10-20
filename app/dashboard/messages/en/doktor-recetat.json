@@ -1,0 +1,37 @@
+{
+  "title": "Prescriptions",
+  "subtitle": "Create and manage prescriptions",
+  "cancel": "Cancel",
+  "createPrescription": "Create Prescription",
+  "searchPlaceholder": "Search prescriptions...",
+  "print": "Print",
+  "dialog": {
+    "title": "Create New Prescription",
+    "description": "Fill in the prescription details",
+    "patientLabel": "Patient",
+    "patientPlaceholder": "Select a patient",
+    "medicationLabel": "Medication",
+    "medicationPlaceholder": "Medication name",
+    "dosageLabel": "Dosage",
+    "dosagePlaceholder": "e.g. 500mg",
+    "frequencyLabel": "Frequency",
+    "frequencyPlaceholder": "3 times a day",
+    "durationLabel": "Duration",
+    "durationPlaceholder": "e.g. 7 days",
+    "instructionsLabel": "Instructions",
+    "instructionsPlaceholder": "Additional instructions..."
+  },
+  "emptyState": {
+    "title": "No prescriptions",
+    "tryAnotherSearch": "Try a different search",
+    "noPrescriptions": "You have no prescriptions recorded"
+  },
+  "table": {
+    "date": "Date",
+    "patient": "Patient",
+    "medication": "Medication",
+    "dosage": "Dosage",
+    "frequency": "Frequency",
+    "duration": "Duration"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "welcome": "Mirë se vini, Dr. {name}",
+  "doctorFallback": "Doktor",
+  "subtitle": "Pasqyra e ditës tuaj",
+  "stats": {
+    "todayAppointments": "Takimet Sot",
+    "myPatients": "Pacientët e Mi",
+    "totalTreatments": "Trajtimet Totale",
+    "pendingToday": "Në Pritje Sot"
+  },
+  "todaySection": {
+    "title": "Pacientët e Sotëm",
+    "count": "{count} pacientë sot",
+    "calendarButton": "Kalendari",
+    "emptyTitle": "Nuk ka pacientë sot",
+    "emptySubtitle": "Orari juaj është i lirë",
+    "visitFallback": "Vizitë"
+  },
+  "status": {
+    "planifikuar": "Planifikuar",
+    "ne_pritje": "Në Pritje",
+    "ne_trajtim": "Në Trajtim",
+    "perfunduar": "Përfunduar",
+    "anuluar": "Anuluar",
+    "mungoi": "Mungoi"
+  },
+  "upcomingSection": {
+    "title": "Takimet e Ardhshme",
+    "viewAll": "Të gjitha",
+    "emptyTitle": "Nuk ka takime aktive",
+    "emptySubtitle": "Orari juaj është i lirë"
+  },
+  "quickNav": {
+    "title": "Navigim i Shpejtë",
+    "calendar": { "title": "Kalendari Im", "subtitle": "Shiko oraret & takimet" },
+    "patients": { "title": "Pacientët", "subtitle": "Menaxho kartela" },
+    "treatments": { "title": "Trajtimet", "subtitle": "Histori trajtimesh" },
+    "prescriptions": { "title": "Recetat", "subtitle": "Krijo & printo receta" }
+  },
+  "weeklyStats": {
+    "completed": "Takimet e Përfunduara",
+    "treatmentsDone": "Trajtime të Kryera",
+    "activePatients": "Pacientë Aktivë",
+    "cancelled": "Takimet e Anuluara"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Welcome back",
+  "subtitle": "Sign in to your account to continue",
+  "mfaTitle": "Two-Factor Verification",
+  "mfaSubtitle": "Enter the 6-digit code we emailed you",
+  "email": "Email",
+  "password": "Password",
+  "verificationCode": "Verification Code",
+  "signIn": "Sign In",
+  "signingIn": "Signing in...",
+  "verify": "Verify",
+  "verifying": "Verifying...",
+  "backToLogin": "Back to login",
+  "fillAllFields": "Please fill in all fields",
+  "genericError": "Something went wrong",
+  "invalidCode": "Enter the 6-digit code",
+  "wrongCode": "Incorrect code",
+  "demoQuickLogin": "Quick Login (Demo — local only)"
+}

@@ -1,0 +1,20 @@
+{
+  "status": {
+    "ftuar": "Ftuar",
+    "aktiv": "Aktiv",
+    "caktivizuar": "Çaktivizuar"
+  },
+  "activating": "Duke aktivizuar...",
+  "activate": "Aktivizo qasjen në portal",
+  "resendInvite": "Ridërgo Ftesën",
+  "deactivate": "Çaktivizo Portalin",
+  "reactivate": "Riaktivizo",
+  "emailDialog": {
+    "title": "Email për Portalin",
+    "description": "Ky pacient nuk ka email të regjistruar. Vendosni një email për të dërguar ftesën.",
+    "emailLabel": "Email",
+    "cancel": "Anulo",
+    "sending": "Duke dërguar...",
+    "sendInvite": "Dërgo Ftesën"
+  }
+}

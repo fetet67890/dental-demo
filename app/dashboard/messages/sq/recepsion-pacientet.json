@@ -1,0 +1,24 @@
+{
+  "topbar": {
+    "title": "Pacientet",
+    "subtitle": "Menaxho dhe regjistro paciente te rinj"
+  },
+  "searchPlaceholder": "Kerko paciente...",
+  "count": "{count} paciente",
+  "register": "Regjistro Pacient",
+  "table": {
+    "patient": "Pacienti",
+    "contact": "Kontakti",
+    "doctor": "Mjeku",
+    "registered": "Regjistruar",
+    "actions": "Veprime"
+  },
+  "gender": {
+    "male": "Mashkull",
+    "female": "Femër"
+  },
+  "view": "Shiko",
+  "memory": "Memorie",
+  "empty": "Nuk u gjetën pacientë",
+  "mobileSummary": "Mjeku: {doctor} · Regjistruar: {date}"
+}

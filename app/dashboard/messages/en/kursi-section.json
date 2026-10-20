@@ -1,0 +1,9 @@
+{
+  "currentRate": "Current rate",
+  "updated": "Updated: {time}",
+  "cache": "cached",
+  "fallback": "fallback",
+  "refresh": "Refresh",
+  "sourceInfo": "The rate is fetched automatically from the <bold>European Central Bank (ECB)</bold> via the free <mono>currency-api</mono>. Updated every 24 hours. If the connection fails, the system uses the last known rate.",
+  "conversionTable": "Conversion Table"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Planet Kozmetike",
+  "addPlan": "+ Plan Kozmetik",
+  "loading": "Duke u ngarkuar...",
+  "empty": "Nuk ka plane kozmetike të regjistruara ende.",
+  "delete": "Fshi",
+  "procedures": {
+    "faceta": "Faceta",
+    "zbardhim": "Zbardhim",
+    "bonding": "Bonding",
+    "tjeter": "Tjetër"
+  }
+}

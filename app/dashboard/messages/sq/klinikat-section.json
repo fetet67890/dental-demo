@@ -1,0 +1,26 @@
+{
+  "addButton": "Shto Klinikë",
+  "loading": "Duke u ngarkuar...",
+  "emptyState": "Nuk ka klinika. Shtoni një për ta bërë të disponueshme në portalin e pacientëve.",
+  "active": "Aktive",
+  "inactive": "Joaktive",
+  "edit": "Ndrysho",
+  "delete": "Fshi",
+  "cancel": "Anulo",
+  "dialog": {
+    "editTitle": "Ndrysho Klinikën",
+    "nameLabel": "Emri *",
+    "addressLabel": "Adresa",
+    "phoneLabel": "Telefoni",
+    "emailLabel": "Email",
+    "descriptionLabel": "Përshkrimi",
+    "activeLabel": "Aktive (e dukshme për pacientët)",
+    "saving": "Duke ruajtur...",
+    "save": "Ruaj",
+    "create": "Krijo"
+  },
+  "deleteDialog": {
+    "title": "Fshi Klinikën",
+    "description": "Po fshini {name}. Ky veprim nuk mund të zhbëhet."
+  }
+}

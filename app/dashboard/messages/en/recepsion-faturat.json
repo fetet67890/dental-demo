@@ -1,0 +1,81 @@
+{
+  "topbar": {
+    "title": "Invoices",
+    "subtitle": "View and manage patient invoices"
+  },
+  "stats": {
+    "totalRevenue": "Total Revenue",
+    "pendingPayments": "Pending Payments",
+    "paidInvoices": "Paid Invoices",
+    "unpaidInvoices": "Unpaid Invoices"
+  },
+  "searchPlaceholder": "Search invoices...",
+  "generateButton": "Generate Invoice",
+  "table": {
+    "invoice": "Invoice",
+    "patient": "Patient",
+    "amount": "Amount",
+    "paid": "Paid",
+    "debt": "Debt",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "print": "Print",
+  "viewDetails": "View Details",
+  "registerPayment": "Register Payment",
+  "empty": "No invoices found",
+  "mobile": {
+    "total": "Total",
+    "paid": "Paid",
+    "debt": "Debt"
+  },
+  "generateDialog": {
+    "title": "Generate New Invoice",
+    "description": "Select the patient and services to generate the invoice",
+    "patient": "Patient",
+    "patientPlaceholder": "Select patient",
+    "autoLoaded": "✓ {count} service(s) from the doctor loaded automatically",
+    "services": "Services",
+    "addRow": "Add row",
+    "serviceTable": {
+      "service": "Service",
+      "qty": "Qty",
+      "price": "Price ({currency})",
+      "subtotal": "Subtotal"
+    },
+    "servicePlaceholder": "Service name",
+    "withTvsh": "With VAT (20%)",
+    "cancel": "Cancel",
+    "submit": "Generate Invoice"
+  },
+  "paymentDialog": {
+    "title": "Register Payment",
+    "description": "Invoice: {id} — Debt: {amount}",
+    "amount": "Amount",
+    "method": "Payment Method",
+    "notes": "Notes",
+    "notesPlaceholder": "Additional notes...",
+    "cancel": "Cancel",
+    "submit": "Register Payment"
+  },
+  "paymentMethod": {
+    "cash": "Cash",
+    "karte": "Bank Card",
+    "transfer": "Bank Transfer",
+    "cashShort": "Cash",
+    "karteShort": "Card",
+    "transferShort": "Transfer"
+  },
+  "detailDialog": {
+    "title": "Invoice Details {id}",
+    "patient": "Patient",
+    "date": "Date",
+    "treatments": "Treatments:",
+    "total": "Total",
+    "paid": "Paid",
+    "debt": "Debt",
+    "paymentHistory": "Payment History:",
+    "close": "Close",
+    "print": "Print"
+  }
+}

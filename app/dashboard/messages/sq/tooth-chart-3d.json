@@ -1,0 +1,21 @@
+{
+  "dentalChart3D": "Harta Dentare 3D",
+  "controlsHint": "Rrotulloni me maus/gisht · Zmadhoni me scroll · Klikoni një dhëmb",
+  "numberingSystemTitle": "Sistemi i numërimit të dhëmbëve",
+  "zoomIn": "Zmadho",
+  "zoomOut": "Zvogëlo",
+  "resetView": "Rivendos Pamjen",
+  "toothNumber": "Dhëmbi #{tooth}",
+  "close": "Mbyll",
+  "selectedToothSingle": "Dhembi i Zgjedhur: {tooth}",
+  "selectedTeethMultiple": "Dhëmbët e Zgjedhur: {teeth}",
+  "conditions": {
+    "shendoshe": "I Shëndoshë",
+    "mungon": "Mungon",
+    "mbushje": "Mbushje",
+    "kurore": "Kurorë",
+    "ure": "Urë",
+    "implant": "Implant",
+    "kanal_rrenjor": "Kanal Rrënjor"
+  }
+}

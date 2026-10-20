@@ -1,0 +1,73 @@
+{
+  "title": "Takimet",
+  "subtitle": "Menaxhoni të gjitha takimet e klinikës",
+  "hubTabs": {
+    "list": "Lista",
+    "calendar": "Kalendari",
+    "requests": "Kërkesat",
+    "requestsSubtitle": "Kërkesa për takime nga portali i pacientëve"
+  },
+  "stats": {
+    "today": "Sot",
+    "thisWeek": "Kjo Javë",
+    "thisMonth": "Ky Muaj",
+    "activeAppointments": "takime aktive"
+  },
+  "today": {
+    "sectionTitle": "Takimet e Sotme",
+    "empty": "Nuk ka takime për sot",
+    "durationMinutes": "{duration}min"
+  },
+  "searchPlaceholder": "Kërko takimet...",
+  "addButton": "Shto Takim",
+  "dialog": {
+    "editTitle": "Modifiko Takimin",
+    "addTitle": "Shto Takim të Ri",
+    "description": "Plotësoni të dhënat e takimit",
+    "patient": "Pacienti",
+    "patientPlaceholder": "Zgjidhni pacientin",
+    "doctor": "Mjeku",
+    "doctorPlaceholder": "Zgjidhni mjekun",
+    "date": "Data",
+    "time": "Ora",
+    "type": "Lloji",
+    "typePlaceholder": "Zgjidhni llojin",
+    "duration": "Kohëzgjatja (min)",
+    "minutesUnit": "min",
+    "notes": "Shënime",
+    "notesPlaceholder": "Shënime shtesë...",
+    "cancel": "Anulo",
+    "saveChanges": "Ruaj Ndryshimet",
+    "create": "Krijo Takimin"
+  },
+  "status": {
+    "planifikuar": "Planifikuar",
+    "ne_pritje": "Në Pritje",
+    "ne_trajtim": "Në Trajtim",
+    "perfunduar": "Përfunduar",
+    "anuluar": "Anuluar",
+    "mungoi": "Mungoi"
+  },
+  "table": {
+    "patient": "Pacienti",
+    "doctor": "Mjeku",
+    "dateTime": "Data & Ora",
+    "type": "Lloji",
+    "status": "Statusi",
+    "actions": "Veprimet",
+    "empty": "Nuk u gjetën takime"
+  },
+  "menu": {
+    "edit": "Modifiko",
+    "markPending": "Shëno Në Pritje",
+    "startTreatment": "Fillo Trajtimin",
+    "complete": "Përfundo",
+    "cancel": "Anulo"
+  },
+  "cancelDialog": {
+    "title": "Anulo Takimin",
+    "description": "Jeni të sigurt që dëshironi të anuloni këtë takim? Ky veprim nuk mund të kthehet mbrapsht.",
+    "close": "Mbyll",
+    "confirm": "Anulo Takimin"
+  }
+}

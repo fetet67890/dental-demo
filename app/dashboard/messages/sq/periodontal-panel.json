@@ -1,0 +1,22 @@
+{
+  "heading": "Matjet Periodontale",
+  "recordMeasurement": "Regjistro Matje",
+  "tooth": "Dhëmbi",
+  "pocketMm": "Xhepi (mm)",
+  "recessionMm": "Recesioni (mm)",
+  "bleeding": "Gjakderdhje",
+  "notes": "Shënime",
+  "notesPlaceholder": "Opsionale",
+  "cancel": "Anulo",
+  "saving": "Duke ruajtur...",
+  "save": "Ruaj",
+  "empty": "Nuk ka matje periodontale të regjistruara",
+  "table": {
+    "date": "Data",
+    "tooth": "Dhëmbi",
+    "pocket": "Xhepi",
+    "recession": "Recesioni",
+    "bleeding": "Gjakderdhje"
+  },
+  "yes": "Po"
+}

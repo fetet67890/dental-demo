@@ -1,0 +1,18 @@
+{
+  "title": "Debts",
+  "subtitle": "Automatic reminders for unpaid invoices",
+  "alertCard": {
+    "heading": "Debt Reminders",
+    "description": "Sent every day at 08:30 for invoices that are past due",
+    "intervalLabel": "Remind every (days)"
+  },
+  "overdue": {
+    "heading": "Overdue Invoices",
+    "summary": "{count} invoices · {lek} ({eur})",
+    "sendNow": "Send Now",
+    "smtpNotConfigured": "SMTP is not configured —",
+    "configureHere": "configure here",
+    "idDue": "#{id} · Due: {date}",
+    "empty": "No overdue invoices at the moment"
+  }
+}

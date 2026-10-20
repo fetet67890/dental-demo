@@ -1,0 +1,53 @@
+{
+  "title": "Finance",
+  "subtitle": "Financial overview of the clinic",
+  "tabs": {
+    "overview": "Overview",
+    "invoices": "Invoices",
+    "debts": "Debts",
+    "commissions": "Commissions"
+  },
+  "months": {
+    "jan": "Jan", "feb": "Feb", "mar": "Mar", "apr": "Apr",
+    "may": "May", "jun": "Jun", "jul": "Jul", "aug": "Aug",
+    "sep": "Sep", "oct": "Oct", "nov": "Nov", "dec": "Dec"
+  },
+  "paymentMethods": {
+    "cash": "Cash",
+    "karte": "Card",
+    "transfer": "Transfer"
+  },
+  "trend": {
+    "up": "Trending Up",
+    "down": "Trending Down",
+    "flat": "Stable"
+  },
+  "stats": {
+    "totalRevenue": "Total Revenue",
+    "pendingPayments": "Pending Payments",
+    "totalExpenses": "Total Expenses",
+    "netBalance": "Net Balance"
+  },
+  "charts": {
+    "incomeVsExpenses": "Income vs Expenses (Monthly)",
+    "income": "Income",
+    "expenses": "Expenses",
+    "expenseDistribution": "Expense Distribution",
+    "noExpenses": "No expenses recorded",
+    "forecastTitle": "Revenue Forecast",
+    "insufficientData": "Not enough historical data yet for a reliable forecast — at least 3 months of paid invoices are needed.",
+    "actual": "Actual",
+    "projected": "Projected",
+    "projectedTrend": "Projected (statistical trend)"
+  },
+  "today": {
+    "title": "Today's Transactions",
+    "incoming": "Income",
+    "outgoing": "Expenses",
+    "dailyBalance": "Daily Balance"
+  },
+  "recent": {
+    "title": "Recent Transactions",
+    "empty": "No transactions recorded"
+  }
+}

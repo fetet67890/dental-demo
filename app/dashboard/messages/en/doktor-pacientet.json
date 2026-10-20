@@ -1,0 +1,29 @@
+{
+  "header": {
+    "title": "My Patients",
+    "subtitle": "View and manage your patients"
+  },
+  "addButton": "Register Patient",
+  "addButtonShort": "Register",
+  "searchPlaceholder": "Search patients...",
+  "patientsCount": "patients",
+  "empty": {
+    "title": "No patients found",
+    "searchHint": "Try a different search",
+    "noPatients": "You have no registered patients"
+  },
+  "table": {
+    "patient": "Patient",
+    "contact": "Contact",
+    "address": "Address",
+    "visits": "Visits",
+    "actions": "Actions"
+  },
+  "gender": {
+    "male": "Male",
+    "female": "Female"
+  },
+  "visitsCount": "{count} visits",
+  "viewChart": "Chart",
+  "treatment": "Treatment"
+}

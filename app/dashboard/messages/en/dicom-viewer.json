@@ -1,0 +1,11 @@
+{
+  "errors": {
+    "toolGroupFailed": "Failed to create the tool group",
+    "imageLoadFailed": "Failed to load the DICOM image"
+  },
+  "loadingImage": "Loading DICOM image...",
+  "windowLevelTitle": "Brightness/Contrast (left-click and drag)",
+  "lengthTitle": "Measure Distance (left-click and drag)",
+  "resetView": "Reset View",
+  "helpText": "Right-click: zoom · Middle-click: pan · Scroll: window level"
+}

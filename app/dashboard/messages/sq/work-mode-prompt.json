@@ -1,0 +1,9 @@
+{
+  "title": "Si po punoni sot?",
+  "description": "Zgjidhni mënyrën e punës për sot. Kjo mund të ndryshohet më vonë vetëm nga një administrator.",
+  "physical": "Fizikisht",
+  "remote": "Nga Shtëpia",
+  "skip": "Më Vonë",
+  "skipping": "Duke kapërcyer...",
+  "error": "Gabim gjatë ruajtjes"
+}

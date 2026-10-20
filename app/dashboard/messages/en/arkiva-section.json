@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "archivedPatients": "Archived patients",
+    "archivedThisMonth": "Archived this month"
+  },
+  "searchPlaceholder": "Search archive...",
+  "loading": "Loading archive...",
+  "empty": {
+    "title": "The archive is empty",
+    "subtitle": "Archived patients will appear here"
+  },
+  "archivedBadge": "Archived",
+  "archivedOn": "Archived:",
+  "generatingPdf": "Generating...",
+  "downloadPdf": "Download PDF",
+  "restore": "Restore",
+  "cancel": "Cancel",
+  "restoreDialog": {
+    "title": "Restore Patient",
+    "prefix": "Are you sure you want to restore",
+    "suffix": "to the active patient list?"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "topbar": {
+    "title": "Notifications",
+    "subtitle": "Send manual email notifications"
+  },
+  "newNotification": {
+    "heading": "New Notification",
+    "description": "Send an ad-hoc email to a patient or contact",
+    "recipientLabel": "Recipient Email",
+    "recipientPlaceholder": "patient@example.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Write your message here...",
+    "send": "Send Notification"
+  },
+  "history": {
+    "heading": "Notification History",
+    "empty": "No notifications sent yet.",
+    "table": {
+      "date": "Date",
+      "type": "Type",
+      "recipient": "Recipient",
+      "message": "Message",
+      "status": "Status"
+    }
+  }
+}

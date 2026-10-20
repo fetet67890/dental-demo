@@ -1,0 +1,93 @@
+{
+  "entity": {
+    "patients": "Patients",
+    "appointments": "Appointments",
+    "staff": "Staff",
+    "services": "Services",
+    "inventory": "Inventory"
+  },
+  "patients": {
+    "uploadTitle": "Upload CSV or Excel File",
+    "uploadDescription": "Recognized columns: First Name, Last Name, Phone (required), Email, Date of Birth, Gender, Address, Blood Type. The system also recognizes Albanian column names (Emri, Mbiemri, Telefoni, etc.) and accepts .csv, .xlsx, or .xls files."
+  },
+  "appointments": {
+    "uploadTitle": "Upload Appointments from CSV or Excel",
+    "uploadDescription": "Recognized columns: patient's Phone (or First+Last Name), Date, Time, Doctor, Type/Service (required), Duration, Status, Notes. The patient must already exist in the system — import patients first if they're missing. The doctor is matched by staff name or email; if no match is found, the appointment is imported without an assigned doctor."
+  },
+  "staff": {
+    "uploadTitle": "Upload Staff from CSV or Excel",
+    "uploadDescription": "Recognized columns: Name (required), Email, Phone, Role, Specialization, Hire Date. Imported staff get a temporary password — no welcome email is sent during a bulk import."
+  },
+  "services": {
+    "uploadTitle": "Upload Services from CSV or Excel",
+    "uploadDescription": "Recognized columns: Name, Price (required), Duration, Category, Description, Active."
+  },
+  "inventory": {
+    "uploadTitle": "Upload Inventory from CSV or Excel",
+    "uploadDescription": "Recognized columns: Name (required), Quantity, Unit, Category, Reorder Threshold, Expiry Date, Lot Number."
+  },
+  "guide": {
+    "title": "How to Import",
+    "toggleShow": "Show guide",
+    "toggleHide": "Hide guide",
+    "columnsTitle": "Accepted Columns",
+    "column": "Column",
+    "requirement": "Required",
+    "required": "Required",
+    "optional": "Optional",
+    "acceptedNames": "Accepted Names / Notes",
+    "example": "Example",
+    "previewTitle": "Sample File Preview",
+    "previewNote": "This is what your CSV/Excel file should look like — the first row is the column headers."
+  },
+  "confirm": {
+    "title": "Are You Sure?",
+    "description": "{count} rows will be imported. This action cannot be undone.",
+    "cancel": "Cancel",
+    "action": "Yes, Import"
+  },
+  "reading": "Reading...",
+  "readError": "Error reading the file",
+  "chooseFile": "Choose File",
+  "downloadSample": "Download Sample",
+  "importComplete": "Import Complete",
+  "importedCount": "{count} rows imported successfully.",
+  "failedCount": "{count} failed.",
+  "rowError": "Row {row}: {reason}",
+  "commitError": "Error during import",
+  "selectAtLeastOne": "Select at least one row",
+  "totalRows": "{count} total rows",
+  "validRows": "{count} valid",
+  "invalidRows": "{count} with errors",
+  "importSelected": "Import {count} Selected",
+  "readyToImport": "Ready to import",
+  "noValidRows": "No valid rows to import",
+  "importHistory": "Import History",
+  "loading": "Loading...",
+  "noImportsYet": "No imports recorded yet.",
+  "table": {
+    "row": "Row",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "patient": "Patient",
+    "doctor": "Doctor",
+    "dateTime": "Date/Time",
+    "type": "Type",
+    "unassigned": "Unassigned",
+    "status": "Status",
+    "date": "Date",
+    "entity": "Type",
+    "by": "By",
+    "rows": "Rows",
+    "imported": "Imported",
+    "failed": "Failed",
+    "role": "Role",
+    "specialization": "Specialization",
+    "price": "Price",
+    "duration": "Duration",
+    "category": "Category",
+    "quantity": "Quantity",
+    "expiry": "Expiry"
+  }
+}

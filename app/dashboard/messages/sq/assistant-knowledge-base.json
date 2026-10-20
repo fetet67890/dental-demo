@@ -1,0 +1,34 @@
+{
+  "title": "Baza e Njohurive e Asistentit",
+  "subtitle": "Përgjigjet që Asistenti AI përdor kur dikush pyet për klinikën",
+  "dialog": {
+    "editTitle": "Ndrysho Pyetjen",
+    "addTitle": "Shto Pyetje të Re",
+    "description": "Kjo përgjigje do të përdoret nga Asistenti AI kur dikush pyet diçka të ngjashme.",
+    "questionLabel": "Pyetja",
+    "questionPlaceholder": "p.sh. Cilat janë orët e punës?",
+    "answerLabel": "Përgjigja",
+    "answerPlaceholder": "Klinika është e hapur...",
+    "categoryLabel": "Kategoria (opsionale)",
+    "categoryPlaceholder": "p.sh. Orare, Sigurime, Pagesa",
+    "activeLabel": "Aktive",
+    "activeHint": "Vetëm pyetjet aktive kërkohen nga Asistenti AI",
+    "cancel": "Anulo",
+    "submitting": "Duke ruajtur...",
+    "saveChanges": "Ruaj Ndryshimet",
+    "addQuestion": "Shto Pyetjen"
+  },
+  "search": {
+    "placeholder": "Kërko pyetje..."
+  },
+  "addButton": "Shto Pyetje",
+  "loading": "Duke u ngarkuar...",
+  "empty": "Nuk u gjetën pyetje",
+  "inactive": "Joaktive",
+  "deleteDialog": {
+    "title": "Fshi Pyetjen",
+    "description": "Jeni të sigurt që dëshironi të fshini \"{question}\"? Ky veprim nuk mund të kthehet mbrapsht.",
+    "cancel": "Anulo",
+    "confirm": "Fshi"
+  }
+}

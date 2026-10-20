@@ -1,0 +1,8 @@
+{
+  "title": "Vlerësim bazuar në historik",
+  "typicalDuration": "Kohëzgjatja tipike:",
+  "durationFromCatalog": "{duration} min (nga katalogu)",
+  "chooseServiceHint": "zgjidhni një shërbim nga katalogu për kohëzgjatjen tipike",
+  "averageCost": "Kostoja mesatare historike: {cost} ({eur}) — bazuar në {count} raste të përfunduara",
+  "notEnoughData": "Nuk ka ende mjaftueshëm raste të përfunduara për një vlerësim historik të kostos"
+}

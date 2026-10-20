@@ -1,0 +1,96 @@
+{
+  "title": "Patients",
+  "subtitle": "Manage all of the clinic's patients",
+  "searchPlaceholder": "Search patients...",
+  "addButton": "Add Patient",
+  "dialog": {
+    "editTitle": "Edit Patient",
+    "addTitle": "Add New Patient",
+    "description": "Fill in the patient's details below",
+    "firstName": "First Name *",
+    "firstNamePlaceholder": "First name",
+    "lastName": "Last Name *",
+    "lastNamePlaceholder": "Last name",
+    "email": "Email",
+    "emailPlaceholder": "email@example.com",
+    "phone": "Phone *",
+    "phonePlaceholder": "+383 44 123 456",
+    "dateOfBirth": "Date of Birth",
+    "gender": "Gender",
+    "genderPlaceholder": "Select gender",
+    "genderMale": "Male",
+    "genderFemale": "Female",
+    "address": "Address",
+    "addressPlaceholder": "Full address",
+    "medicalHistory": "Medical History",
+    "medicalHistoryPlaceholder": "Separate with commas (e.g. Diabetes, High blood pressure)",
+    "allergies": "Allergies",
+    "allergiesPlaceholder": "Separate with commas (e.g. Penicillin, Ibuprofen)",
+    "assignedDoctor": "Assigned Doctor",
+    "assignedDoctorPlaceholder": "Select a doctor",
+    "noDoctor": "— No doctor —",
+    "status": "Status",
+    "statusPlaceholder": "Select status",
+    "statusActive": "Active",
+    "statusInactive": "Inactive (Archive)",
+    "inactiveWarning": "The patient will be archived and removed from the active list.",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes",
+    "addPatient": "Add Patient"
+  },
+  "validation": {
+    "firstNameRequired": "First name is required",
+    "lastNameRequired": "Last name is required",
+    "phoneRequired": "Phone number is required"
+  },
+  "table": {
+    "patient": "Patient",
+    "contact": "Contact",
+    "doctor": "Doctor",
+    "lastVisit": "Last Visit",
+    "status": "Status",
+    "actions": "Actions",
+    "empty": "No patients found"
+  },
+  "menu": {
+    "viewProfile": "View Profile",
+    "edit": "Edit",
+    "memory": "Memory",
+    "archive": "Archive",
+    "archiving": "Archiving...",
+    "delete": "Delete",
+    "exportData": "Export Data",
+    "exporting": "Exporting...",
+    "anonymize": "Anonymize",
+    "anonymized": "Anonymized"
+  },
+  "mobile": {
+    "doctorVisit": "Doctor: {doctor} · Visit: {date}"
+  },
+  "exportData": {
+    "error": "Error exporting patient data"
+  },
+  "deleteDialog": {
+    "title": "Delete Patient",
+    "confirmPrefix": "Are you sure you want to delete",
+    "confirmSuffix": "This action cannot be undone.",
+    "confirm": "Delete"
+  },
+  "archiveDialog": {
+    "title": "Archive Patient",
+    "confirmPrefix": "You are about to archive",
+    "confirmSuffix": "The patient will be removed from the active list and stored in the Archive section.",
+    "confirm": "Archive"
+  },
+  "anonymizeDialog": {
+    "title": "Anonymize Patient",
+    "confirmPrefix": "You are about to permanently anonymize the personal data of",
+    "confirmSuffix": "Name, email, phone, and address will be permanently erased, and uploaded documents will be removed. Appointments, treatments, and invoices are kept for legal retention. This action cannot be undone.",
+    "reasonLabel": "Reason for the request *",
+    "reasonPlaceholder": "E.g. Patient request under the right to be forgotten",
+    "anonymizing": "Anonymizing...",
+    "confirm": "Anonymize Permanently",
+    "success": "Patient anonymized successfully",
+    "error": "Error anonymizing the patient"
+  }
+}

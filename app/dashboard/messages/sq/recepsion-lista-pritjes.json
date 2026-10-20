@@ -1,0 +1,28 @@
+{
+  "status": {
+    "aktiv": "Në Pritje",
+    "njoftuar": "U Njoftua",
+    "plotesuar": "U Plotësua",
+    "anuluar": "Anuluar"
+  },
+  "topbar": {
+    "title": "Lista e Pritjes",
+    "subtitle": "Njoftim automatik kur lirohet një vend takimi"
+  },
+  "count": "{count} pacientë në listë",
+  "addToList": "Shto në Listë",
+  "empty": "Lista e pritjes është bosh",
+  "anyDoctor": "Çdo mjek",
+  "autoNotified": "U njoftua automatikisht",
+  "addDialog": {
+    "title": "Shto në Listën e Pritjes",
+    "patient": "Pacienti",
+    "patientPlaceholder": "Zgjidhni pacientin",
+    "doctor": "Mjeku (opsionale)",
+    "preferredDate": "Data e Preferuar (opsionale)",
+    "notes": "Shënime",
+    "cancel": "Anulo",
+    "submit": "Shto",
+    "submitting": "Duke shtuar..."
+  }
+}

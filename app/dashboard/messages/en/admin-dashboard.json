@@ -1,0 +1,65 @@
+{
+  "title": "Administrator Dashboard",
+  "subtitle": "Welcome! Here you can view the clinic's statistics.",
+  "months": {
+    "jan": "Jan", "feb": "Feb", "mar": "Mar", "apr": "Apr",
+    "may": "May", "jun": "Jun", "jul": "Jul", "aug": "Aug",
+    "sep": "Sep", "oct": "Oct", "nov": "Nov", "dec": "Dec"
+  },
+  "days": {
+    "mon": "Mon", "tue": "Tue", "wed": "Wed", "thu": "Thu", "fri": "Fri", "sat": "Sat"
+  },
+  "stats": {
+    "totalPatients": "Total Patients",
+    "newThisMonth": "{count} new this month",
+    "todayAppointments": "Today's Appointments",
+    "todayBreakdown": "{done} done · {left} remaining",
+    "totalRevenue": "Total Revenue",
+    "pendingPayments": "Pending Payments",
+    "overdueCount": "{count} overdue invoices"
+  },
+  "attention": {
+    "title": "Needs Attention",
+    "risk": {
+      "label": "Patients at Risk",
+      "allClear": "None flagged"
+    },
+    "reorders": {
+      "label": "Re-order Requests",
+      "allClear": "Stock is fine"
+    },
+    "inquiries": {
+      "label": "Website Inquiries",
+      "allClear": "None new"
+    },
+    "attendance": {
+      "label": "Attendance Today",
+      "value": "{present}/{total}"
+    }
+  },
+  "charts": {
+    "monthlyRevenue": "Monthly Revenue",
+    "weeklyAppointments": "Weekly Appointments",
+    "treatmentTypes": "Treatment Types",
+    "noTreatments": "No treatments recorded",
+    "other": "Other",
+    "revenueTooltip": "Revenue",
+    "appointmentsTooltip": "Appointments",
+    "treatmentsTooltip": "Treatments"
+  },
+  "doctorPerformance": {
+    "title": "Doctor Performance",
+    "appointmentsCount": "{count} appointments",
+    "noDoctors": "No doctors registered"
+  },
+  "recentActivity": {
+    "title": "Recent Activity",
+    "noActivity": "No activity recorded"
+  },
+  "todaySchedule": {
+    "title": "Today's Schedule",
+    "viewAll": "View All",
+    "empty": "No appointments scheduled today",
+    "visitFallback": "Visit"
+  }
+}

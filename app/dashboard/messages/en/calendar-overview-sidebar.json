@@ -1,0 +1,16 @@
+{
+  "title": "Today's Overview",
+  "stats": {
+    "total": "Total Appointments",
+    "completed": "Completed",
+    "pending": "Pending",
+    "missed": "No-shows"
+  },
+  "nextAppointments": {
+    "title": "Next Appointments",
+    "empty": "No upcoming appointments"
+  },
+  "quickActions": {
+    "title": "Quick Actions"
+  }
+}

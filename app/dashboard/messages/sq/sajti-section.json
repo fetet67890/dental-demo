@@ -1,0 +1,20 @@
+{
+  "saveChanges": "Ruaj Ndryshimet",
+  "contact": {
+    "title": "Të Dhënat e Kontaktit",
+    "description": "Shfaqen në footer-in dhe faqen e kontaktit të faqes publike.",
+    "addressLabel": "Adresa",
+    "addressPlaceholder": "p.sh. Rruga X, Tiranë",
+    "phoneLabel": "Telefoni",
+    "emailLabel": "Email",
+    "hoursLabel": "Orari",
+    "hoursPlaceholder": "p.sh. E Hënë - E Premte: 09:00 - 18:00\nE Shtunë: 09:00 - 13:00"
+  },
+  "announcement": {
+    "title": "Banderola e Njoftimit",
+    "description": "Shirit njoftimi në krye të faqes publike (p.sh. orare të veçanta, promocione).",
+    "messageLabel": "Mesazhi",
+    "messagePlaceholder": "p.sh. Mbyllur për pushime nga 1-5 Gusht",
+    "activeLabel": "Aktiv (i dukshëm në faqen publike)"
+  }
+}

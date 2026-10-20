@@ -1,0 +1,45 @@
+{
+  "topbar": {
+    "title": "My Calendar",
+    "subtitle": "Your schedule and appointments"
+  },
+  "stats": {
+    "today": "Today",
+    "thisWeek": "This Week",
+    "thisMonth": "This Month",
+    "myAppointmentsNote": "my appointments"
+  },
+  "todayCard": {
+    "title": "Today's Appointments",
+    "empty": "No appointments for today"
+  },
+  "quickActions": {
+    "viewAll": "View All Appointments",
+    "addPatient": "Add New Patient",
+    "addTreatment": "Add Treatment"
+  },
+  "dialog": {
+    "title": "Appointment Details",
+    "description": "Manage the appointment and add a treatment",
+    "patient": "Patient",
+    "phone": "Phone",
+    "date": "Date",
+    "time": "Time",
+    "type": "Type",
+    "duration": "Duration",
+    "currentStatus": "Current Status",
+    "changeStatus": "Change Status",
+    "notes": "Notes",
+    "addTreatment": "Add Treatment",
+    "viewChart": "View Chart",
+    "close": "Close"
+  },
+  "status": {
+    "planifikuar": "Scheduled",
+    "ne_pritje": "Waiting",
+    "ne_trajtim": "In Treatment",
+    "perfunduar": "Completed",
+    "anuluar": "Cancelled",
+    "mungoi": "No-show"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "demo": {
+    "badge": "Demo",
+    "tooltip": "Sample/fake data, for testing only — saved in this browser, not a real server."
+  },
+  "searchPlaceholder": "Search patients, appointments...",
+  "search": "Search",
+  "openMenu": "Open menu",
+  "toggleSidebar": "Toggle sidebar",
+  "changeTheme": "Change theme",
+  "language": "Language",
+  "quickActions": {
+    "label": "Quick Actions",
+    "addPatient": "Add Patient",
+    "addAppointment": "Add Appointment",
+    "addStaff": "Add Staff",
+    "addService": "Add Service",
+    "uploadDocument": "Upload Document",
+    "addTreatment": "Add Treatment",
+    "addPrescription": "Add Prescription"
+  },
+  "resultKind": {
+    "page": "Page",
+    "patient": "Patient",
+    "appointment": "Appointment",
+    "treatment": "Treatment",
+    "prescription": "Prescription",
+    "invoice": "Invoice",
+    "staffMember": "Staff"
+  },
+  "exchangeRate": {
+    "title": "EUR / LEK Rate",
+    "loading": "Loading...",
+    "viewFull": "View full page",
+    "cache": "cached",
+    "fallback": "fallback"
+  },
+  "attendance": {
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "done": "Recorded",
+    "checkInTitle": "Clock in",
+    "checkOutTitle": "Clock out",
+    "doneTitle": "Today's attendance is complete"
+  },
+  "notifications": {
+    "label": "Notifications",
+    "empty": "No notifications"
+  }
+}

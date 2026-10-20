@@ -1,0 +1,37 @@
+{
+  "loading": "Loading...",
+  "loadError": "Error loading requests",
+  "genericError": "Something went wrong, try again",
+  "empty": "No requests in this category",
+  "approve": "Approve",
+  "reject": "Reject",
+  "cancel": "Cancel",
+  "staffNoteLabel": "Note",
+  "statusFilters": {
+    "ne_pritje": "Pending",
+    "miratuar": "Approved",
+    "refuzuar": "Rejected",
+    "anuluar": "Cancelled"
+  },
+  "approveDialog": {
+    "title": "Approve Request",
+    "description": "Create an appointment for {name} based on this request",
+    "validation": "Date, time, doctor, and type are required",
+    "date": "Date",
+    "time": "Time",
+    "duration": "Duration (min)",
+    "doctor": "Doctor",
+    "doctorPlaceholder": "Choose a doctor",
+    "type": "Appointment Type",
+    "typePlaceholder": "e.g. General Checkup",
+    "notes": "Notes",
+    "confirm": "Create Appointment"
+  },
+  "rejectDialog": {
+    "title": "Reject Request",
+    "description": "{name}'s request will be rejected",
+    "noteLabel": "Reason (optional, shown to the patient)",
+    "notePlaceholder": "e.g. This time slot isn't available...",
+    "confirm": "Reject Request"
+  }
+}

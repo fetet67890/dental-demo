@@ -1,0 +1,23 @@
+{
+  "title": "Shto Takim të Ri",
+  "patient": "Pacienti",
+  "selectPatient": "Zgjidhni pacientin",
+  "doctor": "Mjeku",
+  "selectDoctor": "Zgjidhni mjekun",
+  "recommendedNoAppointments": "{name} nuk ka ende takime këtë ditë — kliko për ta zgjedhur",
+  "recommendedFewerAppointments": "{name} ka më pak takime këtë ditë ({count}) — kliko për ta zgjedhur",
+  "date": "Data",
+  "time": "Ora",
+  "catalogService": "Shërbimi nga Katalogu",
+  "selectService": "Zgjidhni shërbimin (opsionale, mbush automatikisht kohëzgjatjen)",
+  "noCatalogService": "— Pa shërbim të katalogut —",
+  "room": "Dhoma / Karrigia",
+  "selectRoom": "Zgjidhni dhomën (opsionale)",
+  "noRoom": "— Pa dhomë —",
+  "visitType": "Lloji i Vizitës",
+  "visitTypePlaceholder": "Zgjidh ose shkruaj llojin",
+  "duration": "Kohëzgjatja (min)",
+  "cancel": "Anulo",
+  "saving": "Duke ruajtur...",
+  "createAppointment": "Krijo Takimin"
+}

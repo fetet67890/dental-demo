@@ -1,0 +1,60 @@
+{
+  "title": "Faturat",
+  "subtitle": "Menaxhoni faturat dhe pagesat",
+  "validation": {
+    "amountExceedsDebt": "Shuma nuk mund të jetë më e madhe se borxhi"
+  },
+  "stats": {
+    "totalRevenue": "Të Ardhura Totale",
+    "pendingPayments": "Pagesa në Pritje",
+    "paidInvoices": "Fatura të Paguara",
+    "unpaidInvoices": "Fatura të Papaguara"
+  },
+  "searchPlaceholder": "Kërko faturat...",
+  "table": {
+    "invoice": "Fatura",
+    "patient": "Pacienti",
+    "amount": "Shuma",
+    "paid": "Paguar",
+    "debt": "Borxhi",
+    "status": "Statusi",
+    "actions": "Veprimet",
+    "empty": "Nuk u gjetën fatura"
+  },
+  "print": "Printo",
+  "menu": {
+    "viewDetails": "Shiko Detajet",
+    "registerPayment": "Regjistro Pagesë"
+  },
+  "paymentDialog": {
+    "title": "Regjistro Pagesë",
+    "description": "Fatura: {id} — Borxhi: {amount}",
+    "amount": "Shuma",
+    "method": "Metoda e Pagesës",
+    "notes": "Shënime",
+    "notesPlaceholder": "Shënime shtesë...",
+    "cancel": "Anulo",
+    "submit": "Regjistro Pagesën"
+  },
+  "paymentMethods": {
+    "cash": "Cash",
+    "karte": "Kartë",
+    "transfer": "Transfer Bankar"
+  },
+  "detailDialog": {
+    "title": "Detajet e Faturës {id}",
+    "patient": "Pacienti",
+    "date": "Data",
+    "treatments": "Trajtimet:",
+    "total": "Total",
+    "paid": "Paguar",
+    "debt": "Borxh",
+    "paymentHistory": "Historiku i Pagesave:",
+    "close": "Mbyll"
+  },
+  "paymentMethodsShort": {
+    "cash": "Cash",
+    "karte": "Kartë",
+    "transfer": "Transfer"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "suggestions": {
+    "activePatients": "How many active patients do we have?",
+    "searchPatient": "Search for patient Ana",
+    "appointmentsToday": "How many appointments today?",
+    "addPatient": "Add a new patient"
+  },
+  "entityLabel": {
+    "patient": "the patient",
+    "appointment": "the appointment",
+    "treatment": "the treatment",
+    "prescription": "the prescription",
+    "invoice": "the invoice",
+    "service": "the service",
+    "room": "the room/chair",
+    "clinic": "the clinic",
+    "inventoryItem": "the inventory item",
+    "installmentPlan": "the installment plan",
+    "patientService": "the patient service",
+    "treatmentFollowup": "the follow-up visit",
+    "followupTemplate": "the follow-up template",
+    "orthoStageTemplate": "the orthodontic stage template",
+    "faqEntry": "the FAQ entry",
+    "clinicDocument": "the clinic document",
+    "patientDocument": "the patient document",
+    "implantPlan": "the implant plan",
+    "cosmeticPlan": "the cosmetic plan",
+    "orthoProgression": "the orthodontic progress stage",
+    "periodontalRecord": "the periodontal measurement",
+    "testimonial": "the client testimonial",
+    "blogPost": "the blog post",
+    "galleryImage": "the gallery photo"
+  },
+  "closeAssistant": "Close AI Assistant",
+  "openAssistant": "Open AI Assistant",
+  "header": {
+    "title": "AI Assistant",
+    "freeUsage": "Free — {requestsToday}{hasLimit, select, yes {/{dailyLimit}} other {}} requests today",
+    "premiumUsage": "Premium — ${spent}{hasCap, select, yes {/${cap}} other {}} this month",
+    "internalAssistant": "Internal assistant"
+  },
+  "close": "Close",
+  "notConfigured": "Not configured yet.",
+  "integrations": "Integrations",
+  "tryOneOfThese": "Try one of these, or type your own message below:",
+  "deletePrefix": "Delete",
+  "deleted": "Deleted",
+  "thinking": "Thinking...",
+  "placeholder": "Type your message...",
+  "placeholderUnavailable": "Assistant is not configured...",
+  "send": "Send",
+  "confirmDelete": {
+    "title": "Delete {entity}?",
+    "prefix": "Are you sure you want to delete",
+    "suffix": "This action cannot be undone."
+  },
+  "cancel": "Cancel",
+  "continue": "Continue",
+  "finalConfirm": {
+    "title": "Final Confirmation",
+    "intro": "This is the last chance to cancel.",
+    "outro": "will be permanently deleted and cannot be recovered."
+  },
+  "deleting": "Deleting...",
+  "deletePermanently": "Delete Permanently"
+}

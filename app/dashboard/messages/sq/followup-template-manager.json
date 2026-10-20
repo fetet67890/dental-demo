@@ -1,0 +1,20 @@
+{
+  "title": "Konfigurimi i Kontrolleve Pas-operative",
+  "addSequenceFollowup": "+ Shto Kontroll në Sekuencë",
+  "description": "Përcaktoni cilat lloje trajtimesh gjenerojnë automatikisht kontrolle pas-operative, dhe pas sa ditësh. Nëse një lloj trajtimi nuk ka asnjë kontroll të konfiguruar këtu, nuk gjenerohet asgjë automatikisht për të.",
+  "loading": "Duke u ngarkuar...",
+  "empty": "Nuk ka ende asnjë sekuencë të konfiguruar.",
+  "dayLabel": "Dita +{days}: {label}",
+  "edit": "Ndrysho",
+  "delete": "Fshi",
+  "editFollowupTitle": "Ndrysho Kontrollin",
+  "addSequenceFollowupTitle": "Shto Kontroll në Sekuencë",
+  "treatmentType": "Lloji i Trajtimit",
+  "selectTreatmentType": "Zgjidhni llojin e trajtimit",
+  "followupLabel": "Etiketa e Kontrollit",
+  "followupLabelPlaceholder": "p.sh. Heqja e fijeve",
+  "daysAfterTreatment": "Ditë pas trajtimit",
+  "cancel": "Anulo",
+  "saving": "Duke ruajtur...",
+  "save": "Ruaj"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Sistemi",
+  "sections": {
+    "auditimet": { "label": "Auditimet", "subtitle": "Historiku i të gjitha veprimeve në sistem" },
+    "kursi": { "label": "Kursi EUR/LEK", "subtitle": "EUR / LEK — të dhëna nga Banka Qendrore Europiane" },
+    "aparenca": { "label": "Aparenca", "subtitle": "Personalizo logon dhe ikonën e klinikës" },
+    "automation": { "label": "Automatizimi", "subtitle": "Gjendja dhe historiku i punëve të planifikuara" },
+    "demo": { "label": "Demo", "subtitle": "Rivendos klinikën ose gjenero të dhëna shembull" }
+  }
+}

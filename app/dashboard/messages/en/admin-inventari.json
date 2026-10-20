@@ -1,0 +1,76 @@
+{
+  "topbar": {
+    "title": "Inventory",
+    "subtitle": "Manage clinic stock and equipment"
+  },
+  "lowStockBanner": {
+    "singular": "item has",
+    "plural": "items have",
+    "suffix": "low stock"
+  },
+  "expiringBanner": {
+    "singular": "item is expiring soon or has expired",
+    "plural": "items are expiring soon or have expired",
+    "suffix": "— check expiry dates"
+  },
+  "reorders": {
+    "title": "Restock Requests",
+    "requestedQuantity": "Requested quantity",
+    "statusPending": "Pending",
+    "statusOrdered": "Ordered",
+    "markOrdered": "Mark as Ordered",
+    "accepted": "Accepted",
+    "cancel": "Cancel"
+  },
+  "dialog": {
+    "editTitle": "Edit Item",
+    "addTitle": "Add New Item",
+    "editDescription": "Update the item's details",
+    "addDescription": "Fill in the new item's details",
+    "nameLabel": "Item Name",
+    "namePlaceholder": "e.g. Latex Gloves",
+    "categoryLabel": "Category",
+    "categoryPlaceholder": "e.g. Materials, Equipment",
+    "quantityLabel": "Quantity",
+    "unitLabel": "Unit",
+    "unitPlaceholder": "pcs",
+    "thresholdLabel": "Low Stock Threshold",
+    "expiryDateLabel": "Expiry Date",
+    "lotNumberLabel": "Lot Number",
+    "lotNumberPlaceholder": "e.g. LOT-2026-04",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes",
+    "addItem": "Add Item"
+  },
+  "search": {
+    "placeholder": "Search items..."
+  },
+  "addButton": "Add Item",
+  "table": {
+    "item": "Item",
+    "category": "Category",
+    "quantity": "Quantity",
+    "status": "Status",
+    "actions": "Actions",
+    "expiresOn": "Expires {date}",
+    "lot": "Lot #{number}"
+  },
+  "status": {
+    "lowStock": "Low Stock",
+    "lowStockShort": "Low Stock",
+    "ok": "In Stock",
+    "okShort": "OK",
+    "expired": "Expired",
+    "expiringSoon": "Expiring Soon"
+  },
+  "empty": "No items found",
+  "deleteDialog": {
+    "title": "Delete Item",
+    "description": "Are you sure you want to delete \"{name}\"? This action cannot be undone.",
+    "cancel": "Cancel",
+    "confirm": "Delete"
+  },
+  "errors": {
+    "nameRequired": "Name is required"
+  }
+}

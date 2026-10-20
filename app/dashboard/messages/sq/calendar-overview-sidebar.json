@@ -1,0 +1,16 @@
+{
+  "title": "Përmbledhja e Sotme",
+  "stats": {
+    "total": "Gjithsej Takime",
+    "completed": "Përfunduar",
+    "pending": "Duke Pritur",
+    "missed": "Munguan"
+  },
+  "nextAppointments": {
+    "title": "Takimet e Ardhshme",
+    "empty": "Nuk ka takime të ardhshme"
+  },
+  "quickActions": {
+    "title": "Veprime të Shpejta"
+  }
+}

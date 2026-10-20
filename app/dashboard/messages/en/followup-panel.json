@@ -1,0 +1,24 @@
+{
+  "title": "Post-Op Follow-ups",
+  "tabs": {
+    "pending": "Pending ({count})",
+    "overdue": "Overdue ({count})",
+    "completed": "Completed ({count})",
+    "all": "All ({count})"
+  },
+  "loading": "Loading...",
+  "empty": "No follow-ups in this category.",
+  "due": "Due",
+  "actions": "Actions",
+  "markCompleted": "Mark as Completed",
+  "editDateNotes": "Edit Date / Notes",
+  "markMissed": "Mark as Missed",
+  "cancelFollowup": "Cancel",
+  "delete": "Delete",
+  "editDialogTitle": "Edit Follow-up",
+  "followupDate": "Follow-up Date",
+  "notes": "Notes",
+  "cancel": "Cancel",
+  "saving": "Saving...",
+  "save": "Save"
+}

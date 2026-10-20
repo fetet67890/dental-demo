@@ -1,0 +1,33 @@
+{
+  "title": "Kalendari i Takimeve",
+  "today": "Sot",
+  "previousWeek": "Java e kaluar",
+  "nextWeek": "Java tjetër",
+  "legend": "Legjenda",
+  "dragHint": "Tërhiqni një takim për ta zhvendosur",
+  "newAppointment": "Takim i Ri",
+  "staffFilter": {
+    "all": "Të Gjithë Stafi"
+  },
+  "filters": {
+    "all": "Të Gjitha",
+    "upcoming": "Të Ardhshme",
+    "pending": "Në Pritje",
+    "completed": "Përfunduar",
+    "missed": "Munguan"
+  },
+  "months": {
+    "jan": "Janar", "feb": "Shkurt", "mar": "Mars", "apr": "Prill", "may": "Maj", "jun": "Qershor",
+    "jul": "Korrik", "aug": "Gusht", "sep": "Shtator", "oct": "Tetor", "nov": "Nëntor", "dec": "Dhjetor"
+  },
+  "daysShort": {
+    "mon": "Hën", "tue": "Mar", "wed": "Mër", "thu": "Enj", "fri": "Pre", "sat": "Sht", "sun": "Die"
+  },
+  "status": {
+    "planifikuar": "Planifikuar",
+    "ne_pritje": "Në Pritje",
+    "ne_trajtim": "Në Trajtim",
+    "perfunduar": "Përfunduar",
+    "anuluar": "Anuluar"
+  }
+}

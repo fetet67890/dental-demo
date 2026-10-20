@@ -1,0 +1,43 @@
+{
+  "title": "New Implant Plan",
+  "subtitle": "Plan the implant case and surgical stages",
+  "back": "Back",
+  "cancel": "Cancel",
+  "saving": "Saving...",
+  "savePlan": "Save Plan",
+  "planDetails": "Plan Details",
+  "planDetailsDescription": "Fill in the implant specifics",
+  "patientLabel": "Patient",
+  "patientPlaceholder": "Select a patient",
+  "teethLabel": "Selected Tooth/Teeth",
+  "steps": {
+    "patientTeeth": "Patient & Teeth",
+    "patientTeethDescription": "Select the patient and the tooth/teeth for the implant",
+    "implantSpecs": "Specs",
+    "surgicalStages": "Surgical Stages",
+    "surgicalStagesDescription": "Plan the treatment stages — dates can be scheduled later as real appointments",
+    "noStagesYet": "You haven't added any stages yet.",
+    "previous": "Back",
+    "next": "Continue"
+  },
+  "brandLabel": "Implant Brand",
+  "brandPlaceholder": "e.g. Straumann",
+  "diameterLabel": "Diameter (mm)",
+  "lengthLabel": "Length (mm)",
+  "costLabel": "Cost (LEK)",
+  "surgicalStages": "Surgical Stages",
+  "addStage": "Add Stage",
+  "stageNamePlaceholder": "Stage name",
+  "notesLabel": "Notes",
+  "notesPlaceholder": "Additional notes about the plan...",
+  "defaultStages": {
+    "consultation": "Consultation",
+    "surgery": "Surgery",
+    "healing": "Healing",
+    "crownPlacement": "Crown Placement"
+  },
+  "validation": {
+    "selectPatient": "Select a patient",
+    "selectTooth": "Select at least one tooth"
+  }
+}

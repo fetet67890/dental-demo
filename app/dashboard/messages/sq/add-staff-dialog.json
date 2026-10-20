@@ -1,0 +1,25 @@
+{
+  "title": "Shto Anëtar Stafi",
+  "fullName": "Emri i Plotë *",
+  "email": "Email",
+  "phone": "Telefoni *",
+  "role": "Roli",
+  "selectRole": "Zgjidh rolin",
+  "roleAdmin": "Administrator",
+  "roleDoctor": "Mjek",
+  "roleReception": "Recepsionist",
+  "specialization": "Specializimi",
+  "specializationPlaceholder": "Opsional",
+  "password": "Fjalëkalimi",
+  "passwordPlaceholder": "Minimum 6 karaktere",
+  "confirmPassword": "Konfirmo Fjalëkalimin",
+  "cancel": "Anulo",
+  "adding": "Duke shtuar...",
+  "addMember": "Shto Anëtarin",
+  "errors": {
+    "nameRequired": "Emri është i detyrueshëm",
+    "phoneRequired": "Telefoni është i detyrueshëm",
+    "passwordMinLength": "Minimum 6 karaktere",
+    "passwordMismatch": "Fjalëkalimet nuk përputhen"
+  }
+}

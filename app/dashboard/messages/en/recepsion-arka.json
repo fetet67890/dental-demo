@@ -1,0 +1,59 @@
+{
+  "topbar": {
+    "title": "Daily Cash Register",
+    "subtitle": "Manage daily transactions"
+  },
+  "drawer": {
+    "openToday": "The register is open today",
+    "closedToday": "The register was closed today",
+    "notOpenedYet": "The register hasn't been opened today yet",
+    "openingSummary": "Opening float: {opening} · Expected now: {expected}",
+    "discrepancy": "Discrepancy: {amount}",
+    "closeButton": "Close Register",
+    "openButton": "Open Register",
+    "closingCountedLabel": "Counted Amount (LEK)",
+    "expectedAmount": "Expected amount: {amount}",
+    "notesLabel": "Notes (optional)",
+    "notesPlaceholder": "e.g. reason for the discrepancy...",
+    "openingFloatLabel": "Opening Float (LEK)",
+    "cancel": "Cancel",
+    "saving": "Saving..."
+  },
+  "stats": {
+    "income": "Income",
+    "expenses": "Expenses",
+    "balance": "Balance"
+  },
+  "transactions": {
+    "title": "Today's Transactions",
+    "addButton": "Add Transaction",
+    "addDialogTitle": "Add New Transaction",
+    "typeLabel": "Type",
+    "typePlaceholder": "Select type",
+    "typeIncome": "Income (Revenue)",
+    "typeExpense": "Expense",
+    "amountLabel": "Amount",
+    "methodLabel": "Payment Method",
+    "methodPlaceholder": "Select method",
+    "descriptionLabel": "Description *",
+    "descriptionPlaceholder": "Describe the transaction...",
+    "cancel": "Cancel",
+    "submit": "Add",
+    "empty": "No transactions today",
+    "table": {
+      "time": "Time",
+      "type": "Type",
+      "description": "Description",
+      "method": "Method",
+      "amount": "Amount"
+    },
+    "typeChipIncome": "Income",
+    "typeChipExpense": "Expense"
+  },
+  "method": {
+    "cash": "Cash",
+    "karte": "Card",
+    "transfer": "Transfer",
+    "transferBank": "Bank Transfer"
+  }
+}

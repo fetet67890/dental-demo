@@ -1,0 +1,20 @@
+{
+  "title": "Room Availability",
+  "today": "Today",
+  "prevDay": "Previous day",
+  "nextDay": "Next day",
+  "unassigned": "No Room",
+  "emptyState": "No active rooms to show availability",
+  "freeAllDay": "Free all day",
+  "leastBusy": "Least Busy",
+  "appointmentsCount": "{count, plural, one {# appointment} other {# appointments}}",
+  "legend": "Legend",
+  "dragHint": "Drag an appointment into a room to assign it",
+  "status": {
+    "planifikuar": "Scheduled",
+    "ne_pritje": "Waiting",
+    "ne_trajtim": "In Treatment",
+    "perfunduar": "Completed",
+    "anuluar": "Cancelled"
+  }
+}

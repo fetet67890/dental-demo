@@ -1,0 +1,22 @@
+{
+  "heading": "Periodontal Measurements",
+  "recordMeasurement": "Record Measurement",
+  "tooth": "Tooth",
+  "pocketMm": "Pocket (mm)",
+  "recessionMm": "Recession (mm)",
+  "bleeding": "Bleeding",
+  "notes": "Notes",
+  "notesPlaceholder": "Optional",
+  "cancel": "Cancel",
+  "saving": "Saving...",
+  "save": "Save",
+  "empty": "No periodontal measurements recorded",
+  "table": {
+    "date": "Date",
+    "tooth": "Tooth",
+    "pocket": "Pocket",
+    "recession": "Recession",
+    "bleeding": "Bleeding"
+  },
+  "yes": "Yes"
+}

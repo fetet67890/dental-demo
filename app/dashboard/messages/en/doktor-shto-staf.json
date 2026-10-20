@@ -1,0 +1,22 @@
+{
+  "title": "Add Member",
+  "subtitle": "Create a new staff account",
+  "newMember": "New Member",
+  "nameLabel": "Full Name *",
+  "namePlaceholder": "First Last",
+  "emailLabel": "Email",
+  "phoneLabel": "Phone *",
+  "roleLabel": "Role",
+  "rolePlaceholder": "Select a role",
+  "roleMjek": "Doctor",
+  "roleRecepsion": "Receptionist",
+  "specializationLabel": "Specialization",
+  "specializationPlaceholder": "e.g. Orthodontics",
+  "loginCredentials": "Login Credentials",
+  "passwordLabel": "Password",
+  "passwordPlaceholder": "Minimum 6 characters",
+  "confirmPasswordLabel": "Confirm Password",
+  "confirmPasswordPlaceholder": "Retype the password",
+  "creating": "Creating...",
+  "createAccount": "Create Account"
+}

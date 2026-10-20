@@ -1,0 +1,209 @@
+{
+  "common": {
+    "next": "Next",
+    "back": "Back",
+    "skip": "Skip",
+    "finish": "Finish",
+    "stepOf": "Step {current} of {total}",
+    "restartTour": "Restart Guided Tour",
+    "tryItHint": "Tip: you can click the highlighted area directly."
+  },
+  "admin": {
+    "welcome": {
+      "title": "Welcome to Hypocrates!",
+      "body": "This is a full tour of every main page in the dashboard. You can stop at any time and restart it later from the help icon at the top."
+    },
+    "dashboard": {
+      "title": "Main Dashboard",
+      "body": "Your daily overview: patients, appointments, revenue and staff notifications, all at a glance."
+    },
+    "patients": {
+      "title": "Patients",
+      "body": "Manage every patient: personal details, medical history, treatments, documents and patient-portal access. Use this button to register a new patient."
+    },
+    "appointments": {
+      "title": "Appointments",
+      "body": "The full appointment list and the calendar, in two tabs on this page — schedule, drag-and-drop to reschedule, and view by doctor or room."
+    },
+    "followups": {
+      "title": "Follow-ups",
+      "body": "Scheduled post-treatment check-ins — the system creates these itself based on the protocols you've set for each treatment type."
+    },
+    "orthodontics": {
+      "title": "Orthodontics",
+      "body": "Track step-by-step progress for patients in orthodontic treatment, with customizable stages and dates."
+    },
+    "finance": {
+      "title": "Finance",
+      "body": "The financial overview, invoices and patient debts — three tabs, on one page."
+    },
+    "inventory": {
+      "title": "Inventory",
+      "body": "Track the clinic's stock and re-order requests whenever something drops below the minimum threshold."
+    },
+    "staff": {
+      "title": "Staff",
+      "body": "Add and manage staff, track daily attendance and their commissions. Use this button to add a new member."
+    },
+    "documents": {
+      "title": "Documents",
+      "body": "Every document uploaded by patients and staff, in one place."
+    },
+    "reminders": {
+      "title": "Reminders",
+      "body": "Automatic patient recalls and manual notifications — two tabs, on the same page."
+    },
+    "website": {
+      "title": "Website",
+      "body": "Control the public site's content: posts, testimonials, gallery, contact info and SEO — five tabs, one page."
+    },
+    "sistemi": {
+      "title": "System",
+      "body": "System settings: audit logs, the exchange rate, and appearance (themes, colors, language)."
+    },
+    "konfigurimi": {
+      "title": "Configuration",
+      "body": "Integrations (AI, email, SMS), services, rooms, clinics and data import — everything configuration-related, in one place."
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "body": "This icon lets you quickly add a patient, appointment, staff member or service — from anywhere in the app."
+    },
+    "assistant": {
+      "title": "AI Assistant",
+      "body": "The chat button on every page — ask it about patients, appointments or clinic stats, or ask it to create something for you directly from the chat."
+    },
+    "profile": {
+      "title": "Profile",
+      "body": "Your personal details and account settings."
+    },
+    "goodbye": {
+      "title": "That's everything!",
+      "body": "We hope you enjoy Hypocrates. You can restart this tour any time from the help icon at the top, or from Profile. Taking you to the Main Dashboard now."
+    }
+  },
+  "mjek": {
+    "welcome": {
+      "title": "Welcome to Hypocrates!",
+      "body": "This is a full tour of every main page. You can stop at any time and restart it later from the help icon at the top."
+    },
+    "dashboard": {
+      "title": "Your Dashboard",
+      "body": "See your patients and today's appointments right from the start."
+    },
+    "calendarMine": {
+      "title": "My Calendar",
+      "body": "Your personal appointment calendar — automatically filtered to just your patients."
+    },
+    "appointments": {
+      "title": "Appointments",
+      "body": "The full list of your appointments, beyond the calendar view."
+    },
+    "patients": {
+      "title": "Patients",
+      "body": "Medical history, treatments, the 3D odontogram and DICOM images for each of your patients, on one page. Use this button to register a new patient."
+    },
+    "treatments": {
+      "title": "Treatments",
+      "body": "Log new treatments with this button — the system automatically checks the patient's allergies before you confirm."
+    },
+    "prescriptions": {
+      "title": "Prescriptions",
+      "body": "Create new prescriptions with this button and print them for your patients."
+    },
+    "followups": {
+      "title": "Follow-ups",
+      "body": "Scheduled post-treatment check-ins for your patients."
+    },
+    "orthodontics": {
+      "title": "Orthodontics",
+      "body": "Track step-by-step progress for your patients in orthodontic treatment."
+    },
+    "implantology": {
+      "title": "Implantology",
+      "body": "Plan implants and surgical stages, with scheduling straight into the calendar."
+    },
+    "cosmetics": {
+      "title": "Cosmetics",
+      "body": "Track your patients' cosmetic treatment plans."
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "body": "Quickly add a treatment, prescription or patient — from anywhere in the app."
+    },
+    "profile": {
+      "title": "Profile",
+      "body": "Your personal details and account settings."
+    },
+    "goodbye": {
+      "title": "That's everything!",
+      "body": "We hope you enjoy Hypocrates. You can restart this tour any time from the help icon at the top, or from Profile. Taking you to your Dashboard now."
+    }
+  },
+  "recepsion": {
+    "welcome": {
+      "title": "Welcome to Hypocrates!",
+      "body": "This is a full tour of every main page. You can stop at any time and restart it later from the help icon at the top."
+    },
+    "dashboard": {
+      "title": "Your Dashboard",
+      "body": "Today at a glance: appointments, the waiting queue and recent notifications."
+    },
+    "queue": {
+      "title": "Waiting Queue",
+      "body": "Manage patients waiting at the clinic in real time."
+    },
+    "waitlist": {
+      "title": "Waitlist",
+      "body": "Patients waiting for a calendar slot to open up — notify them automatically the moment one does."
+    },
+    "patients": {
+      "title": "Patients",
+      "body": "Register new patients with this button and keep their details up to date."
+    },
+    "appointments": {
+      "title": "Appointments",
+      "body": "The full appointment list, scheduling and cancellations."
+    },
+    "calendar": {
+      "title": "Calendar",
+      "body": "The clinic calendar view, by doctor or room."
+    },
+    "followups": {
+      "title": "Follow-ups",
+      "body": "Scheduled post-treatment check-ins, for every patient."
+    },
+    "cashRegister": {
+      "title": "Cash Register",
+      "body": "Open and close the daily cash drawer, with automatic reconciliation of expected vs. counted cash."
+    },
+    "invoices": {
+      "title": "Invoices",
+      "body": "Create invoices, record payments and print receipts for patients."
+    },
+    "inquiries": {
+      "title": "Website Inquiries",
+      "body": "Appointment requests sent in from the clinic's public website."
+    },
+    "documents": {
+      "title": "Documents",
+      "body": "Documents uploaded by patients and staff."
+    },
+    "archive": {
+      "title": "Archive",
+      "body": "Records for inactive or archived patients."
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "body": "Quickly add a patient, appointment or document — from anywhere in the app."
+    },
+    "profile": {
+      "title": "Profile",
+      "body": "Your personal details and account settings."
+    },
+    "goodbye": {
+      "title": "That's everything!",
+      "body": "We hope you enjoy Hypocrates. You can restart this tour any time from the help icon at the top, or from Profile. Taking you to your Dashboard now."
+    }
+  }
+}

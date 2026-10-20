@@ -1,0 +1,11 @@
+{
+  "errors": {
+    "toolGroupFailed": "Nuk u krijua grupi i mjeteve",
+    "imageLoadFailed": "Nuk u ngarkua imazhi DICOM"
+  },
+  "loadingImage": "Duke ngarkuar imazhin DICOM...",
+  "windowLevelTitle": "Ndriçim/Kontrast (klikoni majtas dhe tërhiqni)",
+  "lengthTitle": "Mat Distancën (klikoni majtas dhe tërhiqni)",
+  "resetView": "Rivendos Pamjen",
+  "helpText": "Djathtas: zmadho · Mesi: zhvendos · Rrota: shkallë"
+}

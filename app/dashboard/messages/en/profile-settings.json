@@ -1,0 +1,74 @@
+{
+  "roles": {
+    "admin": "Administrator",
+    "mjek": "Doctor",
+    "recepsion": "Receptionist"
+  },
+  "cancel": "Cancel",
+  "systemRole": {
+    "title": "System Role"
+  },
+  "avatar": {
+    "changePhoto": "Change Photo",
+    "uploading": "Uploading...",
+    "removePhoto": "Remove Photo",
+    "removing": "Removing...",
+    "removeDialogTitle": "Remove profile photo?",
+    "removeDialogDescription": "Your profile photo will be removed and replaced with your name's initial."
+  },
+  "personalInfo": {
+    "title": "Personal Information",
+    "fullName": "Full Name *",
+    "fullNamePlaceholder": "First and last name",
+    "email": "Email *",
+    "saving": "Saving...",
+    "saveChanges": "Save Changes"
+  },
+  "password": {
+    "title": "Change Password",
+    "current": "Current Password *",
+    "new": "New Password *",
+    "newPlaceholder": "Minimum 6 characters",
+    "confirm": "Confirm New Password *",
+    "changing": "Changing...",
+    "submit": "Change Password"
+  },
+  "mfa": {
+    "title": "Two-Factor Verification (MFA)",
+    "intro": "Add an extra layer of security — after your password, you'll also be emailed a 6-digit code. No extra app needed.",
+    "enable": "Enable MFA",
+    "codeSentIntro": "We sent a verification code to {email}. Enter it below.",
+    "confirmCode": "Confirmation Code",
+    "confirming": "Confirming...",
+    "confirmAndEnable": "Confirm and Enable",
+    "resend": "Resend",
+    "activeNotice": "MFA is active for this account",
+    "disable": "Disable MFA",
+    "disableCodePrompt": "Click to get a verification code by email",
+    "disabling": "Disabling...",
+    "disableShort": "Disable"
+  },
+  "guidedTour": {
+    "title": "Guided Tour",
+    "description": "Replay the tour that walks through every main page of the dashboard, step by step.",
+    "button": "Restart Tour"
+  },
+  "setupWizard": {
+    "title": "Initial Setup",
+    "description": "Redo the language, colors, fonts, and clinic logo setup, step by step.",
+    "button": "Restart Setup"
+  },
+  "logout": {
+    "title": "Log Out",
+    "button": "Log Out"
+  },
+  "validation": {
+    "nameRequired": "Name is required",
+    "emailRequired": "Email is required",
+    "currentPasswordRequired": "Current password is required",
+    "newPasswordRequired": "New password is required",
+    "passwordMinLength": "Minimum 6 characters",
+    "confirmRequired": "Confirmation is required",
+    "passwordMismatch": "Passwords do not match"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "title": "Invoices",
+  "subtitle": "Manage invoices and payments",
+  "validation": {
+    "amountExceedsDebt": "The amount cannot be greater than the outstanding balance"
+  },
+  "stats": {
+    "totalRevenue": "Total Revenue",
+    "pendingPayments": "Pending Payments",
+    "paidInvoices": "Paid Invoices",
+    "unpaidInvoices": "Unpaid Invoices"
+  },
+  "searchPlaceholder": "Search invoices...",
+  "table": {
+    "invoice": "Invoice",
+    "patient": "Patient",
+    "amount": "Amount",
+    "paid": "Paid",
+    "debt": "Balance",
+    "status": "Status",
+    "actions": "Actions",
+    "empty": "No invoices found"
+  },
+  "print": "Print",
+  "menu": {
+    "viewDetails": "View Details",
+    "registerPayment": "Register Payment"
+  },
+  "paymentDialog": {
+    "title": "Register Payment",
+    "description": "Invoice: {id} — Balance: {amount}",
+    "amount": "Amount",
+    "method": "Payment Method",
+    "notes": "Notes",
+    "notesPlaceholder": "Additional notes...",
+    "cancel": "Cancel",
+    "submit": "Register Payment"
+  },
+  "paymentMethods": {
+    "cash": "Cash",
+    "karte": "Card",
+    "transfer": "Bank Transfer"
+  },
+  "detailDialog": {
+    "title": "Invoice Details {id}",
+    "patient": "Patient",
+    "date": "Date",
+    "treatments": "Treatments:",
+    "total": "Total",
+    "paid": "Paid",
+    "debt": "Balance",
+    "paymentHistory": "Payment History:",
+    "close": "Close"
+  },
+  "paymentMethodsShort": {
+    "cash": "Cash",
+    "karte": "Card",
+    "transfer": "Transfer"
+  }
+}

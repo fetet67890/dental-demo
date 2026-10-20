@@ -1,0 +1,36 @@
+{
+  "validation": {
+    "nameRequired": "Emri është i detyrueshëm"
+  },
+  "dialog": {
+    "editTitle": "Ndrysho Dhomën",
+    "addTitle": "Shto Dhomë të Re",
+    "editDescription": "Ndryshoni detajet e dhomës",
+    "addDescription": "Emrat mund të jenë p.sh. \"Dhoma 1\" ose \"Karrigia A\"",
+    "nameLabel": "Emri",
+    "namePlaceholder": "p.sh. Dhoma 1",
+    "activeLabel": "Aktive",
+    "cancel": "Anulo",
+    "saveChanges": "Ruaj Ndryshimet",
+    "addSubmit": "Shto Dhomë"
+  },
+  "searchPlaceholder": "Kërko dhoma...",
+  "addButton": "Shto Dhomë",
+  "table": {
+    "room": "Dhoma",
+    "status": "Statusi",
+    "actions": "Veprime"
+  },
+  "status": {
+    "active": "Aktive",
+    "inactive": "Joaktive"
+  },
+  "empty": "Nuk u gjetën dhoma",
+  "deleteDialog": {
+    "title": "Fshi Dhomën",
+    "prefix": "Jeni të sigurt që dëshironi të fshini",
+    "suffix": "? Takimet ekzistuese do të mbeten, thjesht do të heqin lidhjen me këtë dhomë.",
+    "cancel": "Anulo",
+    "confirm": "Fshi"
+  }
+}

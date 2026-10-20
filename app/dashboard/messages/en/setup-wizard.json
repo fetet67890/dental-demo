@@ -1,0 +1,62 @@
+{
+  "welcome": {
+    "title": "Welcome to Hypocrates!",
+    "body": "Let's quickly set up your dashboard — language, colors, fonts, and the clinic's logo. Every step can be skipped, and everything can be changed later from Settings → Appearance."
+  },
+  "language": {
+    "title": "Language",
+    "body": "Which language should the dashboard display?"
+  },
+  "color": {
+    "title": "Dashboard Colors",
+    "body": "Choose a color palette for your clinic.",
+    "moreHint": "You can also pick a fully custom color later, from Appearance."
+  },
+  "font": {
+    "title": "Fonts",
+    "body": "Choose the typeface used across the whole dashboard.",
+    "moreHint": "You can also upload your own font later, from Appearance."
+  },
+  "surface": {
+    "title": "Interface Style",
+    "body": "Solid colored surfaces, or a translucent glass look?"
+  },
+  "logo": {
+    "title": "Clinic Logo",
+    "body": "Shown at the top of the sidebar menu.",
+    "dropzone": "Click or drag your logo here (PNG, JPG, SVG, WEBP)",
+    "submit": "Upload Logo",
+    "uploaded": "Logo uploaded successfully"
+  },
+  "favicon": {
+    "title": "Browser Tab Icon",
+    "body": "Shown in the browser tab, next to the page title.",
+    "dropzone": "Click or drag the icon here (PNG, ICO, SVG, JPG)",
+    "previewCaption": "Current icon",
+    "submit": "Upload Icon",
+    "uploaded": "Icon uploaded successfully"
+  },
+  "import": {
+    "title": "Import Your Existing Data",
+    "body": "Already have a list of patients, staff, or prices somewhere else? Upload it now from a CSV or Excel file — or skip this step and do it later.",
+    "dropzone": "Click or drag your file here (CSV, XLSX, XLS)",
+    "chooseAnother": "Choose a different file",
+    "totalRows": "{count} total rows",
+    "validRows": "{count} valid",
+    "invalidRows": "{count} with errors",
+    "importButton": "Import {count} Rows",
+    "noValidRows": "No valid rows in this file",
+    "importedCount": "{count} rows imported successfully.",
+    "failedCount": "{count} failed.",
+    "laterHint": "Finer control (row by row) and import history live at Settings → Import."
+  },
+  "finish": {
+    "title": "All set!",
+    "body": "Your dashboard is configured. Everything can be changed again at any time from Settings → Appearance."
+  },
+  "back": "Back",
+  "skip": "Skip Setup",
+  "next": "Next",
+  "finishButton": "Finish",
+  "genericError": "Something went wrong, please try again"
+}

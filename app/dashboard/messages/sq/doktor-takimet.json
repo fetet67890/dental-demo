@@ -1,0 +1,47 @@
+{
+  "header": {
+    "title": "Takimet e Mia",
+    "subtitle": "Menaxho dhe shiko takimet tuaja"
+  },
+  "stats": {
+    "today": "Sot",
+    "thisWeek": "Kjo Javë",
+    "thisMonth": "Ky Muaj",
+    "myAppointmentsNote": "takimet e mia"
+  },
+  "todayCard": {
+    "title": "Takimet e Sotme",
+    "empty": "Nuk ka takime për sot"
+  },
+  "filters": {
+    "searchPlaceholder": "Kërko pacientin...",
+    "statusPlaceholder": "Statusi"
+  },
+  "status": {
+    "all": "Të gjitha",
+    "planifikuar": "Planifikuar",
+    "ne_pritje": "Në Pritje",
+    "ne_trajtim": "Në Trajtim",
+    "perfunduar": "Përfunduar",
+    "anuluar": "Anuluar",
+    "mungoi": "Mungoi"
+  },
+  "empty": {
+    "title": "Nuk ka takime",
+    "filterHint": "Provoni filtra të tjerë",
+    "noAppointments": "Nuk keni takime të planifikuara"
+  },
+  "table": {
+    "timeDate": "Ora / Data",
+    "patient": "Pacienti",
+    "type": "Lloji",
+    "duration": "Kohëzgjatja",
+    "status": "Statusi",
+    "actions": "Veprime"
+  },
+  "actions": {
+    "start": "Fillo",
+    "complete": "Përfundo",
+    "treatment": "Trajtim"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "saveChanges": "Save Changes",
+  "contact": {
+    "title": "Contact Information",
+    "description": "Shown in the footer and contact page of the public website.",
+    "addressLabel": "Address",
+    "addressPlaceholder": "e.g. X Street, Tirana",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "hoursLabel": "Hours",
+    "hoursPlaceholder": "e.g. Monday - Friday: 09:00 - 18:00\nSaturday: 09:00 - 13:00"
+  },
+  "announcement": {
+    "title": "Announcement Banner",
+    "description": "Banner shown at the top of the public website (e.g. special hours, promotions).",
+    "messageLabel": "Message",
+    "messagePlaceholder": "e.g. Closed for holidays August 1-5",
+    "activeLabel": "Active (visible on the public website)"
+  }
+}

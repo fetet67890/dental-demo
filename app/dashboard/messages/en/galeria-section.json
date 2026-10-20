@@ -1,0 +1,39 @@
+{
+  "tags": {
+    "hero": "Hero (Homepage)",
+    "team": "Team",
+    "clinic": "Clinic",
+    "arc_gallery": "Gallery (About Us)",
+    "smile_ticker": "Smile Ticker",
+    "before": "Before (Treatment)",
+    "after": "After (Treatment)"
+  },
+  "validation": {
+    "imageRequired": "Upload an image"
+  },
+  "dialog": {
+    "editTitle": "Edit Photo",
+    "addTitle": "Add New Photo",
+    "editDescription": "Edit the photo's details",
+    "addDescription": "Add a photo to the public site's gallery",
+    "photoLabel": "Photo",
+    "categoryLabel": "Category",
+    "captionLabel": "Caption (optional)",
+    "captionPlaceholder": "e.g. Waiting room",
+    "sortOrderLabel": "Sort Order",
+    "activeLabel": "Active (shown on the public site)",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes",
+    "addSubmit": "Add Photo"
+  },
+  "allCategories": "All categories",
+  "addButton": "Add Photo",
+  "empty": "No photos found",
+  "inactiveBadge": "Inactive",
+  "deleteDialog": {
+    "title": "Delete Photo",
+    "description": "Are you sure you want to delete this photo? This action cannot be undone.",
+    "cancel": "Cancel",
+    "confirm": "Delete"
+  }
+}

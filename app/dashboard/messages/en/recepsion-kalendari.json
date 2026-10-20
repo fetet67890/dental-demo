@@ -1,0 +1,50 @@
+{
+  "topbar": {
+    "title": "Calendar",
+    "subtitle": "View and manage appointments"
+  },
+  "stats": {
+    "today": "Today",
+    "thisWeek": "This Week",
+    "thisMonth": "This Month",
+    "activeAppointments": "active appointments"
+  },
+  "todayCard": {
+    "title": "Today's Appointments",
+    "empty": "No appointments today"
+  },
+  "quickActions": {
+    "viewAll": "View All Appointments",
+    "addPatient": "Add New Patient",
+    "uploadDocument": "Upload Document"
+  },
+  "tabs": {
+    "weekly": "Weekly View",
+    "byDoctor": "By Doctor",
+    "byRoom": "By Room",
+    "requests": "Requests"
+  },
+  "detailDialog": {
+    "title": "Appointment Details",
+    "description": "View and change the appointment status",
+    "patient": "Patient",
+    "doctor": "Doctor",
+    "room": "Room",
+    "date": "Date",
+    "time": "Time",
+    "type": "Type",
+    "duration": "Duration",
+    "currentStatus": "Current Status",
+    "changeStatus": "Change Status",
+    "notes": "Notes",
+    "close": "Close"
+  },
+  "status": {
+    "planifikuar": "Scheduled",
+    "ne_pritje": "Waiting",
+    "ne_trajtim": "In Treatment",
+    "perfunduar": "Completed",
+    "anuluar": "Cancelled",
+    "mungoi": "No-show"
+  }
+}

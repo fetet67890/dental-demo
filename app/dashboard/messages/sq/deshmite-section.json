@@ -1,0 +1,50 @@
+{
+  "validation": {
+    "nameRequired": "Emri është i detyrueshëm",
+    "quoteRequired": "Citimi është i detyrueshëm"
+  },
+  "dialog": {
+    "editTitle": "Ndrysho Dëshminë",
+    "addTitle": "Shto Dëshmi të Re",
+    "editDescription": "Ndryshoni detajet e dëshmisë",
+    "addDescription": "Shtoni një dëshmi/recensë të re për faqen publike",
+    "photoLabel": "Fotoja (opsionale)",
+    "photoHint": "Katrore, min 200×200 px",
+    "nameLabel": "Emri",
+    "namePlaceholder": "p.sh. Arben Krasniqi",
+    "quoteLabel": "Citimi",
+    "quotePlaceholder": "Përvoja e pacientit...",
+    "titleLabel": "Titulli/Roli",
+    "titlePlaceholder": "p.sh. Pacient",
+    "locationLabel": "Vendndodhja",
+    "locationPlaceholder": "p.sh. Tiranë",
+    "ratingLabel": "Vlerësimi",
+    "ratingPlaceholder": "Pa vlerësim",
+    "sortOrderLabel": "Renditja",
+    "activeLabel": "Aktive (shfaqet në faqen publike)",
+    "cancel": "Anulo",
+    "saveChanges": "Ruaj Ndryshimet",
+    "addSubmit": "Shto Dëshmi"
+  },
+  "searchPlaceholder": "Kërko dëshmi...",
+  "addButton": "Shto Dëshmi",
+  "table": {
+    "testimonial": "Dëshmia",
+    "roleLocation": "Roli/Vendndodhja",
+    "rating": "Vlerësimi",
+    "status": "Statusi",
+    "actions": "Veprime"
+  },
+  "status": {
+    "active": "Aktive",
+    "inactive": "Joaktive"
+  },
+  "empty": "Nuk u gjetën dëshmi",
+  "deleteDialog": {
+    "title": "Fshi Dëshminë",
+    "prefix": "Jeni të sigurt që dëshironi të fshini dëshminë e",
+    "suffix": "? Ky veprim nuk mund të kthehet mbrapsht.",
+    "cancel": "Anulo",
+    "confirm": "Fshi"
+  }
+}

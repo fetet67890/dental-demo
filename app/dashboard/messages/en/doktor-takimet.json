@@ -1,0 +1,47 @@
+{
+  "header": {
+    "title": "My Appointments",
+    "subtitle": "Manage and view your appointments"
+  },
+  "stats": {
+    "today": "Today",
+    "thisWeek": "This Week",
+    "thisMonth": "This Month",
+    "myAppointmentsNote": "my appointments"
+  },
+  "todayCard": {
+    "title": "Today's Appointments",
+    "empty": "No appointments for today"
+  },
+  "filters": {
+    "searchPlaceholder": "Search patient...",
+    "statusPlaceholder": "Status"
+  },
+  "status": {
+    "all": "All",
+    "planifikuar": "Scheduled",
+    "ne_pritje": "Waiting",
+    "ne_trajtim": "In Treatment",
+    "perfunduar": "Completed",
+    "anuluar": "Cancelled",
+    "mungoi": "No-show"
+  },
+  "empty": {
+    "title": "No appointments",
+    "filterHint": "Try different filters",
+    "noAppointments": "You have no scheduled appointments"
+  },
+  "table": {
+    "timeDate": "Time / Date",
+    "patient": "Patient",
+    "type": "Type",
+    "duration": "Duration",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "actions": {
+    "start": "Start",
+    "complete": "Complete",
+    "treatment": "Treatment"
+  }
+}

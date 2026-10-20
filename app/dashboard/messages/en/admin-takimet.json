@@ -1,0 +1,73 @@
+{
+  "title": "Appointments",
+  "subtitle": "Manage all of the clinic's appointments",
+  "hubTabs": {
+    "list": "List",
+    "calendar": "Calendar",
+    "requests": "Requests",
+    "requestsSubtitle": "Appointment requests from the patient portal"
+  },
+  "stats": {
+    "today": "Today",
+    "thisWeek": "This Week",
+    "thisMonth": "This Month",
+    "activeAppointments": "active appointments"
+  },
+  "today": {
+    "sectionTitle": "Today's Appointments",
+    "empty": "No appointments today",
+    "durationMinutes": "{duration}min"
+  },
+  "searchPlaceholder": "Search appointments...",
+  "addButton": "Add Appointment",
+  "dialog": {
+    "editTitle": "Edit Appointment",
+    "addTitle": "Add New Appointment",
+    "description": "Fill in the appointment details",
+    "patient": "Patient",
+    "patientPlaceholder": "Select a patient",
+    "doctor": "Doctor",
+    "doctorPlaceholder": "Select a doctor",
+    "date": "Date",
+    "time": "Time",
+    "type": "Type",
+    "typePlaceholder": "Select type",
+    "duration": "Duration (min)",
+    "minutesUnit": "min",
+    "notes": "Notes",
+    "notesPlaceholder": "Additional notes...",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes",
+    "create": "Create Appointment"
+  },
+  "status": {
+    "planifikuar": "Scheduled",
+    "ne_pritje": "Pending",
+    "ne_trajtim": "In Treatment",
+    "perfunduar": "Completed",
+    "anuluar": "Cancelled",
+    "mungoi": "No-show"
+  },
+  "table": {
+    "patient": "Patient",
+    "doctor": "Doctor",
+    "dateTime": "Date & Time",
+    "type": "Type",
+    "status": "Status",
+    "actions": "Actions",
+    "empty": "No appointments found"
+  },
+  "menu": {
+    "edit": "Edit",
+    "markPending": "Mark as Pending",
+    "startTreatment": "Start Treatment",
+    "complete": "Complete",
+    "cancel": "Cancel"
+  },
+  "cancelDialog": {
+    "title": "Cancel Appointment",
+    "description": "Are you sure you want to cancel this appointment? This action cannot be undone.",
+    "close": "Close",
+    "confirm": "Cancel Appointment"
+  }
+}

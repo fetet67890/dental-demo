@@ -1,0 +1,13 @@
+{
+  "visitWebsite": "Visit Website",
+  "tabs": {
+    "postimet": { "label": "Posts", "title": "Posts", "subtitle": "Manage the public website's blog articles" },
+    "deshmite": { "label": "Testimonials", "title": "Testimonials", "subtitle": "Manage patient reviews/testimonials" },
+    "galeria": { "label": "Gallery", "title": "Gallery", "subtitle": "Manage the public website's gallery photos" },
+    "sajti": { "label": "Site & Contact", "title": "Site & Contact", "subtitle": "Contact details and the announcement banner" },
+    "meta": { "label": "SEO", "title": "SEO", "subtitle": "Titles and descriptions for search engines" },
+    "kerkesa": { "label": "Inquiries", "title": "Website Inquiries", "subtitle": "Booking/contact requests submitted from the public website" },
+    "permbajtja": { "label": "Content", "title": "Website Content", "subtitle": "Edit the public site's text and manage languages/translations" },
+    "pamja": { "label": "Appearance", "title": "Website Appearance", "subtitle": "The public website's own color palette" }
+  }
+}

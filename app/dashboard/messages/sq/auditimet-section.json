@@ -1,0 +1,13 @@
+{
+  "roles": {
+    "admin": "Administrator",
+    "mjek": "Mjek",
+    "recepsion": "Recepsionist",
+    "all": "Të gjithë"
+  },
+  "searchPlaceholder": "Kërko në auditime...",
+  "filterByRole": "Filtro sipas rolit",
+  "loading": "Duke u ngarkuar...",
+  "empty": "Nuk u gjetën auditime",
+  "pagination": "Faqja {page} nga {totalPages} · {total} auditime gjithsej"
+}

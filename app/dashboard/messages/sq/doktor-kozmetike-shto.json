@@ -1,0 +1,27 @@
+{
+  "title": "Plan i Ri Kozmetik",
+  "subtitle": "Zgjidhni dhëmbët dhe procedurën kozmetike për secilin",
+  "back": "Kthehu",
+  "cancel": "Anulo",
+  "saving": "Duke ruajtur...",
+  "savePlan": "Ruaj Planin",
+  "planDetails": "Detajet e Planit",
+  "planDetailsDescription": "Caktoni procedurën për secilin dhëmb",
+  "patientLabel": "Pacienti",
+  "patientPlaceholder": "Zgjidhni pacientin",
+  "procedurePerTooth": "Procedura për Secilin Dhëmb",
+  "costLabel": "Çmimi (LEK)",
+  "notesLabel": "Shënime",
+  "notesPlaceholder": "Shënime shtesë mbi planin...",
+  "beforeAfterHint": "Fotot para/pas ruhen te skeda \"Dokumentet\" e pacientit (mjeti ekzistues Para/Pas), jo këtu.",
+  "procedures": {
+    "faceta": "Faceta (Veneer)",
+    "zbardhim": "Zbardhim Dhëmbësh",
+    "bonding": "Bonding / Kompozit",
+    "tjeter": "Tjetër"
+  },
+  "validation": {
+    "selectPatient": "Zgjidhni pacientin",
+    "selectTooth": "Zgjidhni të paktën një dhëmb"
+  }
+}

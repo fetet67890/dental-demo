@@ -1,0 +1,26 @@
+{
+  "addButton": "Add Clinic",
+  "loading": "Loading...",
+  "emptyState": "No clinics yet. Add one to make it available in the patient portal.",
+  "active": "Active",
+  "inactive": "Inactive",
+  "edit": "Edit",
+  "delete": "Delete",
+  "cancel": "Cancel",
+  "dialog": {
+    "editTitle": "Edit Clinic",
+    "nameLabel": "Name *",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "descriptionLabel": "Description",
+    "activeLabel": "Active (visible to patients)",
+    "saving": "Saving...",
+    "save": "Save",
+    "create": "Create"
+  },
+  "deleteDialog": {
+    "title": "Delete Clinic",
+    "description": "You're deleting {name}. This action cannot be undone."
+  }
+}

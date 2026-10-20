@@ -1,0 +1,28 @@
+{
+  "title": "Recalls",
+  "subtitle": "Automatic reminders for routine checkups",
+  "tabs": {
+    "recalls": "Recalls",
+    "appointments": "Appointments",
+    "notifications": "Notifications"
+  },
+  "automaticRecalls": "Automatic Recalls",
+  "automaticRecallsHint": "Sent every day at 08:00 for patients who haven't visited in a while",
+  "intervalMonths": "Recall interval (months)",
+  "patientsAwaiting": "Patients Awaiting a Recall",
+  "patientCount": "{count} patients",
+  "sendNow": "Send Now",
+  "lastVisit": "Last visit: {date}",
+  "noVisitRecorded": "No visit recorded",
+  "emptyState": "No patients are currently awaiting a recall",
+  "appointmentReminders": {
+    "title": "Appointment Reminders",
+    "subtitle": "Automatic reminders for upcoming appointments",
+    "automatic": "Automatic Appointment Reminders",
+    "automaticHint": "Sent every hour for appointments starting within the configured window",
+    "leadHours": "How many hours ahead (hours)",
+    "due": "Appointments Awaiting a Reminder",
+    "dueCount": "{count} appointments",
+    "emptyState": "No appointments are currently awaiting a reminder"
+  }
+}

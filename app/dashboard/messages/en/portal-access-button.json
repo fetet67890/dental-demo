@@ -1,0 +1,20 @@
+{
+  "status": {
+    "ftuar": "Invited",
+    "aktiv": "Active",
+    "caktivizuar": "Deactivated"
+  },
+  "activating": "Activating...",
+  "activate": "Activate Portal Access",
+  "resendInvite": "Resend Invite",
+  "deactivate": "Deactivate Portal",
+  "reactivate": "Reactivate",
+  "emailDialog": {
+    "title": "Email for the Portal",
+    "description": "This patient doesn't have a registered email. Enter an email to send the invite.",
+    "emailLabel": "Email",
+    "cancel": "Cancel",
+    "sending": "Sending...",
+    "sendInvite": "Send Invite"
+  }
+}

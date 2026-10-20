@@ -1,0 +1,86 @@
+{
+  "topbar": {
+    "title": "Preventive / Documents",
+    "subtitle": "Manage clinic documents and protected files"
+  },
+  "stats": {
+    "total": "Total",
+    "preventive": "Preventive",
+    "personal": "Personal",
+    "protected": "Protected"
+  },
+  "tabs": {
+    "all": "All",
+    "preventive": "Preventive",
+    "personal": "Personal"
+  },
+  "search": {
+    "placeholder": "Search documents..."
+  },
+  "upload": "Upload",
+  "loading": "Loading...",
+  "empty": "No documents found",
+  "category": {
+    "preventive": "Preventive",
+    "personal": "Personal"
+  },
+  "actions": {
+    "view": "View",
+    "download": "Download",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "uploadDialog": {
+    "title": "Upload New Document",
+    "description": "Choose a file and fill in the details",
+    "dropzoneCta": "Click to choose a file",
+    "dropzoneHint": "PDF, JPEG, PNG, WEBP — max. 50 MB",
+    "nameLabel": "Document Name",
+    "namePlaceholder": "e.g. Routine Checkup March 2026",
+    "categoryLabel": "Category",
+    "categoryPreventive": "Preventive — no password",
+    "categoryPersonal": "Personal — can be protected",
+    "descriptionLabel": "Description (optional)",
+    "descriptionPlaceholder": "Document description...",
+    "passwordLabel": "Protection Password (optional)",
+    "passwordPlaceholder": "Leave blank if you don't want protection",
+    "passwordHint": "If you set a password, reception staff will need to know it to open the file.",
+    "cancel": "Cancel",
+    "submit": "Upload",
+    "submitting": "Uploading..."
+  },
+  "editDialog": {
+    "title": "Edit Document",
+    "description": "Change the name, description, or password",
+    "nameLabel": "Name",
+    "descriptionLabel": "Description",
+    "passwordLabel": "Password",
+    "currentlyProtected": "This document is currently protected",
+    "removeButton": "Remove",
+    "willBeRemoved": "The password will be removed after saving.",
+    "newPasswordPlaceholder": "New password (leave blank to keep unchanged)",
+    "setPasswordPlaceholder": "Set a password",
+    "cancel": "Cancel",
+    "submit": "Save Changes",
+    "submitting": "Saving..."
+  },
+  "viewDialog": {
+    "title": "Protected Document",
+    "description": "The document \"{name}\" is protected. Enter the password to open it.",
+    "passwordPlaceholder": "Password...",
+    "cancel": "Cancel",
+    "submit": "Open Document",
+    "submitting": "Verifying..."
+  },
+  "deleteDialog": {
+    "title": "Delete Document",
+    "description": "Are you sure you want to delete \"{name}\"? This action cannot be undone.",
+    "cancel": "Cancel",
+    "confirm": "Delete"
+  },
+  "errors": {
+    "passwordTooShort": "Password must be at least 4 characters",
+    "fileRequired": "Choose a file to upload",
+    "nameRequired": "Document name is required"
+  }
+}

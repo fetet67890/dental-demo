@@ -1,0 +1,21 @@
+{
+  "notFound": {
+    "topbarTitle": "Patient",
+    "title": "Patient not found",
+    "description": "The patient you're looking for doesn't exist or has been deleted.",
+    "back": "Go back"
+  },
+  "subtitle": "Patient Profile",
+  "back": "Back",
+  "exportPdf": "Download PDF",
+  "exporting": "Generating...",
+  "archive": "Archive",
+  "archiving": "Archiving...",
+  "archiveDialog": {
+    "title": "Archive Patient",
+    "confirmPrefix": "You are about to archive",
+    "confirmSuffix": "The patient will be removed from the active list and stored in the Archive section.",
+    "cancel": "Cancel",
+    "confirm": "Archive"
+  }
+}

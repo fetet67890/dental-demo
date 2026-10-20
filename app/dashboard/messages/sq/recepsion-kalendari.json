@@ -1,0 +1,50 @@
+{
+  "topbar": {
+    "title": "Kalendari",
+    "subtitle": "Shiko dhe menaxho takimet"
+  },
+  "stats": {
+    "today": "Sot",
+    "thisWeek": "Kjo Javë",
+    "thisMonth": "Ky Muaj",
+    "activeAppointments": "takime aktive"
+  },
+  "todayCard": {
+    "title": "Takimet e Sotme",
+    "empty": "Nuk ka takime për sot"
+  },
+  "quickActions": {
+    "viewAll": "Shiko të Gjitha Takimet",
+    "addPatient": "Shto Pacient të Ri",
+    "uploadDocument": "Ngarko Dokument"
+  },
+  "tabs": {
+    "weekly": "Pamja Javore",
+    "byDoctor": "Sipas Mjekëve",
+    "byRoom": "Sipas Dhomave",
+    "requests": "Kërkesat"
+  },
+  "detailDialog": {
+    "title": "Detajet e Takimit",
+    "description": "Shiko dhe ndrysho statusin e takimit",
+    "patient": "Pacienti",
+    "doctor": "Doktori",
+    "room": "Dhoma",
+    "date": "Data",
+    "time": "Ora",
+    "type": "Lloji",
+    "duration": "Kohëzgjatja",
+    "currentStatus": "Statusi Aktual",
+    "changeStatus": "Ndrysho Statusin",
+    "notes": "Shënime",
+    "close": "Mbyll"
+  },
+  "status": {
+    "planifikuar": "Planifikuar",
+    "ne_pritje": "Në Pritje",
+    "ne_trajtim": "Në Trajtim",
+    "perfunduar": "Përfunduar",
+    "anuluar": "Anuluar",
+    "mungoi": "Mungoi"
+  }
+}

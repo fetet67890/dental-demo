@@ -1,0 +1,22 @@
+{
+  "title": "Shto Anëtar",
+  "subtitle": "Krijo llogari të re për stafin",
+  "newMember": "Anëtar i Ri",
+  "nameLabel": "Emri i Plotë *",
+  "namePlaceholder": "Emri Mbiemri",
+  "emailLabel": "Email",
+  "phoneLabel": "Telefoni *",
+  "roleLabel": "Roli",
+  "rolePlaceholder": "Zgjidhni rolin",
+  "roleMjek": "Mjek",
+  "roleRecepsion": "Recepsionist",
+  "specializationLabel": "Specializimi",
+  "specializationPlaceholder": "p.sh. Ortodonci",
+  "loginCredentials": "Kredencialet e Hyrjes",
+  "passwordLabel": "Fjalëkalimi",
+  "passwordPlaceholder": "Minimum 6 karaktere",
+  "confirmPasswordLabel": "Konfirmo Fjalëkalimin",
+  "confirmPasswordPlaceholder": "Rishkruani fjalëkalimin",
+  "creating": "Duke krijuar...",
+  "createAccount": "Krijo Llogarinë"
+}

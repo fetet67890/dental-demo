@@ -1,0 +1,33 @@
+{
+  "title": "Appointment Calendar",
+  "subtitle": "View and manage all appointments",
+  "tabs": {
+    "weekly": "Weekly View",
+    "byDoctor": "By Doctor",
+    "byRoom": "By Room"
+  },
+  "dialog": {
+    "title": "Appointment Details",
+    "description": "View and change the appointment's status",
+    "patient": "Patient",
+    "doctor": "Doctor",
+    "room": "Room",
+    "date": "Date",
+    "time": "Time",
+    "type": "Type",
+    "duration": "Duration",
+    "minutesUnit": "min",
+    "currentStatus": "Current Status",
+    "changeStatus": "Change Status",
+    "notes": "Notes",
+    "close": "Close"
+  },
+  "status": {
+    "planifikuar": "Scheduled",
+    "ne_pritje": "Pending",
+    "ne_trajtim": "In Treatment",
+    "perfunduar": "Completed",
+    "anuluar": "Cancelled",
+    "mungoi": "No-show"
+  }
+}

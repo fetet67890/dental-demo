@@ -1,0 +1,25 @@
+{
+  "dentalChart": "Harta Dentare",
+  "clickToothHint": "Klikoni një dhëmb për të vendosur gjendjen",
+  "selectTeethHint": "Zgjidhni dhëmbët për trajtim (mund të zgjidhni disa)",
+  "upperJaw": "NOFULLA E SIPERME",
+  "lowerJaw": "NOFULLA E POSHTME",
+  "right": "E DJATHTE",
+  "left": "E MAJTE",
+  "normal": "Normal",
+  "selected": "I Zgjedhur",
+  "planned": "I Planifikuar",
+  "treated": "I Trajtuar",
+  "toothNumber": "Dhëmbi #{tooth}",
+  "selectedToothSingle": "Dhembi i Zgjedhur: {tooth}",
+  "selectedTeethMultiple": "Dhëmbët e Zgjedhur: {teeth}",
+  "conditions": {
+    "shendoshe": "I Shëndoshë",
+    "mungon": "Mungon",
+    "mbushje": "Mbushje",
+    "kurore": "Kurorë",
+    "ure": "Urë",
+    "implant": "Implant",
+    "kanal_rrenjor": "Kanal Rrënjor"
+  }
+}

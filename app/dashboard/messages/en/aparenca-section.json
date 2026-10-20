@@ -1,0 +1,119 @@
+{
+  "errors": {
+    "chooseImage": "Choose an image (PNG, JPG, SVG, WEBP)",
+    "chooseImageFavicon": "Choose an image (PNG, ICO, SVG)",
+    "chooseImageSquare": "Choose an image (PNG, SVG, WEBP)",
+    "chooseLogoFile": "Choose a logo file",
+    "chooseFaviconFile": "Choose a favicon file",
+    "chooseIconFile": "Choose an icon file"
+  },
+  "uploading": "Uploading...",
+  "language": {
+    "cardTitle": "Language & Currency",
+    "title": "Language",
+    "hint": "Choose the interface language for your account."
+  },
+  "currency": {
+    "title": "Display Currency",
+    "hint": "Choose the currency amounts are shown in across the dashboard. Data is always stored in LEK — this only changes how it's displayed, not invoices or payments.",
+    "options": {
+      "LEK": "Albanian Lek",
+      "EUR": "Euro",
+      "USD": "US Dollar",
+      "GBP": "British Pound"
+    }
+  },
+  "colors": {
+    "title": "Dashboard Colors",
+    "hint": "Choose the color palette for every account at the clinic. Dark mode always stays white/gray/black, regardless of the palette.",
+    "presets": {
+      "blue": "Blue",
+      "green": "Green",
+      "purple": "Purple",
+      "amber": "Amber",
+      "rose": "Rose",
+      "slate": "Neutral Slate"
+    },
+    "saving": "Saving...",
+    "error": "Error changing palette",
+    "custom": {
+      "title": "Custom Color",
+      "hint": "Pick any color — the rest of the palette (dark shades, backgrounds, charts) is generated from it automatically.",
+      "use": "Use It",
+      "update": "Update",
+      "saved": "Custom color saved and activated",
+      "errorFormat": "Color must be in hex format (e.g. #3B82F6)"
+    }
+  },
+  "surface": {
+    "title": "Interface Style",
+    "hint": "Choose how cards, the sidebar, and menus look for every account at the clinic. Works with any color palette above.",
+    "options": {
+      "solid": "Standard",
+      "glass": "Glass Morphism"
+    },
+    "error": "Error changing style"
+  },
+  "font": {
+    "title": "Dashboard Font",
+    "hint": "Choose the typeface used across the dashboard for every account at the clinic. All options are free, open-license Google Fonts.",
+    "presets": {
+      "default": "Poppins (Default)",
+      "outfit": "Outfit",
+      "inter": "Inter",
+      "jakarta": "Plus Jakarta Sans",
+      "manrope": "Manrope",
+      "grotesk": "Space Grotesk"
+    },
+    "error": "Error changing font",
+    "custom": {
+      "title": "Custom Font",
+      "hint": "Upload your own font (WOFF2, WOFF, TTF, or OTF) to use instead of the presets above.",
+      "unnamed": "Uploaded font",
+      "remove": "Remove font",
+      "dropzone": "Click or drag a font file here (.woff2, .woff, .ttf, .otf)",
+      "submit": "Upload & Use",
+      "chooseFile": "Choose a font file",
+      "errorType": "Only WOFF2, WOFF, TTF, or OTF files are allowed",
+      "uploaded": "Font uploaded and activated successfully",
+      "removed": "Custom font removed",
+      "error": "Error uploading the font"
+    }
+  },
+  "hours": {
+    "title": "Clinic Hours",
+    "hint": "Controls when the \"How are you working today?\" prompt appears for staff — it only shows up once the clinic has opened.",
+    "opens": "Opens at",
+    "closes": "Closes at",
+    "submit": "Save Hours",
+    "saving": "Saving...",
+    "saved": "Hours saved successfully",
+    "error": "Error saving hours"
+  },
+  "logo": {
+    "title": "Sidebar Logo",
+    "hint": "Shown at the top of the side menu. Horizontal PNG/SVG recommended, minimum 320×96 px.",
+    "dropzone": "Click or drag a PNG / SVG / WEBP image",
+    "submit": "Change Logo"
+  },
+  "favicon": {
+    "title": "Browser Icon (Favicon)",
+    "hint": "Shown as a small icon in the browser tab. Square PNG/ICO recommended, 32×32 or 64×64 px.",
+    "previewCaption": "Shown as the tab icon",
+    "dropzone": "Click or drag PNG / ICO / SVG (square)",
+    "submit": "Change Favicon"
+  },
+  "sidebarIcon": {
+    "title": "Collapsed Menu Icon",
+    "hint": "Shown in place of the logo when the side menu is collapsed. Square PNG/SVG recommended, minimum 64×64 px.",
+    "dropzone": "Click or drag a PNG / SVG / WEBP image (square)",
+    "submit": "Change Icon"
+  },
+  "chatbotIcon": {
+    "title": "AI Assistant Icon",
+    "hint": "Shown on the floating chatbot button (bottom right). Square PNG/SVG recommended, minimum 64×64 px.",
+    "previewCaption": "Shown instead of the default icon",
+    "dropzone": "Click or drag a PNG / SVG / WEBP image (square)",
+    "submit": "Change Icon"
+  }
+}

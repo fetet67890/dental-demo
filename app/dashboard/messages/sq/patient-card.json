@@ -1,0 +1,61 @@
+{
+  "idLabel": "ID",
+  "actions": {
+    "edit": "Ndrysho",
+    "print": "Printo",
+    "uploadDocument": "Ngarko Dokument"
+  },
+  "stats": {
+    "appointments": "Takime",
+    "treatments": "Trajtime",
+    "paid": "Paguar"
+  },
+  "tabs": {
+    "info": "Te Dhenat",
+    "chart": "Harta Dentare",
+    "history": "Historiku",
+    "treatments": "Trajtimet",
+    "payments": "Pagesat",
+    "documents": "Dokumentet",
+    "packages": "Paketat"
+  },
+  "info": {
+    "contactInfo": "Informacionet e Kontaktit",
+    "phone": "Telefoni",
+    "email": "Email",
+    "address": "Adresa",
+    "personalDetails": "Te Dhena Personale",
+    "dateOfBirth": "Datelindja",
+    "gender": "Gjinia",
+    "male": "Mashkull",
+    "female": "Femer",
+    "bloodType": "Grupi i Gjakut",
+    "referralSource": "Si na Gjeti",
+    "notAvailable": "N/A",
+    "allergies": "Alergji"
+  },
+  "history": {
+    "medicalHistory": "Historiku Mjekesor",
+    "noMedicalHistory": "Nuk ka histori mjekesore te regjistruar",
+    "upcomingAppointments": "Takimet e Ardhshme",
+    "noUpcomingAppointments": "Nuk ka takime te ardhshme"
+  },
+  "treatmentsTab": {
+    "heading": "Trajtimet e Kryera",
+    "areaLabel": "Zona: {area}",
+    "noTreatments": "Nuk ka trajtime te regjistruara",
+    "soapS": "S:",
+    "soapO": "O:",
+    "soapA": "A:",
+    "soapP": "P:"
+  },
+  "paymentsTab": {
+    "totalPaid": "Totali i Paguar",
+    "pending": "Ne Pritje",
+    "invoices": "Faturat",
+    "noInvoices": "Nuk ka fatura te regjistruara"
+  },
+  "documentsTab": {
+    "heading": "Dokumentet e Pacientit"
+  }
+}

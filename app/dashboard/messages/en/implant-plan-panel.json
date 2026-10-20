@@ -1,0 +1,43 @@
+{
+  "title": "Implant Plans",
+  "addPlan": "+ Implant Plan",
+  "loading": "Loading...",
+  "empty": "No implant plans recorded yet.",
+  "toothNumbers": "Tooth/teeth {numbers}",
+  "delete": "Delete",
+  "notScheduled": "Not scheduled",
+  "schedule": "Schedule",
+  "reschedule": "Reschedule",
+  "addStage": "Add Stage",
+  "stageDeleteError": "Error deleting stage",
+  "stageUpdateError": "Error updating stage",
+  "status": {
+    "planifikuar": "Planned",
+    "ne_proces": "In Progress",
+    "perfunduar": "Completed"
+  },
+  "scheduleDialog": {
+    "title": "Schedule: {stage}",
+    "description": "Creates a real appointment on the calendar and links it to this stage.",
+    "date": "Date",
+    "time": "Time",
+    "duration": "Duration",
+    "minutesUnit": "min",
+    "missingFields": "Choose a date and time",
+    "appointmentNote": "Implant plan surgical stage ({plan})",
+    "success": "Stage scheduled successfully",
+    "error": "Error scheduling stage",
+    "cancel": "Cancel",
+    "submit": "Schedule",
+    "saving": "Saving..."
+  },
+  "addStageDialog": {
+    "title": "Add New Stage",
+    "label": "Stage Name",
+    "placeholder": "e.g. 6-month checkup",
+    "missingLabel": "Stage name is required",
+    "success": "Stage added successfully",
+    "error": "Error adding stage",
+    "submit": "Add"
+  }
+}

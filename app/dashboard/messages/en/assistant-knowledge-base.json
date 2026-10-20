@@ -1,0 +1,34 @@
+{
+  "title": "Assistant Knowledge Base",
+  "subtitle": "The answers the AI Assistant uses when someone asks about the clinic",
+  "dialog": {
+    "editTitle": "Edit Question",
+    "addTitle": "Add New Question",
+    "description": "This answer will be used by the AI Assistant when someone asks something similar.",
+    "questionLabel": "Question",
+    "questionPlaceholder": "e.g. What are your business hours?",
+    "answerLabel": "Answer",
+    "answerPlaceholder": "The clinic is open...",
+    "categoryLabel": "Category (optional)",
+    "categoryPlaceholder": "e.g. Hours, Insurance, Payments",
+    "activeLabel": "Active",
+    "activeHint": "Only active questions are used by the AI Assistant",
+    "cancel": "Cancel",
+    "submitting": "Saving...",
+    "saveChanges": "Save Changes",
+    "addQuestion": "Add Question"
+  },
+  "search": {
+    "placeholder": "Search questions..."
+  },
+  "addButton": "Add Question",
+  "loading": "Loading...",
+  "empty": "No questions found",
+  "inactive": "Inactive",
+  "deleteDialog": {
+    "title": "Delete Question",
+    "description": "Are you sure you want to delete \"{question}\"? This action cannot be undone.",
+    "cancel": "Cancel",
+    "confirm": "Delete"
+  }
+}

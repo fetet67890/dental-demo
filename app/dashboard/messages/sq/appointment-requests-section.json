@@ -1,0 +1,37 @@
+{
+  "loading": "Duke ngarkuar...",
+  "loadError": "Gabim gjatë ngarkimit të kërkesave",
+  "genericError": "Diçka shkoi keq, provoni sërish",
+  "empty": "Nuk ka kërkesa në këtë kategori",
+  "approve": "Prano",
+  "reject": "Refuzo",
+  "cancel": "Anulo",
+  "staffNoteLabel": "Shënim",
+  "statusFilters": {
+    "ne_pritje": "Në Pritje",
+    "miratuar": "Miratuar",
+    "refuzuar": "Refuzuar",
+    "anuluar": "Anuluar"
+  },
+  "approveDialog": {
+    "title": "Prano Kërkesën",
+    "description": "Krijo termin për {name} bazuar në këtë kërkesë",
+    "validation": "Data, ora, mjeku dhe lloji janë të detyrueshme",
+    "date": "Data",
+    "time": "Ora",
+    "duration": "Kohëzgjatja (min)",
+    "doctor": "Mjeku",
+    "doctorPlaceholder": "Zgjidh mjekun",
+    "type": "Lloji i Takimit",
+    "typePlaceholder": "p.sh. Kontroll i Përgjithshëm",
+    "notes": "Shënime",
+    "confirm": "Krijo Terminin"
+  },
+  "rejectDialog": {
+    "title": "Refuzo Kërkesën",
+    "description": "Kërkesa e {name} do të refuzohet",
+    "noteLabel": "Arsyeja (opsionale, do t'i shfaqet pacientit)",
+    "notePlaceholder": "p.sh. Ky orar nuk është i disponueshëm...",
+    "confirm": "Refuzo Kërkesën"
+  }
+}

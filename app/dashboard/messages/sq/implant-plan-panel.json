@@ -1,0 +1,43 @@
+{
+  "title": "Planet e Implantit",
+  "addPlan": "+ Plan Implanti",
+  "loading": "Duke u ngarkuar...",
+  "empty": "Nuk ka plane implanti të regjistruara ende.",
+  "toothNumbers": "Dhëmbi/ët {numbers}",
+  "delete": "Fshi",
+  "notScheduled": "Pa caktuar",
+  "schedule": "Cakto",
+  "reschedule": "Ndrysho",
+  "addStage": "Shto Fazë",
+  "stageDeleteError": "Gabim gjatë fshirjes së fazës",
+  "stageUpdateError": "Gabim gjatë përditësimit të fazës",
+  "status": {
+    "planifikuar": "Planifikuar",
+    "ne_proces": "Në Proces",
+    "perfunduar": "Përfunduar"
+  },
+  "scheduleDialog": {
+    "title": "Cakto: {stage}",
+    "description": "Krijon një takim të vërtetë në kalendar dhe e lidh me këtë fazë.",
+    "date": "Data",
+    "time": "Ora",
+    "duration": "Kohëzgjatja",
+    "minutesUnit": "min",
+    "missingFields": "Zgjidhni datën dhe orën",
+    "appointmentNote": "Faza kirurgjikale e planit të implantit ({plan})",
+    "success": "Faza u caktua me sukses",
+    "error": "Gabim gjatë caktimit të fazës",
+    "cancel": "Anulo",
+    "submit": "Cakto",
+    "saving": "Duke ruajtur..."
+  },
+  "addStageDialog": {
+    "title": "Shto Fazë të Re",
+    "label": "Emri i Fazës",
+    "placeholder": "p.sh. Kontrolli 6-mujor",
+    "missingLabel": "Emri i fazës është i detyrueshëm",
+    "success": "Faza u shtua me sukses",
+    "error": "Gabim gjatë shtimit të fazës",
+    "submit": "Shto"
+  }
+}

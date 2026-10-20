@@ -1,0 +1,40 @@
+{
+  "loading": "Loading...",
+  "loadError": "Error loading colors",
+  "saveError": "Error saving",
+  "saved": "Colors saved successfully",
+  "savedAs": "Theme \"{name}\" saved and activated",
+  "activated": "Theme \"{name}\" is now active",
+  "deleted": "Theme \"{name}\" deleted",
+  "resetDone": "Restored to the original palette",
+  "invalidHex": "Color must be in hex format, e.g. #07A996",
+  "save": "Save Changes",
+  "saveAsNew": "Save as New Theme",
+  "resetToDefault": "Reset to Default",
+  "delete": "Delete",
+  "cancel": "Cancel",
+  "galleryTitle": "Public Website Themes",
+  "galleryDescription": "The public website's (Dental Web) color palette — separate from the admin panel's own theme (Aparenca). Click a theme to make it active.",
+  "editorTitle": "Editing: {name}",
+  "editorDescription": "Change the active theme's colors — changes appear on the public site immediately after saving.",
+  "saveAsDialog": {
+    "title": "Save as New Theme",
+    "description": "Saves the colors above as a new, separate theme in the library, and makes it active immediately.",
+    "nameLabel": "Theme name",
+    "namePlaceholder": "e.g. Summer Theme",
+    "confirm": "Save and Activate"
+  },
+  "deleteDialog": {
+    "title": "Delete this theme?",
+    "description": "Theme \"{name}\" will be permanently deleted. This action cannot be undone.",
+    "confirm": "Yes, Delete"
+  },
+  "fields": {
+    "primary": "Primary",
+    "secondary": "Secondary",
+    "background": "Background",
+    "foreground": "Text",
+    "muted": "Muted Text",
+    "card": "Cards"
+  }
+}

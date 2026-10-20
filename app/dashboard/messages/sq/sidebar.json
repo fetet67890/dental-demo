@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "dashboard": "Paneli Kryesor",
+    "inbox": "Inbox",
+    "patients": "Pacientët",
+    "appointments": "Takimet",
+    "calendar": "Kalendari",
+    "calendarMine": "Kalendari Im",
+    "inquiries": "Kërkesa",
+    "website": "Uebsajti",
+    "import": "Importo",
+    "invoices": "Faturat",
+    "finance": "Financa",
+    "documents": "Dokumenta",
+    "staff": "Stafi",
+    "reminders": "Kujtesat",
+    "inventory": "Inventari",
+    "followups": "Kontrollet Pas-op.",
+    "progress": "Ortodoncia",
+    "system": "Sistemi",
+    "configuration": "Konfigurimi",
+    "queue": "Radha",
+    "waitlist": "Lista e Pritjes",
+    "cashRegister": "Arka",
+    "archive": "Arkiva",
+    "treatments": "Trajtimet",
+    "prescriptions": "Recetat",
+    "implantology": "Implantologjia",
+    "cosmetics": "Kozmetika",
+    "addMember": "Shto Anëtar"
+  },
+  "roles": {
+    "admin": "Administrator",
+    "mjek": "Mjek",
+    "recepsion": "Recepsionist"
+  }
+}

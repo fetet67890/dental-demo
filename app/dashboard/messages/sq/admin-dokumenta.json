@@ -1,0 +1,86 @@
+{
+  "topbar": {
+    "title": "Preventive / Dokumenta",
+    "subtitle": "Menaxhoni dokumentat e klinikës dhe skedarët e mbrojtur"
+  },
+  "stats": {
+    "total": "Gjithsej",
+    "preventive": "Preventive",
+    "personal": "Personale",
+    "protected": "Të mbrojtura"
+  },
+  "tabs": {
+    "all": "Të gjitha",
+    "preventive": "Preventive",
+    "personal": "Personale"
+  },
+  "search": {
+    "placeholder": "Kërko dokument..."
+  },
+  "upload": "Ngarko",
+  "loading": "Duke ngarkuar...",
+  "empty": "Nuk u gjetën dokumente",
+  "category": {
+    "preventive": "Preventiv",
+    "personal": "Personal"
+  },
+  "actions": {
+    "view": "Shiko",
+    "download": "Shkarko",
+    "edit": "Edito",
+    "delete": "Fshi"
+  },
+  "uploadDialog": {
+    "title": "Ngarko Dokument të Ri",
+    "description": "Zgjidhni skedarin dhe plotësoni të dhënat",
+    "dropzoneCta": "Klikoni për të zgjedhur skedarin",
+    "dropzoneHint": "PDF, JPEG, PNG, WEBP — maks. 50 MB",
+    "nameLabel": "Emri i Dokumentit",
+    "namePlaceholder": "p.sh. Kontroll Rutinë Mars 2026",
+    "categoryLabel": "Kategoria",
+    "categoryPreventive": "Preventiv — pa fjalëkalim",
+    "categoryPersonal": "Personal — mund të mbrohet",
+    "descriptionLabel": "Përshkrimi (opsional)",
+    "descriptionPlaceholder": "Përshkrimi i dokumentit...",
+    "passwordLabel": "Fjalëkalim Mbrojtës (opsional)",
+    "passwordPlaceholder": "Lini bosh nëse nuk dëshironi mbrojtje",
+    "passwordHint": "Nëse vendosni fjalëkalim, recepsionistët duhet ta dinë atë për ta hapur.",
+    "cancel": "Anulo",
+    "submit": "Ngarko",
+    "submitting": "Duke ngarkuar..."
+  },
+  "editDialog": {
+    "title": "Edito Dokumentin",
+    "description": "Ndrysho emrin, përshkrimin ose fjalëkalimin",
+    "nameLabel": "Emri",
+    "descriptionLabel": "Përshkrimi",
+    "passwordLabel": "Fjalëkalimi",
+    "currentlyProtected": "Dokumenti është aktualisht i mbrojtur",
+    "removeButton": "Hiq",
+    "willBeRemoved": "Fjalëkalimi do të hiqet pas ruajtjes.",
+    "newPasswordPlaceholder": "Fjalëkalim i ri (lini bosh pa ndryshim)",
+    "setPasswordPlaceholder": "Vendosni fjalëkalim",
+    "cancel": "Anulo",
+    "submit": "Ruaj Ndryshimet",
+    "submitting": "Duke ruajtur..."
+  },
+  "viewDialog": {
+    "title": "Dokument i Mbrojtur",
+    "description": "Dokumenti \"{name}\" është i mbrojtur. Vendosni fjalëkalimin për ta hapur.",
+    "passwordPlaceholder": "Fjalëkalimi...",
+    "cancel": "Anulo",
+    "submit": "Hap Dokumentin",
+    "submitting": "Duke verifikuar..."
+  },
+  "deleteDialog": {
+    "title": "Fshi Dokumentin",
+    "description": "Jeni të sigurt që dëshironi të fshini \"{name}\"? Ky veprim nuk mund të kthehet.",
+    "cancel": "Anulo",
+    "confirm": "Fshi"
+  },
+  "errors": {
+    "passwordTooShort": "Fjalëkalimi duhet të ketë të paktën 4 karaktere",
+    "fileRequired": "Zgjidhni një skedar për të ngarkuar",
+    "nameRequired": "Emri i dokumentit është i detyrueshëm"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "categoryLabels": {
+    "general": "Dokument i Përgjithshëm",
+    "id_card": "Dokument Identiteti",
+    "insurance_card": "Kartë Sigurimi",
+    "xray": "Radiografi / DICOM"
+  },
+  "imageSubtypeLabels": {
+    "panoramike": "Radiografi Panoramike",
+    "periapikale": "Radiografi Periapikale",
+    "cbct": "CBCT",
+    "tjeter": "Tjetër"
+  },
+  "uploadFailedRetry": "Ngarkimi dështoi. Ju lutemi provoni përsëri.",
+  "dialogTitle": "Ngarko Dokument",
+  "dialogDescription": "Ngarko dokumente per {patientName}",
+  "documentType": "Lloji i Dokumentit",
+  "xrayType": "Lloji i Radiografisë",
+  "dropzone": {
+    "dropImages": "Tërheq dhe lësho imazhet këtu",
+    "dropDocument": "Terheq dhe lesho dokumentin ketu",
+    "clickToSelectMultiple": "ose kliko për të zgjedhur (mund të zgjedhësh disa njëherësh)",
+    "clickToSelect": "ose kliko per te zgjedhur",
+    "formatsXray": "Formatet: JPG, PNG, WEBP, PDF, DICOM (.dcm) (max 10MB secili)",
+    "formatsDefault": "Formatet: JPG, PNG, WEBP, PDF (max 10MB secili)"
+  },
+  "addMoreImages": "Shto Imazhe të Tjera",
+  "uploading": "Duke ngarkuar...",
+  "successImages": "Imazhet u ngarkuan me sukses!",
+  "successDocument": "Dokumenti u ngarkua me sukses!",
+  "uploadFailed": "Ngarkimi dështoi",
+  "tryAgain": "Provo përsëri",
+  "uploadCount": "Ngarko {count} Imazhe",
+  "uploadDocumentButton": "Ngarko Dokumentin"
+}

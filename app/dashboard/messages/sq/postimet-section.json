@@ -1,0 +1,49 @@
+{
+  "cancel": "Anulo",
+  "published": "Publikuar",
+  "draft": "Draft",
+  "emptyState": "Nuk u gjetën artikuj",
+  "searchPlaceholder": "Kërko artikuj...",
+  "validation": {
+    "titleRequired": "Titulli është i detyrueshëm"
+  },
+  "table": {
+    "article": "Artikulli",
+    "category": "Kategoria",
+    "published": "Publikuar",
+    "status": "Statusi",
+    "actions": "Veprime"
+  },
+  "dialog": {
+    "addTitle": "Shto Artikull të Ri",
+    "editTitle": "Ndrysho Artikullin",
+    "addDescription": "Shkruani një artikull të ri për blogun e faqes publike",
+    "editDescription": "Ndryshoni përmbajtjen e artikullit",
+    "coverImageLabel": "Foto kryesore",
+    "coverImageHint": "Horizontale, min 800×450 px",
+    "titleLabel": "Titulli",
+    "titlePlaceholder": "p.sh. 5 Këshilla për Higjienën Orale",
+    "categoryLabel": "Kategoria",
+    "categoryPlaceholder": "p.sh. Higjenë",
+    "readTimeLabel": "Koha e Leximit",
+    "readTimePlaceholder": "p.sh. 5 min",
+    "excerptLabel": "Përmbledhja",
+    "excerptPlaceholder": "Përmbledhje e shkurtër që shfaqet në listën e artikujve...",
+    "contentLabel": "Përmbajtja",
+    "sectionHeadingPlaceholder": "Nëntitulli (opsional)",
+    "sectionParagraphPlaceholder": "Paragrafi...",
+    "addParagraph": "Shto Paragraf",
+    "authorLabel": "Autori",
+    "authorNamePlaceholder": "Emri i autorit",
+    "authorRolePlaceholder": "Roli (p.sh. Dentist)",
+    "authorBioPlaceholder": "Bio e shkurtër (opsionale)",
+    "authorPhotoLabel": "Foto e autorit (opsionale)",
+    "publishedLabel": "Publikuar (shfaqet në faqen publike)",
+    "saveChanges": "Ruaj Ndryshimet"
+  },
+  "deleteDialog": {
+    "title": "Fshi Artikullin",
+    "description": "Jeni të sigurt që dëshironi të fshini \"{title}\"? Ky veprim nuk mund të kthehet mbrapsht.",
+    "confirm": "Fshi"
+  }
+}

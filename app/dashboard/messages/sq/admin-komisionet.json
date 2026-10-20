@@ -1,0 +1,36 @@
+{
+  "title": "Komisionet",
+  "subtitle": "Komisioni i fituar nga stafi për periudhën e zgjedhur",
+  "period": "Periudha",
+  "basisLabel": "Baza e Llogaritjes",
+  "basisCost": "Sipas Kostos",
+  "basisPayment": "Sipas Pagesës",
+  "basisCostHint": "Komisioni llogaritet menjëherë kur shërbimi faturohet, pavarësisht nëse pacienti ka paguar ende.",
+  "basisPaymentHint": "Komisioni llogaritet vetëm pasi fatura përkatëse të jetë paguar plotësisht.",
+  "basisSaved": "Baza e komisionit u ruajt",
+  "loading": "Duke ngarkuar...",
+  "loadError": "Gabim gjatë ngarkimit të komisioneve",
+  "empty": "Asnjë staf me komision aktiv për këtë periudhë",
+  "cancel": "Anulo",
+  "paying": "Duke regjistruar...",
+  "paySuccess": "Pagesa e komisionit u regjistrua",
+  "payError": "Gabim gjatë regjistrimit të pagesës",
+  "table": {
+    "staff": "Stafi",
+    "rateType": "Lloji i Normës",
+    "serviceCount": "Nr. Shërbimesh",
+    "revenue": "Të Ardhurat",
+    "commission": "Komisioni",
+    "total": "Totali",
+    "flatWithRate": "Fiks — {rate}%",
+    "perService": "Për Shërbim",
+    "payout": "Pagesa",
+    "markPaid": "Shëno si Paguar",
+    "paidOn": "Paguar më {date}"
+  },
+  "payDialog": {
+    "title": "Regjistro Pagesën e Komisionit",
+    "description": "Do të regjistrohet si e paguar komisioni prej {amount} për {name} për periudhën e zgjedhur. Ky veprim nuk mund të zhbëhet.",
+    "confirm": "Konfirmo Pagesën"
+  }
+}

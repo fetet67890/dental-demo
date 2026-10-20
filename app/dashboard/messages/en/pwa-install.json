@@ -1,0 +1,9 @@
+{
+  "title": "Install Hypocrates as an App",
+  "body": "Add it to your screen for faster access, just like any other app.",
+  "iosBody": "Add it to your home screen for faster access.",
+  "iosSteps": "Tap \"Share\" in your browser, then \"Add to Home Screen\"",
+  "install": "Install",
+  "installing": "Installing...",
+  "dismiss": "Dismiss"
+}

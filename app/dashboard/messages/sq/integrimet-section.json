@@ -1,0 +1,23 @@
+{
+  "loading": "Duke u ngarkuar...",
+  "testing": "Duke testuar...",
+  "testConnection": "Testo Lidhjen",
+  "fromEnvVar": "(nga variabla e mjedisit)",
+  "defaultValue": "(vlera e parazgjedhur)",
+  "change": "Ndrysho",
+  "remove": "Hiq",
+  "saving": "Duke ruajtur...",
+  "save": "Ruaj",
+  "cancel": "Anulo",
+  "inbox": {
+    "title": "Inbox",
+    "description": "Lexoni dhe përgjigjuni email-eve të klinikës direkt nga Hypocrates — të njëjtin llogari që përdoret më sipër për SMTP.",
+    "needsImapHost": "Vendosni \"IMAP Host\" më sipër përpara se ta aktivizoni.",
+    "webmailUrl": "Lidhja për \"Hap në Webmail\" (opsionale)",
+    "sendTest": "Dërgo Email Testues",
+    "lastSynced": "Sinkronizuar së fundmi",
+    "loadError": "Gabim gjatë ngarkimit",
+    "toggleError": "Gabim gjatë ruajtjes",
+    "testError": "Dërgimi dështoi"
+  }
+}

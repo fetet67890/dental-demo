@@ -1,0 +1,26 @@
+{
+  "title": "Website Inquiries",
+  "subtitle": "Booking/contact requests submitted from the public website",
+  "loading": "Loading...",
+  "noInquiries": "No inquiries.",
+  "noSpecificDate": "No specific date",
+  "note": "Note: {note}",
+  "close": "Close",
+  "markContacted": "Mark as Contacted",
+  "closeInquiry": "Close Inquiry",
+  "noteLabel": "Note (optional)",
+  "cancel": "Cancel",
+  "saving": "Saving...",
+  "confirm": "Confirm",
+  "status": {
+    "new": "New",
+    "contacted": "Contacted",
+    "closed": "Closed"
+  },
+  "tabs": {
+    "new": "New",
+    "contacted": "Contacted",
+    "closed": "Closed",
+    "all": "All"
+  }
+}

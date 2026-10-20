@@ -1,0 +1,40 @@
+{
+  "loading": "Duke ngarkuar...",
+  "loadError": "Gabim gjatë ngarkimit të ngjyrave",
+  "saveError": "Gabim gjatë ruajtjes",
+  "saved": "Ngjyrat u ruajtën me sukses",
+  "savedAs": "Tema \"{name}\" u ruajt dhe u aktivizua",
+  "activated": "Tema \"{name}\" tani është aktive",
+  "deleted": "Tema \"{name}\" u fshi",
+  "resetDone": "U rikthye te paleta fillestare",
+  "invalidHex": "Ngjyra duhet të jetë në format heks, p.sh. #07A996",
+  "save": "Ruaj Ndryshimet",
+  "saveAsNew": "Ruaj si Temë e Re",
+  "resetToDefault": "Rikthe te Parazgjedhja",
+  "delete": "Fshi",
+  "cancel": "Anulo",
+  "galleryTitle": "Temat e Faqes Publike",
+  "galleryDescription": "Paleta e ngjyrave të faqes publike (Dental Web) — e ndarë nga tema e panelit administrativ (Aparenca). Klikoni një temë për ta bërë aktive.",
+  "editorTitle": "Duke Redaktuar: {name}",
+  "editorDescription": "Ndryshoni ngjyrat e temës aktive — ndryshimet shfaqen menjëherë në faqen publike pas ruajtjes.",
+  "saveAsDialog": {
+    "title": "Ruaj si Temë e Re",
+    "description": "Ruan ngjyrat e mësipërme si një temë e re, të veçantë në bibliotekë, dhe e bën menjëherë aktive.",
+    "nameLabel": "Emri i temës",
+    "namePlaceholder": "p.sh. Tema e Verës",
+    "confirm": "Ruaj dhe Aktivizo"
+  },
+  "deleteDialog": {
+    "title": "Fshi këtë temë?",
+    "description": "Tema \"{name}\" do të fshihet përgjithmonë. Ky veprim nuk mund të kthehet mbrapsht.",
+    "confirm": "Po, Fshi"
+  },
+  "fields": {
+    "primary": "Kryesore",
+    "secondary": "Dytësore",
+    "background": "Sfondi",
+    "foreground": "Teksti",
+    "muted": "Teksti i Zbehtë",
+    "card": "Kartat"
+  }
+}

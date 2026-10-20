@@ -1,0 +1,145 @@
+{
+  "title": "Staff",
+  "subtitle": "Manage staff and login credentials",
+  "cancel": "Cancel",
+  "save": "Save",
+  "saving": "Saving...",
+  "uploading": "Uploading...",
+  "loading": "Loading...",
+  "attendanceToday": "Today's Attendance",
+  "noActiveStaff": "No active staff",
+  "clockedIn": "In {time}",
+  "clockedOut": "Out {time}",
+  "lowAttendanceFrequency": "Low Attendance Frequency (last 30 days)",
+  "daysVsAverage": "{days} days (average: {average})",
+  "searchPlaceholder": "Search by name, email or role...",
+  "addStaff": "Add Staff",
+  "emptyState": "No staff registered. Add the first one.",
+  "emptyStateShort": "No staff registered.",
+  "emptyStateSearch": "No staff found for this search",
+  "specAbbr": "Spec: {specialization}",
+  "roles": {
+    "admin": "Administrator",
+    "mjek": "Doctor",
+    "recepsion": "Receptionist"
+  },
+  "stats": {
+    "total": "Total Staff",
+    "active": "Active",
+    "doctors": "Doctors",
+    "reception": "Receptionists"
+  },
+  "table": {
+    "member": "Member",
+    "contact": "Contact",
+    "role": "Role",
+    "specialization": "Specialization",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "menu": {
+    "viewDetails": "View Details",
+    "editDetails": "Edit details",
+    "changePhoto": "Change Photo",
+    "changePassword": "Change password",
+    "revokeAddStaff": "Revoke: Add Staff",
+    "grantAddStaff": "Grant: Add Staff",
+    "deactivate": "Deactivate login",
+    "activate": "Activate login",
+    "deleteForever": "Delete Forever"
+  },
+  "validation": {
+    "nameRequired": "Name is required",
+    "phoneRequired": "Phone is required",
+    "passwordMinLength": "Password must be at least 6 characters",
+    "passwordsDontMatch": "Passwords don't match"
+  },
+  "dialog": {
+    "addTitle": "Add New Staff",
+    "editTitle": "Edit: {name}",
+    "addDescription": "Fill in the details. Staff will be able to log in immediately after creation.",
+    "editDescription": "Update the staff member's details.",
+    "nameLabel": "Full Name *",
+    "namePlaceholder": "Dr. First Last",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone *",
+    "roleLabel": "Role",
+    "rolePlaceholder": "Select a role",
+    "roleAdmin": "Administrator (Super Admin)",
+    "specializationLabel": "Specialization",
+    "specializationPlaceholder": "e.g. Orthodontics, Oral Surgery",
+    "loginCredentials": "Login Credentials",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Minimum 6 characters",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Retype the password",
+    "accountStatusLabel": "Account Status",
+    "statusActive": "Active — can log in",
+    "statusInactive": "Inactive — login blocked",
+    "saveChanges": "Save Changes",
+    "createAccount": "Create Account"
+  },
+  "deleteDialog": {
+    "title": "Delete Account Forever",
+    "description": "You're permanently deleting the account of",
+    "warning": "This action is irreversible. All data linked to this account will be deleted.",
+    "alternativeHint": "If you want to block login without deleting data, use the",
+    "deleting": "Deleting..."
+  },
+  "pwDialog": {
+    "description": "You're changing the password for",
+    "hint": "After the change, they must log in with the new password.",
+    "newPasswordLabel": "New Password"
+  },
+  "workMode": {
+    "physical": "In-Person",
+    "remote": "Remote",
+    "unset": "Not set",
+    "updateError": "Error while updating"
+  },
+  "detailPage": {
+    "back": "Back to Staff",
+    "notFound": {
+      "title": "Member not found",
+      "subtitle": "The requested ID doesn't exist"
+    },
+    "todayStatus": "Today's Status",
+    "sections": {
+      "details": "Details",
+      "security": "Security",
+      "permissions": "Permissions",
+      "commission": "Commission",
+      "dangerZone": "Danger Zone"
+    },
+    "permissions": {
+      "addStaffLabel": "Permission: Add New Staff",
+      "addStaffHint": "When enabled, this member can create new staff accounts.",
+      "accountStatusLabel": "Account Status",
+      "accountStatusHint": "When disabled, this member can no longer log in."
+    },
+    "dangerZoneHint": "Deleting the account is irreversible and removes all linked data.",
+    "saveDetails": "Save Details"
+  },
+  "commission": {
+    "enableLabel": "Commission",
+    "enableHint": "When enabled, this member is included in the Commissions report (Finance).",
+    "rateTypeLabel": "Rate Type",
+    "rateTypeFlat": "Flat Rate",
+    "rateTypePerService": "Per Service",
+    "flatRateLabel": "Rate (%)",
+    "switchToPerService": "Switch to Per-Service Rates",
+    "noServices": "No services registered yet",
+    "saveRates": "Save Rates"
+  },
+  "website": {
+    "sectionTitle": "Public Website (Team)",
+    "showLabel": "Show on the \"Team\" Page",
+    "showHint": "When enabled, this member appears publicly on Dental Web's Team page.",
+    "bioLabel": "Public Bio",
+    "bioPlaceholder": "A short blurb visitors to the website will see...",
+    "saveBio": "Save Bio",
+    "shown": "Member is now shown on the Team page",
+    "hidden": "Member removed from the Team page",
+    "bioSaved": "Bio saved"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Archive",
+  "subtitle": "View completed patient records",
+  "archivedPatients": "Archived patients",
+  "searchPlaceholder": "Search the archive...",
+  "loadingArchive": "Loading archive...",
+  "archiveEmpty": "The archive is empty",
+  "archived": "Archived",
+  "archivedOn": "Archived: {date}",
+  "generating": "Generating...",
+  "downloadPdf": "Download PDF"
+}

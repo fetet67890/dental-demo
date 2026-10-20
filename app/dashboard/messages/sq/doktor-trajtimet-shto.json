@@ -1,0 +1,54 @@
+{
+  "header": {
+    "title": "Shto Trajtim të Ri",
+    "subtitle": "Regjistroni një trajtim të ri"
+  },
+  "back": "Kthehu",
+  "card": {
+    "title": "Detajet e Trajtimit",
+    "description": "Plotësoni të dhënat e trajtimit"
+  },
+  "fields": {
+    "patient": "Pacienti",
+    "patientPlaceholder": "Zgjidhni pacientin",
+    "date": "Data",
+    "catalogService": "Shërbimi nga Katalog",
+    "catalogServicePlaceholder": "Zgjidhni shërbimin (opsionale)",
+    "noCatalogService": "— Pa shërbim të katalogut —",
+    "treatmentType": "Lloji i Trajtimit",
+    "treatmentTypePlaceholder": "p.sh. Pastrim Dhëmbësh",
+    "treatmentArea": "Zona e Trajtimit",
+    "treatmentAreaPlaceholder": "p.sh. 11, 21, 36 (nr. dhëmbi) ose përshkrim i zonës",
+    "description": "Përshkrimi i Trajtimit",
+    "descriptionPlaceholder": "Përshkruani trajtimin e kryer...",
+    "cost": "Çmimi (LEK)",
+    "status": "Statusi"
+  },
+  "status": {
+    "planifikuar": "Planifikuar (plan trajtimi)",
+    "neProces": "Në Proces",
+    "perfunduar": "Përfunduar"
+  },
+  "soap": {
+    "toggleTitle": "Formati SOAP",
+    "toggleSubtitle": "Shënime të strukturuara: Subjektiv / Objektiv / Vlerësim / Plan",
+    "subjective": { "label": "S — Subjektiv", "placeholder": "Ç'thotë pacienti (simptoma, ankesa)..." },
+    "objective": { "label": "O — Objektiv", "placeholder": "Gjetjet klinike (ekzaminimi, radiografi)..." },
+    "assessment": { "label": "A — Vlerësim", "placeholder": "Diagnoza / vlerësimi klinik..." },
+    "plan": { "label": "P — Plan", "placeholder": "Plani i trajtimit të mëtejshëm..." }
+  },
+  "notes": {
+    "label": "Shënime Shtesë",
+    "placeholder": "Shënime të tjera..."
+  },
+  "actions": {
+    "cancel": "Anulo",
+    "save": "Ruaj Trajtimin"
+  },
+  "treatedTeethCard": "Dhëmbët e Trajtuar më Parë",
+  "allergyDialog": {
+    "title": "Kujdes — Alergji e Regjistruar",
+    "cancel": "Anulo",
+    "proceed": "Vazhdo Gjithsesi"
+  }
+}

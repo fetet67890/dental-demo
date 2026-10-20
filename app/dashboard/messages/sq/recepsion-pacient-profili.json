@@ -1,0 +1,17 @@
+{
+  "notFound": {
+    "topbarTitle": "Profili i Pacientit",
+    "topbarSubtitle": "Pacienti nuk u gjet",
+    "message": "Pacienti nuk u gjet",
+    "back": "Kthehu te lista"
+  },
+  "topbarSubtitle": "Profili i Pacientit",
+  "back": "Kthehu",
+  "exportPdf": "Shkarko PDF",
+  "exporting": "Duke gjeneruar...",
+  "addAppointment": "Shto Takim",
+  "quickActions": {
+    "createAppointment": { "title": "Krijo Takim", "subtitle": "Planifiko nje takim te ri" },
+    "viewInvoices": { "title": "Shiko Faturat", "subtitle": "Menaxho pagesat" }
+  }
+}

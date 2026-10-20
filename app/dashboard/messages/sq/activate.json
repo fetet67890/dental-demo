@@ -1,0 +1,15 @@
+{
+  "title": "Aktivizoni llogarinë tuaj",
+  "subtitle": "Zgjidhni një fjalëkalim për të aktivizuar llogarinë tuaj të administratorit",
+  "invalidTitle": "Lidhja e ftesës është e pavlefshme",
+  "invalidSubtitle": "Kjo lidhje ka skaduar, është përdorur tashmë, ose nuk ekziston. Kërkoni një lidhje të re nga kush e konfiguroi këtë klinikë.",
+  "missingToken": "Kjo lidhje nuk përmban një token ftese",
+  "checking": "Duke kontrolluar ftesën tuaj…",
+  "password": "Fjalëkalimi",
+  "confirmPassword": "Konfirmo fjalëkalimin",
+  "activate": "Aktivizo llogarinë",
+  "activating": "Duke aktivizuar…",
+  "passwordTooShort": "Fjalëkalimi duhet të ketë të paktën 6 karaktere",
+  "passwordMismatch": "Fjalëkalimet nuk përputhen",
+  "genericError": "Ndodhi një gabim"
+}

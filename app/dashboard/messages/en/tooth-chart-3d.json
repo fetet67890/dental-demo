@@ -1,0 +1,21 @@
+{
+  "dentalChart3D": "3D Dental Chart",
+  "controlsHint": "Rotate with mouse/touch · Zoom with scroll · Click a tooth",
+  "numberingSystemTitle": "Tooth numbering system",
+  "zoomIn": "Zoom In",
+  "zoomOut": "Zoom Out",
+  "resetView": "Reset View",
+  "toothNumber": "Tooth #{tooth}",
+  "close": "Close",
+  "selectedToothSingle": "Selected Tooth: {tooth}",
+  "selectedTeethMultiple": "Selected Teeth: {teeth}",
+  "conditions": {
+    "shendoshe": "Healthy",
+    "mungon": "Missing",
+    "mbushje": "Filling",
+    "kurore": "Crown",
+    "ure": "Bridge",
+    "implant": "Implant",
+    "kanal_rrenjor": "Root Canal"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "cancel": "Cancel",
+  "save": "Save",
+  "emptyState": "No configured meta found",
+  "configuredCount": "{count} configured pages",
+  "validation": {
+    "pageKeyRequired": "Page identifier is required"
+  },
+  "table": {
+    "page": "Page",
+    "title": "Title",
+    "description": "Description",
+    "actions": "Actions"
+  },
+  "dialog": {
+    "addTitle": "Add Meta",
+    "editTitle": "Edit Meta",
+    "description": "The title and description shown in search results (Google) and when a page link is shared.",
+    "pageKeyLabel": "Page Identifier",
+    "pageKeyPlaceholder": "e.g. home, about, services",
+    "defaultHint": "\"default\" is used as a fallback for pages without specific meta.",
+    "titleLabel": "Title",
+    "titlePlaceholder": "e.g. X Dental Clinic — Professional Dental Care",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Short description (150-160 characters recommended)"
+  },
+  "deleteDialog": {
+    "title": "Delete Meta",
+    "description": "Are you sure you want to delete the meta for \"{pageKey}\"? This page will use the \"default\" meta as a fallback.",
+    "confirm": "Delete"
+  }
+}
