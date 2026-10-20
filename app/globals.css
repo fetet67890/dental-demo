@@ -1,0 +1,882 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+/* Tailwind v4's automatic content detection only walks this app's own
+   directory — it never sees @hypocrates/core-dashboard's source, a sibling
+   workspace package outside this app's tree, even though transpilePackages
+   compiles that source directly into this app's bundle. Without this, any
+   utility class used ONLY inside a core-dashboard file (never coincidentally
+   repeated in this app's own local overrides) is silently missing from the
+   generated CSS — invisible in an app with enough of its own overrides to
+   accidentally re-trigger the same classes elsewhere, but total layout
+   breakage in an app like Gynecology's, which has none of its own. */
+@source '../packages/core-dashboard';
+
+@custom-variant dark (&:is(.dark *));
+
+/* Self-hosted, same as every text font in app/layout.tsx (see that file's
+   own comment) — this one was the sole holdout still loaded from
+   fonts.googleapis.com via a raw <link>, which quietly breaks the entire
+   icon set (sidebar, topbar, every "material-symbols-outlined" span in the
+   app) the moment that request is blocked by a network policy or an ad/
+   privacy blocker — a very common thing for fonts.googleapis.com/gstatic.com
+   specifically. The file itself lives at public/fonts — a static instance
+   (opsz 24, weight 400, FILL 0, GRAD 0) covering the whole glyph set used
+   across the app, ~310KB, cached by the browser like any other same-origin
+   asset. Both this @font-face and the .material-symbols-outlined utility
+   class used to come from that same CDN response — neither existed locally
+   at all, so a blocked request didn't just lose the glyphs, it lost the
+   sizing/ligature rules too, which is why the fallback rendered as raw
+   overlapping ligature text ("add_circle", "notifications", ...) instead
+   of just missing icons. */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('/fonts/material-symbols-outlined.woff2') format('woff2');
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+:root {
+  --background: #F8FAFF;
+  --foreground: #0f2155;
+  --card: #FFFFFF;
+  --card-foreground: #0f2155;
+  --popover: #FFFFFF;
+  --popover-foreground: #0f2155;
+  --primary: #0f2155;
+  --primary-foreground: #FFFFFF;
+  --secondary: #EFF6FF;
+  --secondary-foreground: #0f2155;
+  --muted: #EFF6FF;
+  --muted-foreground: #64748b;
+  --accent: #3b82f6;
+  --accent-foreground: #FFFFFF;
+  --destructive: #ef4444;
+  --destructive-foreground: #FFFFFF;
+  --border: #DBEAFE;
+  --input: #DBEAFE;
+  /* Aliased to --accent (not a literal color) so every focus ring — buttons,
+     inputs, checkboxes, everything using focus-visible:ring-ring — tracks
+     whichever color preset Aparenca has active, for free, with no changes
+     needed to lib/theme-presets.ts's override generator. Before this, --ring
+     was its own hardcoded #3b82f6 (the *default* Blue preset's accent) —
+     invisible as a bug on the default preset, but a jarring, mismatched blue
+     ring on every other preset (Green/Purple/Amber/Rose/Slate), same root
+     cause the checkbox/switch/radio border-color fix addressed earlier for
+     a different token (--primary instead of --accent). CSS custom properties
+     resolve var() lazily at the point of use, so this correctly picks up
+     whatever --accent value is cascaded in at that point — including the
+     preset override <style> tag ClinicSettingsProvider renders — without
+     needing to duplicate the ring color in every preset definition. */
+  --ring: var(--accent);
+  --chart-1: #3b82f6;
+  --chart-2: #0f2155;
+  --chart-3: #60a5fa;
+  --chart-4: #2563eb;
+  --chart-5: #93c5fd;
+  --radius: 1rem;
+  --sidebar: #0f2155;
+  --sidebar-foreground: #FFFFFF;
+  --sidebar-primary: #3b82f6;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #1e3a8a;
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: #1e3a8a;
+  /* Same aliasing, tracking the sidebar's own accent-equivalent token
+     (already part of the preset overrides) instead of a hardcoded blue. */
+  --sidebar-ring: var(--sidebar-primary);
+}
+
+.dark {
+  --background: #111111;
+  --foreground: #F5F5F5;
+  --card: #1C1C1C;
+  --card-foreground: #F5F5F5;
+  --popover: #1C1C1C;
+  --popover-foreground: #F5F5F5;
+  --primary: #F5F5F5;
+  --primary-foreground: #111111;
+  --secondary: #2A2A2A;
+  --secondary-foreground: #F5F5F5;
+  --muted: #2A2A2A;
+  --muted-foreground: #888888;
+  --accent: #F5F5F5;
+  --accent-foreground: #111111;
+  --destructive: #ef4444;
+  --destructive-foreground: #FFFFFF;
+  --border: #2E2E2E;
+  --input: #2A2A2A;
+  /* Already equaled --accent's own dark value (#F5F5F5, the fixed neutral —
+     dark mode carries no preset hues) — aliased for the same reason as the
+     light block above, not a behavior change here. */
+  --ring: var(--accent);
+  --chart-1: #F5F5F5;
+  --chart-2: #CCCCCC;
+  --chart-3: #999999;
+  --chart-4: #666666;
+  --chart-5: #404040;
+  --sidebar: #0A0A0A;
+  --sidebar-foreground: #F5F5F5;
+  --sidebar-primary: #F5F5F5;
+  --sidebar-primary-foreground: #0A0A0A;
+  --sidebar-accent: #1C1C1C;
+  --sidebar-accent-foreground: #F5F5F5;
+  --sidebar-border: #2E2E2E;
+  --sidebar-ring: var(--sidebar-primary);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   App Palette — define once, use everywhere.
+   chip-*  = combined bg+text for pills/badges
+   ibg-*   = icon container background
+   ic-*    = icon / text color (saturated)
+   dot-*   = filled circle color
+   strip-* = colored accent bar (top of stat cards)
+   bl-*    = left border accent (calendar event cards)
+   ───────────────────────────────────────────────────────────────────────── */
+:root {
+  --p-blue:    #3b82f6; --p-blue-bg:    #dbeafe; --p-blue-txt:    #1d4ed8;
+  --p-sky:     #0ea5e9; --p-sky-bg:     #e0f2fe; --p-sky-txt:     #0369a1;
+  --p-green:   #10b981; --p-green-bg:   #d1fae5; --p-green-txt:   #065f46;
+  --p-amber:   #f59e0b; --p-amber-bg:   #fef3c7; --p-amber-txt:   #92400e;
+  --p-red:     #ef4444; --p-red-bg:     #fee2e2; --p-red-txt:     #b91c1c;
+  --p-indigo:  #14b8a6; --p-indigo-bg:  #ccfbf1; --p-indigo-txt:  #0f766e;
+  --p-purple:  #a855f7; --p-purple-bg:  #f3e8ff; --p-purple-txt:  #7e22ce;
+  --p-orange:  #f97316; --p-orange-bg:  #ffedd5; --p-orange-txt:  #c2410c;
+  --p-neutral: #94a3b8; --p-neutral-bg: #f1f5f9; --p-neutral-txt: #475569;
+}
+.dark {
+  /* blue/sky replaced with neutral grays by decision (2026-08-04): dark mode
+     must be white/gray/black only (plus red for destructive) — no blue hues
+     anywhere, including this categorical badge palette. green/amber/red/indigo
+     are unchanged since they aren't blue. */
+  --p-blue:    #D1D5DB; --p-blue-bg:    rgba(209,213,219,.15); --p-blue-txt:    #F3F4F6;
+  --p-sky:     #9CA3AF; --p-sky-bg:     rgba(156,163,175,.15); --p-sky-txt:     #D1D5DB;
+  --p-green:   #34d399; --p-green-bg:   rgba(16,185,129,.15);  --p-green-txt:   #6ee7b7;
+  --p-amber:   #fbbf24; --p-amber-bg:   rgba(245,158,11,.15);  --p-amber-txt:   #fcd34d;
+  --p-red:     #f87171; --p-red-bg:     rgba(239,68,68,.15);   --p-red-txt:     #fca5a5;
+  --p-indigo:  #2dd4bf; --p-indigo-bg:  rgba(20,184,166,.15);  --p-indigo-txt:  #5eead4;
+  --p-neutral: #71717A; --p-neutral-bg: rgba(113,113,122,.15); --p-neutral-txt: #A1A1AA;
+}
+
+@layer utilities {
+  /* chips — bg + text */
+  .chip-blue    { background-color: var(--p-blue-bg);    color: var(--p-blue-txt); }
+  .chip-sky     { background-color: var(--p-sky-bg);     color: var(--p-sky-txt); }
+  .chip-green   { background-color: var(--p-green-bg);   color: var(--p-green-txt); }
+  .chip-amber   { background-color: var(--p-amber-bg);   color: var(--p-amber-txt); }
+  .chip-red     { background-color: var(--p-red-bg);     color: var(--p-red-txt); }
+  .chip-indigo  { background-color: var(--p-indigo-bg);  color: var(--p-indigo-txt); }
+  .chip-purple  { background-color: var(--p-purple-bg);  color: var(--p-purple-txt); }
+  .chip-orange  { background-color: var(--p-orange-bg);  color: var(--p-orange-txt); }
+  .chip-neutral { background-color: var(--p-neutral-bg); color: var(--p-neutral-txt); }
+
+  /* icon container backgrounds */
+  .ibg-blue    { background-color: var(--p-blue-bg); }
+  .ibg-sky     { background-color: var(--p-sky-bg); }
+  .ibg-green   { background-color: var(--p-green-bg); }
+  .ibg-amber   { background-color: var(--p-amber-bg); }
+  .ibg-red     { background-color: var(--p-red-bg); }
+  .ibg-indigo  { background-color: var(--p-indigo-bg); }
+  .ibg-purple  { background-color: var(--p-purple-bg); }
+  .ibg-orange  { background-color: var(--p-orange-bg); }
+
+  /* icon / text colors */
+  .ic-blue    { color: var(--p-blue); }
+  .ic-sky     { color: var(--p-sky); }
+  .ic-green   { color: var(--p-green); }
+  .ic-amber   { color: var(--p-amber); }
+  .ic-red     { color: var(--p-red); }
+  .ic-indigo  { color: var(--p-indigo); }
+  .ic-purple  { color: var(--p-purple); }
+  .ic-orange  { color: var(--p-orange); }
+  .ic-neutral { color: var(--p-neutral); }
+
+  /* dot circles */
+  .dot-blue    { background-color: var(--p-blue); }
+  .dot-sky     { background-color: var(--p-sky); }
+  .dot-green   { background-color: var(--p-green); }
+  .dot-amber   { background-color: var(--p-amber); }
+  .dot-red     { background-color: var(--p-red); }
+  .dot-purple  { background-color: var(--p-purple); }
+  .dot-orange  { background-color: var(--p-orange); }
+  .dot-neutral { background-color: var(--p-neutral); }
+
+  /* stat card top strip */
+  .strip-blue   { background-color: var(--p-blue); }
+  .strip-sky    { background-color: var(--p-sky); }
+  .strip-green  { background-color: var(--p-green); }
+  .strip-amber  { background-color: var(--p-amber); }
+  .strip-red    { background-color: var(--p-red); }
+  .strip-indigo { background-color: var(--p-indigo); }
+
+  /* calendar event left border accent */
+  .bl-blue    { border-left-color: var(--p-blue); }
+  .bl-sky     { border-left-color: var(--p-sky); }
+  .bl-green   { border-left-color: var(--p-green); }
+  .bl-amber   { border-left-color: var(--p-amber); }
+  .bl-red     { border-left-color: var(--p-red); }
+}
+
+@theme inline {
+  /* --font-active is only ever defined by an injected Aparenca font-preset
+     override (see lib/theme-presets.ts buildFontOverrideCss) — with no
+     preset override present, this falls back straight to --font-poppins
+     (declared on <body> in app/layout.tsx), preserving the shipped look. */
+  --font-sans: var(--font-active, var(--font-poppins)), system-ui, sans-serif;
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    -webkit-tap-highlight-color: transparent;
+  }
+  /* Hide focus ring on mouse/touch; individual components use focus-visible:ring-* for keyboard users */
+  *:focus:not(:focus-visible) {
+    outline: none;
+    box-shadow: none;
+  }
+  html {
+    scroll-behavior: smooth;
+    /* Prevent iOS text size adjustment on orientation change */
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    /* Smooth momentum scrolling on iOS */
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: none;
+  }
+  /* Minimum touch target for interactive elements */
+  button, a, [role="button"] {
+    min-height: 36px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-balance tracking-tight;
+  }
+  p {
+    @apply text-pretty leading-relaxed;
+  }
+}
+
+/* Mobile safe-area utilities */
+@layer utilities {
+  .safe-area-inset-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .pb-safe {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+}
+
+/* Premium Transitions */
+@layer utilities {
+  .transition-premium {
+    @apply transition-all duration-300 ease-out;
+  }
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg;
+  }
+  .hover-glow {
+    @apply transition-all duration-300 hover:shadow-[0_0_20px_rgba(91,101,220,0.3)];
+  }
+}
+
+/* Scrollbars are hidden everywhere — scrolling itself (wheel/trackpad/keyboard)
+   still works exactly as before, only the visible track/thumb is removed. */
+@layer base {
+  * {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* old Edge/IE */
+  }
+  *::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, new Edge */
+    width: 0;
+    height: 0;
+  }
+}
+
+/* Skeleton Animation */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton {
+  @apply bg-gradient-to-r from-secondary via-secondary/50 to-secondary bg-[length:200%_100%] rounded-lg;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Focus Styles — suppress all outlines; components use focus-visible:ring-* individually */
+@layer base {
+  :focus {
+    outline: none;
+  }
+}
+
+/* ── Glass Morphism surface style ──────────────────────────────────────────
+   An alternate *material* for structural surfaces (cards, sidebar, topbar,
+   dialogs, sheets, menus) — translucent + blurred instead of solid, per
+   Apple's own materials guidance (WWDC "Designing Fluid Interfaces" / HIG):
+   floating chrome should read as real frosted glass with content moving
+   underneath it, not just a faded panel. Toggled via Aparenca > Interface
+   Style (clinic-wide setting, same mechanism as next-themes' `.dark` class —
+   see context/clinic-settings-context.tsx).
+
+   Orthogonal to the 6 color presets above: every tint below is derived with
+   color-mix() straight from whatever --card/--sidebar/--popover already
+   resolve to, so this combines with any preset, in light or dark, with zero
+   per-preset duplication. Written outside any @layer so it reliably outranks
+   the Tailwind utility classes (bg-card, bg-sidebar, ...) already on these
+   elements, without needing !important.
+
+   Two selector families per rule, on purpose: `[data-slot="..."]` catches
+   shadcn's own primitives precisely, and the plain `.bg-card`/`.bg-popover`/
+   `.bg-sidebar` classes catch every hand-rolled panel elsewhere in the app
+   that reaches for the same semantic color directly (StatCard, the topbar's
+   search-results/mobile-search panels, calendar grids, dozens of page-level
+   cards, ...) — covering the *system*, not just the shared UI kit, without
+   editing dozens of individual files by hand. */
+
+.theme-glass [data-slot="card"],
+.theme-glass .bg-card {
+  background-color: color-mix(in srgb, var(--card) 94%, transparent);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border-color: color-mix(in srgb, var(--foreground) 10%, transparent);
+  box-shadow:
+    inset 0 1px 0 color-mix(in srgb, white 35%, transparent),
+    0 8px 30px color-mix(in srgb, black 12%, transparent);
+  /* This is the rule in effect the instant the pointer *leaves* — a plain
+     property change only ever uses the transition declared on the state
+     being transitioned INTO, so the dissolve-back-down speed lives here,
+     independent of the (slower, springier) entrance below. Kept snappy on
+     purpose: lingering shimmer after the cursor has already moved on reads
+     as laggy, not glassy. */
+  transition: background-color 120ms ease-out, backdrop-filter 120ms ease-out, box-shadow 120ms ease-out, transform 150ms ease-out;
+}
+
+/* Glass hover — "catching the light": a touch more opacity/saturation, a
+   brighter top edge, and a small lift — same idea as light glinting off
+   real glass as it shifts slightly toward you. Kept deliberately tiny
+   (1px, barely-there scale) so it still reads as a passive shimmer, not a
+   button-press affordance, even on cards that aren't themselves clickable.
+   Declares its own (slower, springy) transition for the entrance only —
+   see the base rule above for why the exit is timed separately. */
+.theme-glass [data-slot="card"]:hover,
+.theme-glass .bg-card:hover {
+  background-color: color-mix(in srgb, var(--card) 97%, transparent);
+  backdrop-filter: blur(28px) saturate(200%) !important;
+  -webkit-backdrop-filter: blur(28px) saturate(200%) !important;
+  transform: translateY(-1px) scale(1.003);
+  box-shadow:
+    inset 0 1px 0 color-mix(in srgb, white 50%, transparent),
+    0 10px 32px color-mix(in srgb, black 15%, transparent);
+  transition: background-color 250ms ease-out, backdrop-filter 250ms ease-out, box-shadow 250ms ease-out, transform 250ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Ghost/outline buttons (icon buttons in the topbar, secondary actions
+   everywhere) share the exact `hover:bg-secondary` utility — hooking into
+   that literal class, rather than [data-slot="button"] alone, means
+   solid/branded buttons (default/accent/destructive/secondary variants, each
+   using a different hover:bg-*) keep their own existing hover treatment
+   untouched and don't turn glassy. */
+.theme-glass [data-slot="button"].hover\:bg-secondary {
+  /* Exit — fast, see the card rule above for why. */
+  transition: background-color 120ms ease-out, backdrop-filter 120ms ease-out, transform 120ms ease-out;
+}
+.theme-glass [data-slot="button"].hover\:bg-secondary:hover {
+  background-color: color-mix(in srgb, var(--secondary) 70%, transparent) !important;
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  transform: scale(1.03);
+  /* Entrance — slightly slower and springy. */
+  transition: background-color 200ms ease-out, backdrop-filter 200ms ease-out, transform 200ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Dropdown/select items — Radix maps hover to the same data-highlighted
+   state as keyboard focus, so this covers both. Highlight moves between
+   items quickly either way, so entrance/exit share one fast duration here
+   rather than needing the split treatment above. */
+.theme-glass [data-slot="dropdown-menu-item"],
+.theme-glass [data-slot="dropdown-menu-checkbox-item"],
+.theme-glass [data-slot="dropdown-menu-radio-item"],
+.theme-glass [data-slot="select-item"] {
+  transition: background-color 100ms ease-out;
+}
+.theme-glass [data-slot="dropdown-menu-item"][data-highlighted],
+.theme-glass [data-slot="dropdown-menu-checkbox-item"][data-highlighted],
+.theme-glass [data-slot="dropdown-menu-radio-item"][data-highlighted],
+.theme-glass [data-slot="select-item"][data-highlighted] {
+  background-color: color-mix(in srgb, var(--accent) 12%, transparent) !important;
+}
+
+/* Tab bars (components/ui/tabs.tsx) — every navigator in the app shares this
+   one component: the segmented-pill track plus a single sliding "thumb" that
+   the component itself positions behind whichever trigger is active (see its
+   MutationObserver). Glass only needs to dress those two layers; the
+   triggers are just text sitting on top.
+
+   Deliberately the lightest touch of glass in this file — mostly-opaque,
+   barely-there blur on both layers. These sit inside already-glassy cards/
+   sheets, so stacking two more full-strength frosted layers (the track, then
+   the indicator on top of it re-blurring the track) read as a smeared clump
+   rather than crisp navigation — a little goes a long way here. */
+.theme-glass [data-slot="tabs-list"] {
+  background-color: color-mix(in srgb, var(--muted) 85%, transparent);
+  backdrop-filter: blur(4px) saturate(120%);
+  -webkit-backdrop-filter: blur(4px) saturate(120%);
+}
+/* The indicator used to tint toward var(--background) — in dark mode that's
+   #111111, nearly black, so the "active" pill read as a dark smudge sitting
+   on the *lighter* muted track instead of a highlight popping above it.
+   Liquid Glass (this is deliberately closer to Apple's newer glass material
+   than the flatter frost used elsewhere in this file) always tints toward
+   white instead — a diagonal gloss gradient for a light source, an inset
+   top highlight + inset bottom shadow to fake a lens' own curvature, a
+   heavier blur+saturate so it actually refracts whatever color is behind it
+   rather than sitting flat, and a soft glow in the active color preset so it
+   reads as alive/lit rather than gray. Mixing toward white (not
+   var(--foreground), which flips to near-black in light mode) is what keeps
+   this the *same* material in both themes — only the backdrop it's
+   refracting changes. */
+.theme-glass [data-slot="tabs-indicator"] {
+  background: linear-gradient(160deg,
+    color-mix(in srgb, white 16%, var(--muted)) 0%,
+    color-mix(in srgb, white 4%, var(--muted)) 100%
+  );
+  backdrop-filter: blur(12px) saturate(160%);
+  -webkit-backdrop-filter: blur(12px) saturate(160%);
+  border: 1px solid color-mix(in srgb, white 16%, transparent);
+  box-shadow:
+    inset 0 1px 0 color-mix(in srgb, white 26%, transparent),
+    inset 0 -3px 6px color-mix(in srgb, black 12%, transparent),
+    0 2px 8px color-mix(in srgb, black 18%, transparent),
+    0 0 8px color-mix(in srgb, var(--accent) 18%, transparent);
+}
+
+/* Glass gets a springy overshoot back — matches the material's own playful,
+   liquid character. tabs.tsx ships a plain ease-out as the default for
+   every *other* surface style, where the same overshoot read as an odd
+   "blob"-like wobble with nothing else on the page moving that way; this
+   !important wins over the inline ease-out class only inside .theme-glass. */
+.theme-glass [data-slot="tabs-indicator"] {
+  transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+/* Indicator motion is opt-in from JS (it only animates after the first real
+   measurement — see tabs.tsx); this override applies regardless of glass/
+   solid, since a user who's asked for reduced motion means it everywhere. */
+@media (prefers-reduced-motion: reduce) {
+  [data-slot="tabs-indicator"] {
+    transition: none !important;
+  }
+}
+
+/* Dialogs/alert-dialogs/sheets are modal — a dimming scrim already sits
+   behind them (below), so nothing is competing for attention the way it is
+   behind a passive card — but they hold the one thing on screen the user is
+   actively reading/filling in, so legibility wins over see-through: quite
+   opaque, blur mainly doing the "this is glass, not flat paint" work rather
+   than transparency doing it. */
+.theme-glass [data-slot="dialog-content"],
+.theme-glass [data-slot="alert-dialog-content"],
+.theme-glass [data-slot="sheet-content"] {
+  background-color: color-mix(in srgb, var(--card) 98%, transparent);
+  backdrop-filter: blur(28px) saturate(180%);
+  -webkit-backdrop-filter: blur(28px) saturate(180%);
+  border-color: color-mix(in srgb, var(--foreground) 10%, transparent);
+  box-shadow:
+    inset 0 1px 0 color-mix(in srgb, white 35%, transparent),
+    0 8px 30px color-mix(in srgb, black 12%, transparent);
+  transition: opacity 220ms ease-out, transform 220ms cubic-bezier(0.34, 1.56, 0.64, 1), filter 220ms ease-out;
+}
+
+/* "Materialize, don't just fade" (Apple's own materials guidance) — the
+   panel arrives already-blurred/scaled rather than snapping straight to its
+   final look, so it reads as a real material condensing into place. Layers
+   on top of the existing data-[state] scale/fade (dialog.tsx) rather than
+   replacing it. @starting-style is a progressive enhancement: unsupported
+   browsers (pre-2024) just keep the plain scale/fade, nothing breaks. */
+@starting-style {
+  .theme-glass [data-slot="dialog-content"][data-state="open"],
+  .theme-glass [data-slot="alert-dialog-content"][data-state="open"],
+  .theme-glass [data-slot="sheet-content"][data-state="open"] {
+    opacity: 0;
+    filter: blur(8px);
+    transform: scale(0.96);
+  }
+}
+
+.theme-glass [data-slot="dropdown-menu-content"],
+.theme-glass [data-slot="dropdown-menu-sub-content"],
+.theme-glass [data-slot="select-content"],
+.theme-glass [data-slot="popover-content"],
+.theme-glass [data-slot="assistant-panel"],
+.theme-glass .bg-popover {
+  background-color: color-mix(in srgb, var(--popover) 97%, transparent);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-color: color-mix(in srgb, var(--foreground) 10%, transparent);
+  box-shadow:
+    inset 0 1px 0 color-mix(in srgb, white 30%, transparent),
+    0 4px 20px color-mix(in srgb, black 12%, transparent);
+  transition: opacity 180ms ease-out, transform 180ms cubic-bezier(0.34, 1.56, 0.64, 1), filter 180ms ease-out;
+}
+
+@starting-style {
+  .theme-glass [data-slot="dropdown-menu-content"][data-state="open"],
+  .theme-glass [data-slot="dropdown-menu-sub-content"][data-state="open"],
+  .theme-glass [data-slot="select-content"][data-state="open"],
+  .theme-glass [data-slot="popover-content"][data-state="open"],
+  .theme-glass [data-slot="assistant-panel"][data-state="open"] {
+    opacity: 0;
+    filter: blur(6px);
+    transform: scale(0.95);
+  }
+}
+
+/* Topbar and sidebar (+ the mobile bottom-nav bar, same --sidebar material)
+   are the "heavier" structural layers (Apple: darker/heavier materials
+   separate structural regions) — sit over constantly-scrolling page content
+   with no scrim behind them at all, so they need to stay legible on their
+   own; blur carries the "glass" read rather than transparency. */
+.theme-glass [data-slot="topbar"],
+.theme-glass .bg-card\/80 {
+  background-color: color-mix(in srgb, var(--card) 92%, transparent);
+  /* !important only here: the topbar's own markup also carries Tailwind's
+     `backdrop-blur-sm` utility, which sets backdrop-filter through Tailwind
+     v4's composed --tw-backdrop-* custom-property chain rather than a plain
+     value. That composed rule was winning over this one (both match the
+     topbar; being unlayered isn't enough once a *narrower* blur is composed
+     back in), leaving the topbar at a 4px blur instead of the intended 28px
+     — noticeably less "glass" than every other surface. */
+  backdrop-filter: blur(28px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(28px) saturate(180%) !important;
+  border-color: color-mix(in srgb, var(--foreground) 10%, transparent);
+}
+
+.theme-glass [data-slot="sidebar"],
+.theme-glass .bg-sidebar {
+  background-color: color-mix(in srgb, var(--sidebar) 96%, transparent);
+  backdrop-filter: blur(28px) saturate(160%);
+  -webkit-backdrop-filter: blur(28px) saturate(160%);
+  box-shadow: inset 1px 0 0 color-mix(in srgb, var(--sidebar-foreground) 12%, transparent);
+}
+
+/* Collapse/expand — the sidebar's own base classes already have a plain
+   `transition-all duration-300`; this overrides just the collapse/expand
+   width with a slightly bouncy materialize-style curve (same easing as the
+   dialog/menu entrance elsewhere in this file) so resizing the glass panel
+   reads as a real material shifting rather than a flat linear resize. */
+.theme-glass [data-slot="sidebar"] {
+  transition: width 400ms cubic-bezier(0.34, 1.56, 0.64, 1), background-color 300ms ease-out, backdrop-filter 300ms ease-out, box-shadow 300ms ease-out;
+}
+
+/* Dimming scrim behind modals reads a touch more "glass-native" with a
+   little more blur than the solid-mode default. */
+.theme-glass [data-slot="dialog-overlay"],
+.theme-glass [data-slot="alert-dialog-overlay"],
+.theme-glass [data-slot="sheet-overlay"] {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* prefers-reduced-transparency: fall back to a solid, unblurred surface even
+   with glass selected — motion/transparency preferences always win over a
+   chosen theme (see also prefers-reduced-motion handling on animated pieces). */
+@media (prefers-reduced-transparency: reduce) {
+  .theme-glass [data-slot="card"],
+  .theme-glass .bg-card,
+  .theme-glass .bg-card\/80,
+  .theme-glass [data-slot="dialog-content"],
+  .theme-glass [data-slot="alert-dialog-content"],
+  .theme-glass [data-slot="sheet-content"],
+  .theme-glass [data-slot="dropdown-menu-content"],
+  .theme-glass [data-slot="dropdown-menu-sub-content"],
+  .theme-glass [data-slot="select-content"],
+  .theme-glass [data-slot="popover-content"],
+  .theme-glass [data-slot="assistant-panel"],
+  .theme-glass .bg-popover,
+  .theme-glass [data-slot="topbar"],
+  .theme-glass [data-slot="sidebar"],
+  .theme-glass .bg-sidebar {
+    background-color: var(--card);
+    /* !important: topbar's own backdrop-blur-sm utility (see the normal
+       glass rule above for why) would otherwise leave a 4px blur behind
+       even here, defeating the point of this accessibility fallback. */
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    box-shadow: none;
+  }
+  /* Own rule, not folded into the list above: these fall back to their
+     normal-mode tokens (muted/background), not --card — matches what they
+     already look like with glass off, rather than switching to an unrelated
+     solid color just because transparency got disabled. */
+  .theme-glass [data-slot="tabs-list"] {
+    background-color: var(--muted);
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+  .theme-glass [data-slot="tabs-indicator"] {
+    /* Same reasoning as the normal rule above — lighter than the track, not
+       var(--background) — just without the blur/gloss layers transparency
+       is off for. */
+    background-color: color-mix(in srgb, white 16%, var(--muted));
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border: none;
+    box-shadow: none;
+  }
+  .theme-glass [data-slot="sidebar"],
+  .theme-glass .bg-sidebar {
+    background-color: var(--sidebar);
+  }
+  .theme-glass [data-slot="dialog-overlay"],
+  .theme-glass [data-slot="alert-dialog-overlay"],
+  .theme-glass [data-slot="sheet-overlay"] {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+  /* Nothing to refract once every surface has gone solid — the drifting
+     blobs would just look like stray decoration in the gaps between panels. */
+  .theme-glass .glass-ambient-bg {
+    display: none;
+  }
+}
+
+/* ── Ambient glass backdrop ──────────────────────────────────────────────
+   Blur only reads as "glass" when there's something colorful behind it to
+   refract — blurring a flat background does nothing visible, which is why
+   the surfaces above, even at their current (deliberately high, legibility-
+   first) opacity, can still look closer to "faintly tinted solid" than
+   "glass" on an otherwise plain page. This fixed, decorative, non-interactive
+   layer of slow-drifting color blobs — derived from the active color preset
+   via color-mix(), so it always matches whichever palette is chosen — gives
+   every backdrop-filter: blur() surface above something to actually blur.
+   Panel opacity itself is untouched by any of this (see the rules above) —
+   this only changes what's visible *behind* the glass, never how see-through
+   the glass itself is, so it can't reintroduce the text-legibility problem
+   solid opacity was raised to fix.
+   z-index: -1 keeps it below all normal in-flow content while still
+   painting above the <html> canvas background (per CSS painting order, the
+   root background always paints first regardless of z-index). Rendered
+   unconditionally in the DOM (see app/layout.tsx) and simply hidden here in
+   solid mode — same "always-present, CSS-only toggle" pattern as the rest of
+   this file. */
+.glass-ambient-bg {
+  display: none;
+}
+
+.theme-glass .glass-ambient-bg {
+  display: block;
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* The three authenticated dashboard shells (admin/recepsion/doktor layouts)
+   each wrap their whole page — sidebar, topbar, every card — in one outer
+   div carrying a plain, opaque `bg-background` fill (deliberate in solid
+   mode: it's the page background). In the root stacking context that div is
+   a normal, non-positioned descendant, so per CSS paint order it paints
+   ABOVE the ambient blobs above (position:fixed, z-index:-1) no matter how
+   deep in the tree it sits — fully hiding them behind every dashboard page,
+   everywhere, whenever glass is on. With nothing colorful behind them, every
+   card's blur has nothing to refract (see the ambient-backdrop comment
+   above) and reads as a flat, faintly-tinted solid instead of real glass —
+   this is that exact failure mode, just at the shell level instead of one
+   card. Only glass mode needs this override; solid mode keeps its opaque
+   fill exactly as before. */
+.theme-glass [data-slot="dashboard-shell"] {
+  background-color: transparent;
+}
+
+.theme-glass .glass-ambient-bg span {
+  position: absolute;
+  width: 60vmax;
+  height: 60vmax;
+  border-radius: 9999px;
+  filter: blur(90px);
+  opacity: 0.35;
+  will-change: transform;
+}
+
+.theme-glass .glass-ambient-bg span:nth-child(1) {
+  top: -15%;
+  left: -10%;
+  background: color-mix(in srgb, var(--accent) 70%, transparent);
+  animation: glass-drift-1 34s ease-in-out infinite;
+}
+
+.theme-glass .glass-ambient-bg span:nth-child(2) {
+  bottom: -20%;
+  right: -10%;
+  background: color-mix(in srgb, var(--chart-3) 70%, transparent);
+  animation: glass-drift-2 42s ease-in-out infinite;
+}
+
+.theme-glass .glass-ambient-bg span:nth-child(3) {
+  top: 25%;
+  right: 15%;
+  background: color-mix(in srgb, var(--chart-4) 60%, transparent);
+  animation: glass-drift-3 38s ease-in-out infinite;
+}
+
+@keyframes glass-drift-1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50%      { transform: translate(8vw, 6vh) scale(1.15); }
+}
+@keyframes glass-drift-2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50%      { transform: translate(-6vw, -8vh) scale(1.1); }
+}
+@keyframes glass-drift-3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50%      { transform: translate(-5vw, 5vh) scale(0.92); }
+}
+
+/* ── "Light catching the glass" ────────────────────────────────────────────
+   A soft radial highlight that blooms and fades once, on top of the existing
+   blur+scale materialize entrance above — the moment a panel appears, light
+   glints across it like a real pane of glass catching a reflection. Pure
+   decoration (pointer-events: none, plays once via a non-looping animation),
+   so it never competes with the panel's own content or its close button. */
+.theme-glass [data-slot="dialog-content"][data-state="open"]::after,
+.theme-glass [data-slot="alert-dialog-content"][data-state="open"]::after,
+.theme-glass [data-slot="sheet-content"][data-state="open"]::after,
+.theme-glass [data-slot="dropdown-menu-content"][data-state="open"]::after,
+.theme-glass [data-slot="dropdown-menu-sub-content"][data-state="open"]::after,
+.theme-glass [data-slot="select-content"][data-state="open"]::after,
+.theme-glass [data-slot="popover-content"][data-state="open"]::after,
+.theme-glass [data-slot="assistant-panel"][data-state="open"]::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(circle at 25% 15%, color-mix(in srgb, white 45%, transparent), transparent 55%);
+  opacity: 0;
+  pointer-events: none;
+  animation: glass-sheen 700ms ease-out;
+}
+
+@keyframes glass-sheen {
+  0%   { opacity: 0; }
+  35%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* Motion preferences win over any chosen theme, same principle as the
+   transparency fallback above — freeze the drifting blobs and swap the
+   springy scale/blur entrances for a plain, short opacity fade. */
+@media (prefers-reduced-motion: reduce) {
+  .theme-glass .glass-ambient-bg span {
+    animation: none;
+  }
+  .theme-glass [data-slot="dialog-content"][data-state="open"]::after,
+  .theme-glass [data-slot="alert-dialog-content"][data-state="open"]::after,
+  .theme-glass [data-slot="sheet-content"][data-state="open"]::after,
+  .theme-glass [data-slot="dropdown-menu-content"][data-state="open"]::after,
+  .theme-glass [data-slot="dropdown-menu-sub-content"][data-state="open"]::after,
+  .theme-glass [data-slot="select-content"][data-state="open"]::after,
+  .theme-glass [data-slot="popover-content"][data-state="open"]::after,
+  .theme-glass [data-slot="assistant-panel"][data-state="open"]::after {
+    display: none;
+  }
+  .theme-glass [data-slot="dialog-content"],
+  .theme-glass [data-slot="alert-dialog-content"],
+  .theme-glass [data-slot="sheet-content"],
+  .theme-glass [data-slot="dropdown-menu-content"],
+  .theme-glass [data-slot="dropdown-menu-sub-content"],
+  .theme-glass [data-slot="select-content"],
+  .theme-glass [data-slot="popover-content"],
+  .theme-glass [data-slot="assistant-panel"] {
+    transition: opacity 150ms ease-out;
+  }
+  /* Hover glass effects added above — keep the color/opacity change (it aids
+     comprehension) but drop the animated feel by making it instant, and drop
+     the hover transform entirely (it's the "elastic/overshoot" kind of
+     motion this preference exists to remove, however small). */
+  .theme-glass [data-slot="card"],
+  .theme-glass .bg-card,
+  .theme-glass [data-slot="button"].hover\:bg-secondary,
+  .theme-glass [data-slot="dropdown-menu-item"],
+  .theme-glass [data-slot="dropdown-menu-checkbox-item"],
+  .theme-glass [data-slot="dropdown-menu-radio-item"],
+  .theme-glass [data-slot="select-item"] {
+    transition: none;
+  }
+  .theme-glass [data-slot="card"]:hover,
+  .theme-glass .bg-card:hover,
+  .theme-glass [data-slot="button"].hover\:bg-secondary:hover {
+    /* The :hover rules now declare their own (springy) transition for the
+       entrance timing split above — reduced-motion must null that out too,
+       not just the base rule, or the hover state would keep animating. */
+    transition: none;
+    transform: none;
+  }
+  /* Sidebar collapse/expand still resizes instantly either way (that's just
+     layout, not "motion" in the vestibular sense) — this only drops the
+     bounce curve back to a plain, immediate change. */
+  .theme-glass [data-slot="sidebar"] {
+    transition: none;
+  }
+}
